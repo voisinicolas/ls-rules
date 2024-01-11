@@ -1,0 +1,28 @@
+{
+  "description" : "My defaults Rules ",
+  "name" : "NVZ Defaults Apps",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/1Password.app\/Contents\/MacOS\/1Password",
+      "protocol" : "tcp",
+      "remote-hosts" : [
+        "b5n.alb.1password.com",
+        "b5n.1password.com",
+        "c.1password.com",
+        "famille-voisin-test.1password.com",
+        "my.1password.com",
+        "watchtower.1password.com",
+        "core-native-sentry.1passwordservices.com",
+        "a.1passwordusercontent.com",
+        "f.1passwordusercontent.com",
+        "app-updates.agilebits.com",
+        "cache.agilebits.com",
+        "aws.cachefly.net",
+        "vip1.g5.cachefly.net",
+        "api.pwnedpasswords.com",
+      ]
+    }
+  ]
+}
