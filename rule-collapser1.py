@@ -8,16 +8,16 @@ def collapse_array(data):
         key = (item['action'], item['ports'],
                item['process'], item['protocol'])
 
-        # Check if 'remote-addresses' exists in the item
-        remote_addresses = item.get('remote-addresses')
+        # Check if 'remote-hosts' exists in the item
+        remote_addresses = item.get('remote-hosts')
         if remote_addresses is not None:
             if key not in collapsed:
                 collapsed[key] = item.copy()
                 # Initialize with a list containing the first address
-                collapsed[key]['remote-addresses'] = [remote_addresses]
+                collapsed[key]['remote-hosts'] = [remote_addresses]
             else:
                 # Append to the existing list
-                collapsed[key]['remote-addresses'].append(remote_addresses)
+                collapsed[key]['remote-hosts'].append(remote_addresses)
 
     return list(collapsed.values())
 
@@ -32,7 +32,7 @@ def main(file_path):
     # Print or save the collapsed data
     # print(json.dumps(collapsed_data, indent=4))
     # Optionally, save the result to a file
-    with open('collapsed_data.json', 'w') as file:
+    with open('collapsed_data1.json', 'w') as file:
         json.dump(collapsed_data, file, indent=4)
 
 

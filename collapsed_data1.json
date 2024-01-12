@@ -1,0 +1,56 @@
+[
+    {
+        "action": "allow",
+        "ports": "443",
+        "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
+        "protocol": "tcp",
+        "remote-hosts": [
+            "ec2-52-29-51-105.eu-central-1.compute.amazonaws.com",
+            "ec2-54-93-248-46.eu-central-1.compute.amazonaws.com",
+            "dns.google.com",
+            "reports.proton.me",
+            "status.proton.me",
+            "vpn-api.proton.me",
+            "api.protonvpn.ch",
+            "protonvpn.com",
+            "download.protonvpn.net"
+        ]
+    },
+    {
+        "action": "allow",
+        "ports": "80",
+        "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
+        "protocol": "tcp",
+        "remote-hosts": [
+            "protonstatus.com"
+        ]
+    },
+    {
+        "action": "allow",
+        "ports": "5053",
+        "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
+        "protocol": "tcp",
+        "remote-hosts": [
+            "dns11.quad9.net"
+        ]
+    },
+    {
+        "action": "allow",
+        "ports": "443",
+        "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
+        "protocol": "udp",
+        "remote-hosts": [
+            "dns.google.com",
+            "status.proton.me"
+        ]
+    },
+    {
+        "action": "allow",
+        "ports": "80",
+        "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
+        "protocol": "udp",
+        "remote-hosts": [
+            "protonstatus.com"
+        ]
+    }
+]
