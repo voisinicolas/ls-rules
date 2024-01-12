@@ -1,13 +1,11 @@
 {
-  "description": "My defaults Rules ",
-  "name": "NVZ Defaults Apps",
+  "description": "This ruleset is computed using the script from the input file 'Adobe Services'.",
+  "name": "Adobe Services",
   "rules": [
     {
       "action": "deny",
       "process": "/Applications/Adobe After Effects 2020/Adobe After Effects 2020.app/Contents/MacOS/After Effects",
-      "remote": [
-        "any"
-      ]
+      "remote": "any"
     },
     {
       "action": "allow",
@@ -34,54 +32,42 @@
       "ports": "443",
       "process": "/Applications/Adobe Bridge 2024/Adobe Bridge 2024.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
       "protocol": "tcp",
-      "remote-hosts": [
-        "cc-api-data.adobe.io"
-      ]
+      "remote-hosts": "cc-api-data.adobe.io"
     },
     {
       "action": "allow",
       "ports": "443",
       "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
       "protocol": "tcp",
-      "remote-hosts": [
-        "cc-api-data.adobe.io"
-      ]
+      "remote-hosts": "cc-api-data.adobe.io"
     },
     {
       "action": "allow",
       "ports": "443",
       "process": "/Applications/Adobe Photoshop 2024/Adobe Photoshop 2024.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
       "protocol": "tcp",
-      "remote-hosts": [
-        "cc-api-data.adobe.io"
-      ]
+      "remote-hosts": "cc-api-data.adobe.io"
     },
     {
       "action": "allow",
       "ports": "443",
       "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud Helper.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
       "protocol": "tcp",
-      "remote-hosts": [
-        "cc-api-data.adobe.io"
-      ]
+      "remote-hosts": "cc-api-data.adobe.io"
     },
     {
       "action": "allow",
       "ports": "443",
       "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
       "protocol": "tcp",
-      "remote-hosts": [
-        "cc-api-data.adobe.io"
-      ]
+      "remote-hosts": "cc-api-data.adobe.io"
     },
     {
       "action": "allow",
       "ports": "443",
       "process": "/Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Desktop Service.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
       "protocol": "tcp",
-      "remote-hosts": [
-        "cc-api-data.adobe.io"
-      ]
+      "remote-hosts": "cc-api-data.adobe.io"
     },
     {
       "action": "allow",
@@ -148,9 +134,7 @@
       "ports": "80",
       "process": "/Applications/Adobe Lightroom.app/Contents/MacOS/Adobe Lightroom",
       "protocol": "tcp",
-      "remote-hosts": [
-        "www.photoshop.com"
-      ]
+      "remote-hosts": "www.photoshop.com"
     },
     {
       "action": "allow",
@@ -320,9 +304,7 @@
       "ports": "443",
       "process": "/Applications/Adobe Photoshop 2024/Adobe Photoshop 2024.app/Contents/MacOS/Adobe Photoshop 2024",
       "protocol": "udp",
-      "remote-hosts": [
-        "o1383653.ingest.sentry.io"
-      ]
+      "remote-hosts": "o1383653.ingest.sentry.io"
     },
     {
       "action": "allow",
@@ -339,18 +321,14 @@
       "ports": "443",
       "process": "/Library/Application Support/Adobe/AdobeGCClient/AdobeGCClient.app/Contents/MacOS/AdobeGCClient",
       "protocol": "tcp",
-      "remote-hosts": [
-        "genuine.adobe.com"
-      ]
+      "remote-hosts": "genuine.adobe.com"
     },
     {
       "action": "allow",
       "ports": "443",
       "process": "/Library/Application Support/Adobe/AdobeGCClient/agshelper",
       "protocol": "tcp",
-      "remote-hosts": [
-        "genuine.adobe.com"
-      ]
+      "remote-hosts": "genuine.adobe.com"
     },
     {
       "action": "allow",
@@ -545,9 +523,7 @@
       "ports": "53",
       "process": "/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/libs/Creative Cloud Content Manager.node",
       "protocol": "udp",
-      "remote-addresses": [
-        "100.100.100.100"
-      ]
+      "remote-addresses": "100.100.100.100"
     },
     {
       "action": "allow",
@@ -668,9 +644,7 @@
       "ports": "53",
       "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/Creative Cloud UI Helper.app/Contents/MacOS/Creative Cloud UI Helper",
       "protocol": "udp",
-      "remote-hosts": [
-        "livebox.home"
-      ]
+      "remote-hosts": "livebox.home"
     },
     {
       "action": "allow",
