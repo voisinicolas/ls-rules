@@ -168,7 +168,37 @@
             "2a00:1450:4007:810::2003",
             "2a00:1450:4007:813::2003",
             "2a00:1450:4007:818::2003"
-        ],
+        ]
+    },
+    {
+        "action": "allow",
+        "ports": "80",
+        "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
+        "protocol": "tcp",
+        "remote-addresses": [
+            "142.250.201.163",
+            "2a00:1450:4007:80c::2003",
+            "2a00:1450:4007:810::2003",
+            "2a00:1450:4007:813::2003"
+        ]
+    },
+    {
+        "action": "allow",
+        "ports": "443",
+        "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
+        "protocol": "udp",
+        "remote-addresses": [
+            "2a00:1450:4007:813::2003",
+            "2a00:1450:4007:818::2003",
+            "2a00:1450:4007:81a::2003",
+            "2a06:98c1:52::3"
+        ]
+    },
+    {
+        "action": "allow",
+        "ports": "443",
+        "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
+        "protocol": "tcp",
         "remote-hosts": [
             "api.account.adobe.com",
             "app-content.lightroom.adobe.com",
@@ -204,37 +234,10 @@
         "ports": "80",
         "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
         "protocol": "tcp",
-        "remote-addresses": [
-            "142.250.201.163",
-            "2a00:1450:4007:80c::2003",
-            "2a00:1450:4007:810::2003",
-            "2a00:1450:4007:813::2003"
-        ],
         "remote-hosts": [
             "blurb-api.blurb.com",
             "edgedl.me.gvt1.com",
             "www.photoshop.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
-        "protocol": "udp",
-        "remote-addresses": [
-            "2a00:1450:4007:813::2003",
-            "2a00:1450:4007:818::2003",
-            "2a00:1450:4007:81a::2003",
-            "2a06:98c1:52::3"
-        ],
-        "remote-hosts": [
-            "chrome.cloudflare-dns.com",
-            "khms.googleapis.com",
-            "khms0.googleapis.com",
-            "khms1.googleapis.com",
-            "maps.googleapis.com",
-            "update.googleapis.com",
-            "maps.gstatic.com"
         ]
     },
     {
@@ -245,6 +248,21 @@
         "remote-hosts": [
             "blurb-api.blurb.com",
             "www.photoshop.com"
+        ]
+    },
+    {
+        "action": "allow",
+        "ports": "443",
+        "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
+        "protocol": "udp",
+        "remote-hosts": [
+            "chrome.cloudflare-dns.com",
+            "khms.googleapis.com",
+            "khms0.googleapis.com",
+            "khms1.googleapis.com",
+            "maps.googleapis.com",
+            "update.googleapis.com",
+            "maps.gstatic.com"
         ]
     },
     {
@@ -378,7 +396,35 @@
             "142.250.179.99",
             "2620:1ec:40::42",
             "2a00:1450:4007:819::2003"
-        ],
+        ]
+    },
+    {
+        "action": "allow",
+        "ports": "80",
+        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
+        "protocol": "tcp",
+        "remote-addresses": [
+            "63.140.62.22",
+            "63.140.62.135",
+            "63.140.62.214",
+            "142.250.179.99"
+        ]
+    },
+    {
+        "action": "allow",
+        "ports": "53",
+        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
+        "protocol": "udp",
+        "remote-addresses": [
+            "2a01:e34:ec96:26c1::",
+            "2a01:cb15:80a8:6c00:5239:2fff:fe22:b1d0"
+        ]
+    },
+    {
+        "action": "allow",
+        "ports": "443",
+        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
+        "protocol": "tcp",
         "remote-hosts": [
             "ccmdls.adobe.com",
             "cdn-ffc.oobesaas.adobe.com",
@@ -461,31 +507,10 @@
         "ports": "80",
         "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
         "protocol": "tcp",
-        "remote-addresses": [
-            "63.140.62.22",
-            "63.140.62.135",
-            "63.140.62.214",
-            "142.250.179.99"
-        ],
         "remote-hosts": [
             "stats.adobe.com",
             "edgedl.me.gvt1.com",
             "adobe.com.d1.sc.omtrdc.net"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "53",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
-        "protocol": "udp",
-        "remote-addresses": [
-            "2a01:e34:ec96:26c1::",
-            "2a01:cb15:80a8:6c00:5239:2fff:fe22:b1d0"
-        ],
-        "remote-hosts": [
-            "livebox.home",
-            "pfsense-montreuil.local.lan",
-            "one.one.one.one"
         ]
     },
     {
@@ -499,6 +524,17 @@
             "chrome.cloudflare-dns.com",
             "dlraxsmsh6ts4.cloudfront.net",
             "update.googleapis.com"
+        ]
+    },
+    {
+        "action": "allow",
+        "ports": "53",
+        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
+        "protocol": "udp",
+        "remote-hosts": [
+            "livebox.home",
+            "pfsense-montreuil.local.lan",
+            "one.one.one.one"
         ]
     },
     {
