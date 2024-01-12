@@ -1,695 +1,695 @@
 [
-    {
-        "action": "deny",
-        "process": "/Applications/Adobe After Effects 2020/Adobe After Effects 2020.app/Contents/MacOS/After Effects",
-        "remote": [
-            "any"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Adobe Bridge 2024/Adobe Bridge 2024.app/Contents/MacOS/Adobe Bridge 2024",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "crs.cr.adobe.com",
-            "genuine.adobe.com",
-            "hbrcv.adobe.com",
-            "udps.adobe.com",
-            "cc-api-data.adobe.io",
-            "lcs-cops.adobe.io",
-            "lcs-ulecs.adobe.io",
-            "p13n.adobe.io",
-            "ims-na1.adobelogin.com",
-            "ims-prod06.adobelogin.com",
-            "d3d51sjda1sdc4.cloudfront.net",
-            "pro2-view.myportfolio.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Adobe Bridge 2024/Adobe Bridge 2024.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "cc-api-data.adobe.io"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "cc-api-data.adobe.io"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Adobe Photoshop 2024/Adobe Photoshop 2024.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "cc-api-data.adobe.io"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud Helper.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "cc-api-data.adobe.io"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "cc-api-data.adobe.io"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Desktop Service.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "cc-api-data.adobe.io"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Desktop Service.app/Contents/MacOS/Adobe Desktop Service",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "ccmdls.adobe.com",
-            "cdn-ffc.oobesaas.adobe.com",
-            "crs.cr.adobe.com",
-            "cc-api-data.adobe.io",
-            "uds.adobe-identity.com",
-            "accounts.adobe.com",
-            "ans.oobesaas.adobe.com",
-            "ars.oobesaas.adobe.com",
-            "cdn-ffc.oobesaas.adobe.com",
-            "crs.cr.adobe.com",
-            "ffc-static-cdn.oobesaas.adobe.com",
-            "na1e-acc.services.adobe.com",
-            "prod-rel-ffc-ccm.oobesaas.adobe.com",
-            "www.adobe.com",
-            "cc-api-behance.adobe.io",
-            "cc-api-data.adobe.io",
-            "lcs-cops.adobe.io",
-            "lcs-ulecs.adobe.io",
-            "notify.adobe.io",
-            "ccext-cdn.adobecces.com",
-            "ims-prod06.adobelogin.com",
-            "ims-prod07.adobelogin.com",
-            "connect.ffc.adobeoobe.com",
-            "a1815.dscr.akamai.net",
-            "d1df8ag80bjnnb.cloudfront.net"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Adobe Lightroom.app/Contents/MacOS/Adobe Lightroom",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "directstorage.adbephotos.com",
-            "storage.adbephotos.com",
-            "app-content.lightroom.adobe.com",
-            "lightroom.adobe.com",
-            "pps.services.adobe.com",
-            "udps.adobe.com",
-            "adobesearch.adobe.io",
-            "cc-api-data.adobe.io",
-            "lcs-cops.adobe.io",
-            "notify.adobe.io",
-            "p13n.adobe.io",
-            "photos.adobe.io",
-            "pps.adobe.io",
-            "ims-na1.adobelogin.com",
-            "ims-prod06.adobelogin.com",
-            "a5.behance.net",
-            "d1swly8pgrbhu5.cloudfront.net",
-            "d1v1v6qmrpqka4.cloudfront.net",
-            "api.mapbox.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "80",
-        "process": "/Applications/Adobe Lightroom.app/Contents/MacOS/Adobe Lightroom",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "www.photoshop.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
-        "protocol": "tcp",
-        "remote-addresses": [
-            "142.250.75.227",
-            "142.250.201.163",
-            "2404:6800:4017:801::2003",
-            "2404:6800:4017:803::2003",
-            "2404:6800:4017:804::2003",
-            "2a00:1450:4007:807::2003",
-            "2a00:1450:4007:808::2003",
-            "2a00:1450:4007:80c::2003",
-            "2a00:1450:4007:80d::2003",
-            "2a00:1450:4007:80e::2003",
-            "2a00:1450:4007:810::2003",
-            "2a00:1450:4007:813::2003",
-            "2a00:1450:4007:818::2003"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "80",
-        "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
-        "protocol": "tcp",
-        "remote-addresses": [
-            "142.250.201.163",
-            "2a00:1450:4007:80c::2003",
-            "2a00:1450:4007:810::2003",
-            "2a00:1450:4007:813::2003"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
-        "protocol": "udp",
-        "remote-addresses": [
-            "2a00:1450:4007:813::2003",
-            "2a00:1450:4007:818::2003",
-            "2a00:1450:4007:81a::2003",
-            "2a06:98c1:52::3"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "api.account.adobe.com",
-            "app-content.lightroom.adobe.com",
-            "crs.cr.adobe.com",
-            "genuine.adobe.com",
-            "hbrcv.adobe.com",
-            "udps.adobe.com",
-            "cc-api-data.adobe.io",
-            "ic.adobe.io",
-            "lcs-cops.adobe.io",
-            "lcs-ulecs.adobe.io",
-            "p13n.adobe.io",
-            "photo-api.adobe.io",
-            "photos.adobe.io",
-            "ims-na1.adobelogin.com",
-            "ims-prod06.adobelogin.com",
-            "chrome.cloudflare-dns.com",
-            "d1swly8pgrbhu5.cloudfront.net",
-            "maps.google.com",
-            "ajax.googleapis.com",
-            "khms.googleapis.com",
-            "khms0.googleapis.com",
-            "khms1.googleapis.com",
-            "maps.googleapis.com",
-            "update.googleapis.com",
-            "fonts.gstatic.com",
-            "maps.gstatic.com",
-            "www.photoshop.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "80",
-        "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "blurb-api.blurb.com",
-            "edgedl.me.gvt1.com",
-            "www.photoshop.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "80",
-        "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
-        "protocol": "udp",
-        "remote-hosts": [
-            "blurb-api.blurb.com",
-            "www.photoshop.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
-        "protocol": "udp",
-        "remote-hosts": [
-            "chrome.cloudflare-dns.com",
-            "khms.googleapis.com",
-            "khms0.googleapis.com",
-            "khms1.googleapis.com",
-            "maps.googleapis.com",
-            "update.googleapis.com",
-            "maps.gstatic.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "53",
-        "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
-        "protocol": "udp",
-        "remote-hosts": [
-            "livebox.home",
-            "pfsense-montreuil.local.lan",
-            "one.one.one.one"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Adobe Photoshop 2024/Adobe Photoshop 2024.app/Contents/MacOS/Adobe Photoshop 2024",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "crs.cr.adobe.com",
-            "genuine.adobe.com",
-            "hbrcv.adobe.com",
-            "images-tv.adobe.com",
-            "udps.adobe.com",
-            "utut-service.adobe.com",
-            "video.tv.adobe.com",
-            "adobesearch.adobe.io",
-            "cai.adobe.io",
-            "cai-identity.adobe.io",
-            "cc-api-data.adobe.io",
-            "cc-api-data-stage.adobe.io",
-            "cc-api-storage.adobe.io",
-            "cctypekit.adobe.io",
-            "firefly-ps.adobe.io",
-            "ic.adobe.io",
-            "lcs-cops.adobe.io",
-            "lcs-ulecs.adobe.io",
-            "p13n.adobe.io",
-            "p13n-mr.adobe.io",
-            "platform-cs.adobe.io",
-            "platform-cs-irl1.adobe.io",
-            "ims-na1.adobelogin.com",
-            "ims-prod06.adobelogin.com",
-            "o1383653.ingest.sentry.io",
-            "faster.typekit.net",
-            "p.typekit.net",
-            "use.typekit.net"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Adobe Photoshop 2024/Adobe Photoshop 2024.app/Contents/MacOS/Adobe Photoshop 2024",
-        "protocol": "udp",
-        "remote-hosts": [
-            "o1383653.ingest.sentry.io"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Library/Application Support/Adobe/Adobe Desktop Common/LCC/adobe_licensing_helper.app/Contents/MacOS/adobe_licensing_helper",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "cc-api-data.adobe.io",
-            "lcs-cops.adobe.io"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Library/Application Support/Adobe/AdobeGCClient/AdobeGCClient.app/Contents/MacOS/AdobeGCClient",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "genuine.adobe.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Library/Application Support/Adobe/AdobeGCClient/agshelper",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "genuine.adobe.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Library/Application Support/Adobe/AdobeGCClient/AGSService",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "agsupdate.adobe.com",
-            "genuine.adobe.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/Contents/MacOS/Core Sync",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "crs.cr.adobe.com",
-            "acp-ss-ew1.adobe.io",
-            "cc-api-data.adobe.io",
-            "lcs-cops.adobe.io",
-            "lcs-ulecs.adobe.io",
-            "notify.adobe.io",
-            "p13n.adobe.io",
-            "platform-cs.adobe.io",
-            "platform-cs-irl1.adobe.io",
-            "ims-prod06.adobelogin.com",
-            "scss.adobesc.com",
-            "ss-prod-ew1-notif-20.aws.adobess.com",
-            "ss-prod-ew1-ns.aws.adobess.com",
-            "api.typekit.com",
-            "polka.typekit.com",
-            "data.typekit.net",
-            "faster.typekit.net",
-            "state.typekit.net"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
-        "protocol": "tcp",
-        "remote-addresses": [
-            "13.37.189.9",
-            "34.218.163.15",
-            "142.250.179.99",
-            "2620:1ec:40::42",
-            "2a00:1450:4007:819::2003"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "80",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
-        "protocol": "tcp",
-        "remote-addresses": [
-            "63.140.62.22",
-            "63.140.62.135",
-            "63.140.62.214",
-            "142.250.179.99"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "53",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
-        "protocol": "udp",
-        "remote-addresses": [
-            "2a01:e34:ec96:26c1::",
-            "2a01:cb15:80a8:6c00:5239:2fff:fe22:b1d0"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "ccmdls.adobe.com",
-            "cdn-ffc.oobesaas.adobe.com",
-            "crs.cr.adobe.com",
-            "cc-api-data.adobe.io",
-            "uds.adobe-identity.com",
-            "abp-profile-service.adobe.io",
-            "adobesearch.adobe.io",
-            "adobesearch-atc.adobe.io",
-            "byof.adobe.io",
-            "cc-api-behance.adobe.io",
-            "cc-api-data.adobe.io",
-            "cc-api-data-stage.adobe.io",
-            "ccext-public.adobe.io",
-            "cchome.adobe.io",
-            "ccprojects.adobe.io",
-            "cctypekit.adobe.io",
-            "cdn.cp.adobe.io",
-            "comments.adobe.io",
-            "federation-gateway.adobe.io",
-            "invitations.adobe.io",
-            "lcs-cops.adobe.io",
-            "lcs-robs.adobe.io",
-            "lcs-ulecs.adobe.io",
-            "notify.adobe.io",
-            "p13n.adobe.io",
-            "pgc.adobe.io",
-            "photos.adobe.io",
-            "platform-cs.adobe.io",
-            "platform-cs-irl1.adobe.io",
-            "pps.adobe.io",
-            "sensei-ue1.adobe.io",
-            "senseicore-ue1.adobe.io",
-            "stock-landing-pages.adobe.io",
-            "ccext.adobecces.com",
-            "ccext-cdn.adobecces.com",
-            "ccext-static.adobecces.com",
-            "prod.adobeccstatic.com",
-            "assets.adobedtm.com",
-            "ims-na1.adobelogin.com",
-            "ims-prod06.adobelogin.com",
-            "ims-prod07.adobelogin.com",
-            "connect.ffc.adobeoobe.com",
-            "design-assets.adobeprojectm.com",
-            "a1815.dscr.akamai.net",
-            "a1874.dscg1.akamai.net",
-            "a1988.dscg1.akamai.net",
-            "e7808.dscg.akamaiedge.net",
-            "s3-r-w.eu-west-1.amazonaws.com",
-            "adobe-api.arkoselabs.com",
-            "stock-notifications.astockcdn.net",
-            "exchange-assets.azureedge.net",
-            "a5.behance.net",
-            "mir-s3-cdn-cf.behance.net",
-            "chrome.cloudflare-dns.com",
-            "d1df8ag80bjnnb.cloudfront.net",
-            "d1j922qg8gqp2e.cloudfront.net",
-            "d23dtpc2izn62y.cloudfront.net",
-            "d2icpaycnzz67.cloudfront.net",
-            "d32a1iuc7x840y.cloudfront.net",
-            "d3ok5gjxqqhp57.cloudfront.net",
-            "d3v9ofp0gom2mu.cloudfront.net",
-            "d61yh3ah3oxkn.cloudfront.net",
-            "dlraxsmsh6ts4.cloudfront.net",
-            "dpm.demdex.net",
-            "adobe-aem.map.fastly.net",
-            "k.sni.global.fastly.net",
-            "as2.ftcdn.net",
-            "t3.ftcdn.net",
-            "update.googleapis.com",
-            "download.macromedia.com",
-            "cdn.substance3d.com",
-            "p.typekit.net",
-            "use.typekit.net",
-            "i.ytimg.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "80",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "stats.adobe.com",
-            "edgedl.me.gvt1.com",
-            "adobe.com.d1.sc.omtrdc.net"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
-        "protocol": "udp",
-        "remote-hosts": [
-            "sdk-1p.cc-embed.adobe.com",
-            "design-assets.adobeprojectm.com",
-            "chrome.cloudflare-dns.com",
-            "dlraxsmsh6ts4.cloudfront.net",
-            "update.googleapis.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "53",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
-        "protocol": "udp",
-        "remote-hosts": [
-            "livebox.home",
-            "pfsense-montreuil.local.lan",
-            "one.one.one.one"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "53",
-        "process": "/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/libs/Creative Cloud Content Manager.node",
-        "protocol": "udp",
-        "remote-addresses": [
-            "100.100.100.100"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/libs/Creative Cloud Content Manager.node",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "cc-cdn.adobe.com",
-            "helpx.adobe.com",
-            "odin.adobe.com",
-            "utut-service.adobe.com",
-            "cc-api-behance.adobe.io",
-            "cc-api-data.adobe.io",
-            "lcs-cops.adobe.io",
-            "loki.cloud.adobe.io",
-            "p13n.adobe.io",
-            "stock.adobe.io",
-            "ims-prod06.adobelogin.com",
-            "a1838.dscd.akamai.net",
-            "e4578.dscd.akamaiedge.net",
-            "e4578.dsct.akamaiedge.net",
-            "adobe-aem.map.fastly.net",
-            "as1.ftcdn.net",
-            "as2.ftcdn.net"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud Helper.app/Contents/MacOS/Creative Cloud Helper",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "accounts.adobe.com",
-            "crs.cr.adobe.com",
-            "www.adobe.com",
-            "cc-api-data.adobe.io",
-            "lcs-cops.adobe.io",
-            "ccext-cdn.adobecces.com",
-            "ims-prod06.adobelogin.com",
-            "a1815.dscr.akamai.net",
-            "d1df8ag80bjnnb.cloudfront.net",
-            "download.macromedia.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/Creative Cloud UI Helper.app/Contents/MacOS/Creative Cloud UI Helper",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "client.messaging.adobe.com",
-            "commerce.adobe.com",
-            "community.adobe.com",
-            "feature-config.fonts.adobe.com",
-            "images-tv.adobe.com",
-            "odin.adobe.com",
-            "sdk-1p.cc-embed.adobe.com",
-            "server.messaging.adobe.com",
-            "ui.messaging.adobe.com",
-            "abp-profile-service.adobe.io",
-            "byof.adobe.io",
-            "cc-api-data.adobe.io",
-            "ccext-public.adobe.io",
-            "cchome.adobe.io",
-            "ccprojects.adobe.io",
-            "p13n.adobe.io",
-            "photos.adobe.io",
-            "platform-cs.adobe.io",
-            "platform-cs-irl1.adobe.io",
-            "stock-landing-pages.adobe.io",
-            "ccext.adobecces.com",
-            "ccext-static.adobecces.com",
-            "prod.adobeccstatic.com",
-            "assets.adobedtm.com",
-            "ims-prod07.adobelogin.com",
-            "a1988.dscg1.akamai.net",
-            "e7808.dscg.akamaiedge.net",
-            "slp-statics.astockcdn.net",
-            "stock-notifications.astockcdn.net",
-            "a5.behance.net",
-            "mir-s3-cdn-cf.behance.net",
-            "d1j922qg8gqp2e.cloudfront.net",
-            "d23dtpc2izn62y.cloudfront.net",
-            "d2icpaycnzz67.cloudfront.net",
-            "d61yh3ah3oxkn.cloudfront.net",
-            "dlraxsmsh6ts4.cloudfront.net",
-            "adobe-aem.map.fastly.net",
-            "k.sni.global.fastly.net",
-            "update.googleapis.com",
-            "cdn.substance3d.com",
-            "use.typekit.net",
-            "i.ytimg.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "80",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/Creative Cloud UI Helper.app/Contents/MacOS/Creative Cloud UI Helper",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "stats.adobe.com",
-            "edgedl.me.gvt1.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/Creative Cloud UI Helper.app/Contents/MacOS/Creative Cloud UI Helper",
-        "protocol": "udp",
-        "remote-hosts": [
-            "sdk-1p.cc-embed.adobe.com",
-            "dlraxsmsh6ts4.cloudfront.net",
-            "update.googleapis.com"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "53",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/Creative Cloud UI Helper.app/Contents/MacOS/Creative Cloud UI Helper",
-        "protocol": "udp",
-        "remote-hosts": [
-            "livebox.home"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/Creative Cloud UI Helper (Renderer).app/Contents/MacOS/Creative Cloud UI Helper (Renderer)",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "cc-api-storage.adobe.io",
-            "platform-cs.adobe.io",
-            "platform-cs-irl1.adobe.io"
-        ]
-    },
-    {
-        "action": "allow",
-        "ports": "443",
-        "process": "path.private/tmp/*/Creative Cloud Installer.app/Contents/MacOS/Install",
-        "protocol": "tcp",
-        "remote-hosts": [
-            "ccmdls.adobe.com",
-            "cc-api-data.adobe.io",
-            "prod-rel-ffc-ccm.oobesaas.adobe.com",
-            "cc-api-data.adobe.io"
-        ]
-    }
+  {
+    "action": "deny",
+    "process": "/Applications/Adobe After Effects 2020/Adobe After Effects 2020.app/Contents/MacOS/After Effects",
+    "remote": [
+      "any"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Adobe Bridge 2024/Adobe Bridge 2024.app/Contents/MacOS/Adobe Bridge 2024",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "crs.cr.adobe.com",
+      "genuine.adobe.com",
+      "hbrcv.adobe.com",
+      "udps.adobe.com",
+      "cc-api-data.adobe.io",
+      "lcs-cops.adobe.io",
+      "lcs-ulecs.adobe.io",
+      "p13n.adobe.io",
+      "ims-na1.adobelogin.com",
+      "ims-prod06.adobelogin.com",
+      "d3d51sjda1sdc4.cloudfront.net",
+      "pro2-view.myportfolio.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Adobe Bridge 2024/Adobe Bridge 2024.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "cc-api-data.adobe.io"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "cc-api-data.adobe.io"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Adobe Photoshop 2024/Adobe Photoshop 2024.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "cc-api-data.adobe.io"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud Helper.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "cc-api-data.adobe.io"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "cc-api-data.adobe.io"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Desktop Service.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Processor.app/Contents/MacOS/Adobe Crash Processor",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "cc-api-data.adobe.io"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Desktop Service.app/Contents/MacOS/Adobe Desktop Service",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "ccmdls.adobe.com",
+      "cdn-ffc.oobesaas.adobe.com",
+      "crs.cr.adobe.com",
+      "cc-api-data.adobe.io",
+      "uds.adobe-identity.com",
+      "accounts.adobe.com",
+      "ans.oobesaas.adobe.com",
+      "ars.oobesaas.adobe.com",
+      "cdn-ffc.oobesaas.adobe.com",
+      "crs.cr.adobe.com",
+      "ffc-static-cdn.oobesaas.adobe.com",
+      "na1e-acc.services.adobe.com",
+      "prod-rel-ffc-ccm.oobesaas.adobe.com",
+      "www.adobe.com",
+      "cc-api-behance.adobe.io",
+      "cc-api-data.adobe.io",
+      "lcs-cops.adobe.io",
+      "lcs-ulecs.adobe.io",
+      "notify.adobe.io",
+      "ccext-cdn.adobecces.com",
+      "ims-prod06.adobelogin.com",
+      "ims-prod07.adobelogin.com",
+      "connect.ffc.adobeoobe.com",
+      "a1815.dscr.akamai.net",
+      "d1df8ag80bjnnb.cloudfront.net"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Adobe Lightroom.app/Contents/MacOS/Adobe Lightroom",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "directstorage.adbephotos.com",
+      "storage.adbephotos.com",
+      "app-content.lightroom.adobe.com",
+      "lightroom.adobe.com",
+      "pps.services.adobe.com",
+      "udps.adobe.com",
+      "adobesearch.adobe.io",
+      "cc-api-data.adobe.io",
+      "lcs-cops.adobe.io",
+      "notify.adobe.io",
+      "p13n.adobe.io",
+      "photos.adobe.io",
+      "pps.adobe.io",
+      "ims-na1.adobelogin.com",
+      "ims-prod06.adobelogin.com",
+      "a5.behance.net",
+      "d1swly8pgrbhu5.cloudfront.net",
+      "d1v1v6qmrpqka4.cloudfront.net",
+      "api.mapbox.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "80",
+    "process": "/Applications/Adobe Lightroom.app/Contents/MacOS/Adobe Lightroom",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "www.photoshop.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
+    "protocol": "tcp",
+    "remote-addresses": [
+      "142.250.75.227",
+      "142.250.201.163",
+      "2404:6800:4017:801::2003",
+      "2404:6800:4017:803::2003",
+      "2404:6800:4017:804::2003",
+      "2a00:1450:4007:807::2003",
+      "2a00:1450:4007:808::2003",
+      "2a00:1450:4007:80c::2003",
+      "2a00:1450:4007:80d::2003",
+      "2a00:1450:4007:80e::2003",
+      "2a00:1450:4007:810::2003",
+      "2a00:1450:4007:813::2003",
+      "2a00:1450:4007:818::2003"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "80",
+    "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
+    "protocol": "tcp",
+    "remote-addresses": [
+      "142.250.201.163",
+      "2a00:1450:4007:80c::2003",
+      "2a00:1450:4007:810::2003",
+      "2a00:1450:4007:813::2003"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
+    "protocol": "udp",
+    "remote-addresses": [
+      "2a00:1450:4007:813::2003",
+      "2a00:1450:4007:818::2003",
+      "2a00:1450:4007:81a::2003",
+      "2a06:98c1:52::3"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "api.account.adobe.com",
+      "app-content.lightroom.adobe.com",
+      "crs.cr.adobe.com",
+      "genuine.adobe.com",
+      "hbrcv.adobe.com",
+      "udps.adobe.com",
+      "cc-api-data.adobe.io",
+      "ic.adobe.io",
+      "lcs-cops.adobe.io",
+      "lcs-ulecs.adobe.io",
+      "p13n.adobe.io",
+      "photo-api.adobe.io",
+      "photos.adobe.io",
+      "ims-na1.adobelogin.com",
+      "ims-prod06.adobelogin.com",
+      "chrome.cloudflare-dns.com",
+      "d1swly8pgrbhu5.cloudfront.net",
+      "maps.google.com",
+      "ajax.googleapis.com",
+      "khms.googleapis.com",
+      "khms0.googleapis.com",
+      "khms1.googleapis.com",
+      "maps.googleapis.com",
+      "update.googleapis.com",
+      "fonts.gstatic.com",
+      "maps.gstatic.com",
+      "www.photoshop.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "80",
+    "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "blurb-api.blurb.com",
+      "edgedl.me.gvt1.com",
+      "www.photoshop.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "80",
+    "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
+    "protocol": "udp",
+    "remote-hosts": [
+      "blurb-api.blurb.com",
+      "www.photoshop.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
+    "protocol": "udp",
+    "remote-hosts": [
+      "chrome.cloudflare-dns.com",
+      "khms.googleapis.com",
+      "khms0.googleapis.com",
+      "khms1.googleapis.com",
+      "maps.googleapis.com",
+      "update.googleapis.com",
+      "maps.gstatic.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "53",
+    "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/Adobe Lightroom Classic",
+    "protocol": "udp",
+    "remote-hosts": [
+      "livebox.home",
+      "pfsense-montreuil.local.lan",
+      "one.one.one.one"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Adobe Photoshop 2024/Adobe Photoshop 2024.app/Contents/MacOS/Adobe Photoshop 2024",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "crs.cr.adobe.com",
+      "genuine.adobe.com",
+      "hbrcv.adobe.com",
+      "images-tv.adobe.com",
+      "udps.adobe.com",
+      "utut-service.adobe.com",
+      "video.tv.adobe.com",
+      "adobesearch.adobe.io",
+      "cai.adobe.io",
+      "cai-identity.adobe.io",
+      "cc-api-data.adobe.io",
+      "cc-api-data-stage.adobe.io",
+      "cc-api-storage.adobe.io",
+      "cctypekit.adobe.io",
+      "firefly-ps.adobe.io",
+      "ic.adobe.io",
+      "lcs-cops.adobe.io",
+      "lcs-ulecs.adobe.io",
+      "p13n.adobe.io",
+      "p13n-mr.adobe.io",
+      "platform-cs.adobe.io",
+      "platform-cs-irl1.adobe.io",
+      "ims-na1.adobelogin.com",
+      "ims-prod06.adobelogin.com",
+      "o1383653.ingest.sentry.io",
+      "faster.typekit.net",
+      "p.typekit.net",
+      "use.typekit.net"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Adobe Photoshop 2024/Adobe Photoshop 2024.app/Contents/MacOS/Adobe Photoshop 2024",
+    "protocol": "udp",
+    "remote-hosts": [
+      "o1383653.ingest.sentry.io"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Library/Application Support/Adobe/Adobe Desktop Common/LCC/adobe_licensing_helper.app/Contents/MacOS/adobe_licensing_helper",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "cc-api-data.adobe.io",
+      "lcs-cops.adobe.io"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Library/Application Support/Adobe/AdobeGCClient/AdobeGCClient.app/Contents/MacOS/AdobeGCClient",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "genuine.adobe.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Library/Application Support/Adobe/AdobeGCClient/agshelper",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "genuine.adobe.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Library/Application Support/Adobe/AdobeGCClient/AGSService",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "agsupdate.adobe.com",
+      "genuine.adobe.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/Contents/MacOS/Core Sync",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "crs.cr.adobe.com",
+      "acp-ss-ew1.adobe.io",
+      "cc-api-data.adobe.io",
+      "lcs-cops.adobe.io",
+      "lcs-ulecs.adobe.io",
+      "notify.adobe.io",
+      "p13n.adobe.io",
+      "platform-cs.adobe.io",
+      "platform-cs-irl1.adobe.io",
+      "ims-prod06.adobelogin.com",
+      "scss.adobesc.com",
+      "ss-prod-ew1-notif-20.aws.adobess.com",
+      "ss-prod-ew1-ns.aws.adobess.com",
+      "api.typekit.com",
+      "polka.typekit.com",
+      "data.typekit.net",
+      "faster.typekit.net",
+      "state.typekit.net"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
+    "protocol": "tcp",
+    "remote-addresses": [
+      "13.37.189.9",
+      "34.218.163.15",
+      "142.250.179.99",
+      "2620:1ec:40::42",
+      "2a00:1450:4007:819::2003"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "80",
+    "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
+    "protocol": "tcp",
+    "remote-addresses": [
+      "63.140.62.22",
+      "63.140.62.135",
+      "63.140.62.214",
+      "142.250.179.99"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "53",
+    "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
+    "protocol": "udp",
+    "remote-addresses": [
+      "2a01:e34:ec96:26c1::",
+      "2a01:cb15:80a8:6c00:5239:2fff:fe22:b1d0"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "ccmdls.adobe.com",
+      "cdn-ffc.oobesaas.adobe.com",
+      "crs.cr.adobe.com",
+      "cc-api-data.adobe.io",
+      "uds.adobe-identity.com",
+      "abp-profile-service.adobe.io",
+      "adobesearch.adobe.io",
+      "adobesearch-atc.adobe.io",
+      "byof.adobe.io",
+      "cc-api-behance.adobe.io",
+      "cc-api-data.adobe.io",
+      "cc-api-data-stage.adobe.io",
+      "ccext-public.adobe.io",
+      "cchome.adobe.io",
+      "ccprojects.adobe.io",
+      "cctypekit.adobe.io",
+      "cdn.cp.adobe.io",
+      "comments.adobe.io",
+      "federation-gateway.adobe.io",
+      "invitations.adobe.io",
+      "lcs-cops.adobe.io",
+      "lcs-robs.adobe.io",
+      "lcs-ulecs.adobe.io",
+      "notify.adobe.io",
+      "p13n.adobe.io",
+      "pgc.adobe.io",
+      "photos.adobe.io",
+      "platform-cs.adobe.io",
+      "platform-cs-irl1.adobe.io",
+      "pps.adobe.io",
+      "sensei-ue1.adobe.io",
+      "senseicore-ue1.adobe.io",
+      "stock-landing-pages.adobe.io",
+      "ccext.adobecces.com",
+      "ccext-cdn.adobecces.com",
+      "ccext-static.adobecces.com",
+      "prod.adobeccstatic.com",
+      "assets.adobedtm.com",
+      "ims-na1.adobelogin.com",
+      "ims-prod06.adobelogin.com",
+      "ims-prod07.adobelogin.com",
+      "connect.ffc.adobeoobe.com",
+      "design-assets.adobeprojectm.com",
+      "a1815.dscr.akamai.net",
+      "a1874.dscg1.akamai.net",
+      "a1988.dscg1.akamai.net",
+      "e7808.dscg.akamaiedge.net",
+      "s3-r-w.eu-west-1.amazonaws.com",
+      "adobe-api.arkoselabs.com",
+      "stock-notifications.astockcdn.net",
+      "exchange-assets.azureedge.net",
+      "a5.behance.net",
+      "mir-s3-cdn-cf.behance.net",
+      "chrome.cloudflare-dns.com",
+      "d1df8ag80bjnnb.cloudfront.net",
+      "d1j922qg8gqp2e.cloudfront.net",
+      "d23dtpc2izn62y.cloudfront.net",
+      "d2icpaycnzz67.cloudfront.net",
+      "d32a1iuc7x840y.cloudfront.net",
+      "d3ok5gjxqqhp57.cloudfront.net",
+      "d3v9ofp0gom2mu.cloudfront.net",
+      "d61yh3ah3oxkn.cloudfront.net",
+      "dlraxsmsh6ts4.cloudfront.net",
+      "dpm.demdex.net",
+      "adobe-aem.map.fastly.net",
+      "k.sni.global.fastly.net",
+      "as2.ftcdn.net",
+      "t3.ftcdn.net",
+      "update.googleapis.com",
+      "download.macromedia.com",
+      "cdn.substance3d.com",
+      "p.typekit.net",
+      "use.typekit.net",
+      "i.ytimg.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "80",
+    "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "stats.adobe.com",
+      "edgedl.me.gvt1.com",
+      "adobe.com.d1.sc.omtrdc.net"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
+    "protocol": "udp",
+    "remote-hosts": [
+      "sdk-1p.cc-embed.adobe.com",
+      "design-assets.adobeprojectm.com",
+      "chrome.cloudflare-dns.com",
+      "dlraxsmsh6ts4.cloudfront.net",
+      "update.googleapis.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "53",
+    "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud",
+    "protocol": "udp",
+    "remote-hosts": [
+      "livebox.home",
+      "pfsense-montreuil.local.lan",
+      "one.one.one.one"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "53",
+    "process": "/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/libs/Creative Cloud Content Manager.node",
+    "protocol": "udp",
+    "remote-addresses": [
+      "100.100.100.100"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/libs/Creative Cloud Content Manager.node",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "cc-cdn.adobe.com",
+      "helpx.adobe.com",
+      "odin.adobe.com",
+      "utut-service.adobe.com",
+      "cc-api-behance.adobe.io",
+      "cc-api-data.adobe.io",
+      "lcs-cops.adobe.io",
+      "loki.cloud.adobe.io",
+      "p13n.adobe.io",
+      "stock.adobe.io",
+      "ims-prod06.adobelogin.com",
+      "a1838.dscd.akamai.net",
+      "e4578.dscd.akamaiedge.net",
+      "e4578.dsct.akamaiedge.net",
+      "adobe-aem.map.fastly.net",
+      "as1.ftcdn.net",
+      "as2.ftcdn.net"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud Helper.app/Contents/MacOS/Creative Cloud Helper",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "accounts.adobe.com",
+      "crs.cr.adobe.com",
+      "www.adobe.com",
+      "cc-api-data.adobe.io",
+      "lcs-cops.adobe.io",
+      "ccext-cdn.adobecces.com",
+      "ims-prod06.adobelogin.com",
+      "a1815.dscr.akamai.net",
+      "d1df8ag80bjnnb.cloudfront.net",
+      "download.macromedia.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/Creative Cloud UI Helper.app/Contents/MacOS/Creative Cloud UI Helper",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "client.messaging.adobe.com",
+      "commerce.adobe.com",
+      "community.adobe.com",
+      "feature-config.fonts.adobe.com",
+      "images-tv.adobe.com",
+      "odin.adobe.com",
+      "sdk-1p.cc-embed.adobe.com",
+      "server.messaging.adobe.com",
+      "ui.messaging.adobe.com",
+      "abp-profile-service.adobe.io",
+      "byof.adobe.io",
+      "cc-api-data.adobe.io",
+      "ccext-public.adobe.io",
+      "cchome.adobe.io",
+      "ccprojects.adobe.io",
+      "p13n.adobe.io",
+      "photos.adobe.io",
+      "platform-cs.adobe.io",
+      "platform-cs-irl1.adobe.io",
+      "stock-landing-pages.adobe.io",
+      "ccext.adobecces.com",
+      "ccext-static.adobecces.com",
+      "prod.adobeccstatic.com",
+      "assets.adobedtm.com",
+      "ims-prod07.adobelogin.com",
+      "a1988.dscg1.akamai.net",
+      "e7808.dscg.akamaiedge.net",
+      "slp-statics.astockcdn.net",
+      "stock-notifications.astockcdn.net",
+      "a5.behance.net",
+      "mir-s3-cdn-cf.behance.net",
+      "d1j922qg8gqp2e.cloudfront.net",
+      "d23dtpc2izn62y.cloudfront.net",
+      "d2icpaycnzz67.cloudfront.net",
+      "d61yh3ah3oxkn.cloudfront.net",
+      "dlraxsmsh6ts4.cloudfront.net",
+      "adobe-aem.map.fastly.net",
+      "k.sni.global.fastly.net",
+      "update.googleapis.com",
+      "cdn.substance3d.com",
+      "use.typekit.net",
+      "i.ytimg.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "80",
+    "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/Creative Cloud UI Helper.app/Contents/MacOS/Creative Cloud UI Helper",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "stats.adobe.com",
+      "edgedl.me.gvt1.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/Creative Cloud UI Helper.app/Contents/MacOS/Creative Cloud UI Helper",
+    "protocol": "udp",
+    "remote-hosts": [
+      "sdk-1p.cc-embed.adobe.com",
+      "dlraxsmsh6ts4.cloudfront.net",
+      "update.googleapis.com"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "53",
+    "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/Creative Cloud UI Helper.app/Contents/MacOS/Creative Cloud UI Helper",
+    "protocol": "udp",
+    "remote-hosts": [
+      "livebox.home"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/Creative Cloud UI Helper (Renderer).app/Contents/MacOS/Creative Cloud UI Helper (Renderer)",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "cc-api-storage.adobe.io",
+      "platform-cs.adobe.io",
+      "platform-cs-irl1.adobe.io"
+    ]
+  },
+  {
+    "action": "allow",
+    "ports": "443",
+    "process": "path.private/tmp/*/Creative Cloud Installer.app/Contents/MacOS/Install",
+    "protocol": "tcp",
+    "remote-hosts": [
+      "ccmdls.adobe.com",
+      "cc-api-data.adobe.io",
+      "prod-rel-ffc-ccm.oobesaas.adobe.com",
+      "cc-api-data.adobe.io"
+    ]
+  }
 ]
