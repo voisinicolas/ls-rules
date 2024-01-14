@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 PYTHON=$(which python3)
-${PYTHON} ~/.config/little-snitch/importer.py $1
+${PYTHON} /Users/nvz/.config/little-snitch/importer.py $1
 
 message="auto-commit from $USER@$(hostname -s) on $(date)"
 GIT=$(which git)
