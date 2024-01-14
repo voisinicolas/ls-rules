@@ -7,7 +7,14 @@
       "ports": "443",
       "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
       "protocol": "tcp",
-      "remote-hosts": "s3.amazonaws.com"
+      "remote-hosts": [
+        "s3.amazonaws.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "www.noodlesoft.com",
+        "fonts.gstatic.com",
+        "www.noodlesoft.com"
+      ]
     },
     {
       "action": "allow",
@@ -15,43 +22,6 @@
       "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
       "protocol": "tcp",
       "remote-hosts": "github.com"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
-      "protocol": "tcp",
-      "remote-hosts": "fonts.googleapis.com"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
-      "protocol": "tcp",
-      "remote-hosts": "fonts.gstatic.com"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
-      "protocol": "tcp",
-      "remote-hosts": "www.noodlesoft.com"
-    },
-    {
-      "action": "allow",
-      "disabled": true,
-      "ports": "443",
-      "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
-      "protocol": "tcp",
-      "remote-hosts": "fonts.gstatic.com"
-    },
-    {
-      "action": "allow",
-      "disabled": true,
-      "ports": "443",
-      "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
-      "protocol": "tcp",
-      "remote-hosts": "www.noodlesoft.com"
     }
   ]
 }
