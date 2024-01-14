@@ -10,5 +10,5 @@ cd ${REPO_DIR}
 ${GIT} add --all .
 ${GIT} commit -m "$message"
 
-gitPush=$(${GIT} push -vvv git@github.com:ls-rules.git master 2>&1)
+gitPush=$(${GIT} push -vvv git@github.com:voisinicolas/ls-rules.git master 2>&1)
 echo "$gitPush"
