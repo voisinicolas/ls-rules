@@ -1,20 +1,20 @@
 {
   "description" : "",
-  "name" : "Hazel temp",
+  "name" : "Hazel test",
   "rules" : [
     {
       "action" : "allow",
       "ports" : "443",
       "process" : "\/Applications\/Hazel.app\/Contents\/Library\/LoginItems\/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app\/Contents\/MacOS\/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
       "protocol" : "tcp",
-      "remote-hosts" : "fonts.gstatic.com"
+      "remote-hosts" : "s3.amazonaws.com"
     },
     {
       "action" : "allow",
       "ports" : "443",
       "process" : "\/Applications\/Hazel.app\/Contents\/Library\/LoginItems\/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app\/Contents\/MacOS\/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
       "protocol" : "tcp",
-      "remote-hosts" : "www.noodlesoft.com"
+      "remote-hosts" : "fonts.googleapis.com"
     }
   ]
 }
