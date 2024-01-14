@@ -1,0 +1,13 @@
+{
+  "description" : "",
+  "name" : "lr",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Adobe Lightroom Classic\/Adobe Lightroom Classic.app\/Contents\/MacOS\/Adobe Lightroom Classic",
+      "protocol" : "tcp",
+      "remote-addresses" : "142.250.75.227"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "description" : "",
+  "name" : "dark",
+  "rules" : [
+    {
+      "action" : "deny",
+      "direction" : "incoming",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "deny",
+      "direction" : "incoming",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "deny",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "deny",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "deny",
+      "ports" : "80",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "ports" : "80",
+      "remote" : "any"
+    }
+  ]
+}
