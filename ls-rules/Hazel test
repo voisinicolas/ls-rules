@@ -4,17 +4,24 @@
   "rules": [
     {
       "action": "allow",
-      "ports": "443",
+      "ports": "22",
       "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
       "protocol": "tcp",
-      "remote-hosts": "s3.amazonaws.com"
+      "remote-hosts": "github.com"
     },
     {
       "action": "allow",
       "ports": "443",
       "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
       "protocol": "tcp",
-      "remote-hosts": "fonts.googleapis.com"
+      "remote-hosts": "fonts.gstatic.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
+      "protocol": "tcp",
+      "remote-hosts": "www.noodlesoft.com"
     }
   ]
 }
