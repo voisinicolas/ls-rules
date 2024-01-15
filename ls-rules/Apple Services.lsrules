@@ -4,8 +4,59 @@
     "rules": [
         {
             "action": "allow",
-            "process": "/usr/libexec/airportd",
-            "remote": "bpf"
+            "ports": "443",
+            "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+            "protocol": "tcp",
+            "remote-hosts": "1password.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+            "protocol": "tcp",
+            "remote-hosts": "cdn.dnsimple.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+            "protocol": "tcp",
+            "remote-hosts": "github.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+            "protocol": "tcp",
+            "remote-hosts": "cloud.githubusercontent.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+            "protocol": "tcp",
+            "remote-hosts": "user-images.githubusercontent.com"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+            "protocol": "tcp",
+            "remote-hosts": "cdn.jsdelivr.net"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+            "protocol": "tcp",
+            "remote-hosts": "img.shields.io"
+        },
+        {
+            "action": "allow",
+            "ports": "443",
+            "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+            "protocol": "udp",
+            "remote-hosts": "img.shields.io"
         }
     ]
 }
