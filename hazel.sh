@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
+REPO_DIR="/Users/nvz/.config/little-snitch"
+SCRIPT="importer.py"
 PYTHON=$(which python3)
-${PYTHON} /Users/nvz/.config/little-snitch/importer.py $1
+${PYTHON} "$REPO_DIR/$SCRIPT" $1
 
 message="auto-commit from $USER@$(hostname -s) on $(date)"
 GIT=$(which git)
-REPO_DIR="/Users/nvz/.config/little-snitch"
 cd ${REPO_DIR}
 ${GIT} add --all .
 ${GIT} commit -m "$message"
