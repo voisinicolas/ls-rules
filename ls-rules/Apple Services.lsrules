@@ -1,55 +1,29 @@
 {
-    "description": "",
-    "name": "Apple Services",
-    "rules": [
-        {
-            "action": "allow",
-            "ports": "443",
-            "process": "/usr/libexec/AssetCache/AssetCache",
-            "protocol": "tcp",
-            "remote-hosts": "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com"
-        },
-        {
-            "action": "allow",
-            "ports": "443",
-            "process": "/usr/libexec/AssetCache/AssetCache",
-            "protocol": "tcp",
-            "remote-hosts": "eu-irl-00003.s3.dualstack.eu-west-1.amazonaws.com"
-        },
-        {
-            "action": "allow",
-            "ports": "443",
-            "process": "/usr/libexec/AssetCache/AssetCache",
-            "protocol": "tcp",
-            "remote-hosts": "gcs-eu-00002.content-storage-download.googleapis.com"
-        },
-        {
-            "action": "allow",
-            "ports": "443",
-            "process": "/usr/libexec/AssetCache/AssetCache",
-            "protocol": "tcp",
-            "remote-hosts": "gcs-eu-00002.content-storage-upload.googleapis.com"
-        },
-        {
-            "action": "allow",
-            "ports": "443",
-            "process": "/usr/libexec/AssetCache/AssetCache",
-            "protocol": "tcp",
-            "remote-hosts": "gcs-us-00002.content-storage-download.googleapis.com"
-        },
-        {
-            "action": "allow",
-            "ports": "443",
-            "process": "/usr/libexec/AssetCache/AssetCache",
-            "protocol": "udp",
-            "remote-hosts": "gcs-eu-00002.content-storage-download.googleapis.com"
-        },
-        {
-            "action": "allow",
-            "ports": "443",
-            "process": "/usr/libexec/AssetCache/AssetCache",
-            "protocol": "udp",
-            "remote-hosts": "gcs-us-00002.content-storage-download.googleapis.com"
-        }
-    ]
+  "description": "cleaner file",
+  "name": "Apple Services",
+  "rules": [
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/usr/libexec/AssetCache/AssetCache",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com",
+        "eu-irl-00003.s3.dualstack.eu-west-1.amazonaws.com",
+        "gcs-eu-00002.content-storage-download.googleapis.com",
+        "gcs-eu-00002.content-storage-upload.googleapis.com",
+        "gcs-us-00002.content-storage-download.googleapis.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/usr/libexec/AssetCache/AssetCache",
+      "protocol": "udp",
+      "remote-hosts": [
+        "gcs-eu-00002.content-storage-download.googleapis.com",
+        "gcs-us-00002.content-storage-download.googleapis.com"
+      ]
+    }
+  ]
 }
