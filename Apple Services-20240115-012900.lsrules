@@ -1,0 +1,11 @@
+{
+  "description" : "",
+  "name" : "Apple Services",
+  "rules" : [
+    {
+      "action" : "allow",
+      "process" : "\/usr\/libexec\/airportd",
+      "remote" : "bpf"
+    }
+  ]
+}
