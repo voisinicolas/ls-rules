@@ -9,6 +9,8 @@
       "protocol": "tcp",
       "remote-hosts": [
         "imap.free.fr",
+        "imap.gmail.com",
+        "imap.free.fr",
         "imap.gmail.com"
       ]
     },
@@ -18,6 +20,9 @@
       "process": "/System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd",
       "protocol": "tcp",
       "remote-hosts": [
+        "imap.free.fr",
+        "imap.gmail.com",
+        "p37-imap.mail.me.com",
         "imap.free.fr",
         "imap.gmail.com",
         "p37-imap.mail.me.com"
@@ -30,6 +35,8 @@
       "protocol": "tcp",
       "remote-hosts": [
         "smtp.free.fr",
+        "smtp.gmail.com",
+        "smtp.free.fr",
         "smtp.gmail.com"
       ]
     },
@@ -39,6 +46,9 @@
       "process": "/System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd",
       "protocol": "tcp",
       "remote-hosts": [
+        "www.googleapis.com",
+        "sync.omnigroup.com",
+        "sync20.omnigroup.com",
         "www.googleapis.com",
         "sync.omnigroup.com",
         "sync20.omnigroup.com"
@@ -51,6 +61,8 @@
       "protocol": "tcp",
       "remote-hosts": [
         "p110-caldav.icloud.com",
+        "p27-contacts.icloud.com",
+        "p110-caldav.icloud.com",
         "p27-contacts.icloud.com"
       ]
     },
@@ -59,7 +71,10 @@
       "ports": "8843",
       "process": "/System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd",
       "protocol": "tcp",
-      "remote-hosts": "p27-contacts.icloud.com"
+      "remote-hosts": [
+        "p27-contacts.icloud.com",
+        "p27-contacts.icloud.com"
+      ]
     },
     {
       "action": "deny",
