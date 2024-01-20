@@ -1,4 +1,4 @@
-def collapse_array2(data):
+def collapse_array(data):
     collapsed = []
     address_keys = ["remote-addresses", "remote-hosts", "remote"]
 

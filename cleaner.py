@@ -2,7 +2,6 @@ import json
 import sys
 import os
 import tempfile
-from cleaner2.py import collapse_array2
 
 
 def collapse_array(data):
@@ -27,20 +26,18 @@ def collapse_array(data):
             # Check if address_key_found exists in the item
             if address_key_found:
                 remote_addresses = item.get(address_key_found)
-                # if isinstance(remote_addresses, str):
-                #         remote_addresses = [remote_addresses]  # Convert string to list
                 if remote_addresses is not None:
                     if key not in collapsed:
                         collapsed[key] = item.copy()
                         # Initialize with a list containing the first address
-                        collapsed[key][address_key_found] = [remote_addresses]
+                        collapsed[key][address_key_found] = set([remote_addresses])
                     else:
                         if address_key_found not in collapsed[key]:
-                            collapsed[key][address_key_found] = []
+                            collapsed[key][address_key_found] = set()
                         if isinstance(remote_addresses, list):
-                            collapsed[key][address_key_found].extend(remote_addresses)
+                            collapsed[key][address_key_found].update(remote_addresses)
                         else:
-                            collapsed[key][address_key_found].append(remote_addresses)
+                            collapsed[key][address_key_found].add(remote_addresses)
         except KeyError as e:
             print(f"Error occurred at rule index: {index}")
             print(f"Rule causing error: {item}")
@@ -68,17 +65,13 @@ def is_valid_json(data):
         return False
 
 
-def merger(data):
-    return data
-
-
 def main(file_path):
     # Read the JSON data from the file
     with open(file_path, "r") as file:
         json_data = json.load(file)
 
     rules = json_data["rules"]
-    collapsed_data = collapse_array2(rules)
+    collapsed_data = collapse_array(rules)
     cleaned_data = process_collapsed_data(collapsed_data)
     is_valid_data = is_valid_json(cleaned_data)
 
