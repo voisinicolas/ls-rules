@@ -1,0 +1,18 @@
+{
+  "description" : "",
+  "name" : "Apple Services",
+  "rules" : [
+    {
+      "action" : "deny",
+      "direction" : "incoming",
+      "process" : "\/System\/Library\/PrivateFrameworks\/GameCenterFoundation.framework\/Versions\/A\/gamed",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "priority" : "high",
+      "process" : "\/System\/Library\/PrivateFrameworks\/GameCenterFoundation.framework\/Versions\/A\/gamed",
+      "remote" : "any"
+    }
+  ]
+}

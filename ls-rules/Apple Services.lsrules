@@ -1,65 +1,74 @@
 {
-  "description": "cleaner file",
+  "description": "",
   "name": "Apple Services",
   "rules": [
     {
-      "action": "allow",
-      "ports": "143",
-      "process": "/System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd",
-      "protocol": "tcp",
-      "remote-hosts": [
-        "imap.free.fr",
-        "imap.gmail.com"
-      ]
+      "action": "deny",
+      "direction": "incoming",
+      "process": "/System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/gamed",
+      "remote": "any"
     },
     {
-      "action": "allow",
-      "ports": "993",
-      "process": "/System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd",
-      "protocol": "tcp",
-      "remote-hosts": [
-        "imap.free.fr",
-        "imap.gmail.com",
-        "p37-imap.mail.me.com"
-      ]
-    },
-    {
-      "action": "allow",
-      "ports": "587",
-      "process": "/System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd",
-      "protocol": "tcp",
-      "remote-hosts": [
-        "smtp.free.fr",
-        "smtp.gmail.com"
-      ]
+      "action": "deny",
+      "priority": "high",
+      "process": "/System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/gamed",
+      "remote": "any"
     },
     {
       "action": "allow",
       "ports": "443",
-      "process": "/System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd",
+      "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
       "protocol": "tcp",
-      "remote-hosts": [
-        "www.googleapis.com",
-        "sync.omnigroup.com",
-        "sync20.omnigroup.com"
-      ]
+      "remote-hosts": "1password.com"
     },
     {
       "action": "allow",
-      "ports": "8443",
-      "process": "/System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd",
+      "ports": "443",
+      "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
       "protocol": "tcp",
-      "remote-hosts": [
-        "p110-caldav.icloud.com",
-        "p27-contacts.icloud.com"
-      ]
+      "remote-hosts": "cdn.dnsimple.com"
     },
     {
       "action": "allow",
-      "ports": "8843",
-      "process": "/System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd",
+      "ports": "443",
+      "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
       "protocol": "tcp",
-      "remote-hosts": "p27-contacts.icloud.com"
+      "remote-hosts": "github.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+      "protocol": "tcp",
+      "remote-hosts": "cloud.githubusercontent.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+      "protocol": "tcp",
+      "remote-hosts": "user-images.githubusercontent.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+      "protocol": "tcp",
+      "remote-hosts": "cdn.jsdelivr.net"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+      "protocol": "tcp",
+      "remote-hosts": "img.shields.io"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+      "protocol": "udp",
+      "remote-hosts": "img.shields.io"
     }
   ]
 }
