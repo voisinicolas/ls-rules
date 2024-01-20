@@ -1,0 +1,13 @@
+{
+  "description" : "",
+  "name" : "Apple Services",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/PassKitCore.framework\/passd",
+      "protocol" : "tcp",
+      "remote-hosts" : "vntsnotificationservice.visa.com"
+    }
+  ]
+}
