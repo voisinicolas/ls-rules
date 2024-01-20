@@ -1,0 +1,286 @@
+{
+  "description" : "",
+  "name" : "NVZ Defaults Apps",
+  "rules" : [
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.facebook.com"
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "o95242.ingest.sentry.io"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.balena-cloud.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "data.balena-cloud.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "balena.io"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "assets.balena.io"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.balena.io"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "connect.facebook.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "objects.githubusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "raw.githubusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.google.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "fonts.googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "fonts.gstatic.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.gstatic.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "cdn.statuspage.io"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "tcp",
+      "remote-hosts" : "unpkg.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "udp",
+      "remote-hosts" : "data.balena-cloud.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "udp",
+      "remote-hosts" : "fonts.googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "udp",
+      "remote-hosts" : "fonts.gstatic.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/Applications\/balenaEtcher.app\/Contents\/MacOS\/balenaEtcher",
+      "protocol" : "udp",
+      "remote-hosts" : "pfsense-montreuil.local.lan"
+    },
+    {
+      "action" : "ask",
+      "ports" : "443",
+      "process" : "\/Applications\/Bartender 5.app\/Contents\/MacOS\/Bartender 5",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.macbartender.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "docs.bettertouchtool.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "folivora.ai"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.folivora.ai"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "community.folivora.ai"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "docs.folivora.ai"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "docs.folivora.ai"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "updates.folivora.ai"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "use.fontawesome.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "bttreleases.llo.ai"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.openai.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "troet.cafe"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "player.vimeo.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "f.vimeocdn.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "fresnel.vimeocdn.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "tcp",
+      "remote-hosts" : "i.vimeocdn.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "udp",
+      "remote-hosts" : "docs.folivora.ai"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "udp",
+      "remote-hosts" : "use.fontawesome.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "protocol" : "udp",
+      "remote-hosts" : "api.openai.com"
+    }
+  ]
+}

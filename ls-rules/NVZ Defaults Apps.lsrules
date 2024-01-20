@@ -1,7 +1,111 @@
 {
-  "description": "My defaults Rules ",
+  "description": "NVZ Litte Snitch Rules file",
   "name": "NVZ Defaults Apps",
   "rules": [
+    {
+      "action": "deny",
+      "ports": "443",
+      "process": "/Applications/balenaEtcher.app/Contents/MacOS/balenaEtcher",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "www.facebook.com",
+        "o95242.ingest.sentry.io"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/balenaEtcher.app/Contents/MacOS/balenaEtcher",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "api.balena-cloud.com",
+        "data.balena-cloud.com",
+        "balena.io",
+        "assets.balena.io",
+        "www.balena.io",
+        "connect.facebook.net",
+        "github.com",
+        "objects.githubusercontent.com",
+        "raw.githubusercontent.com",
+        "www.google.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "www.gstatic.com",
+        "cdn.statuspage.io",
+        "unpkg.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/balenaEtcher.app/Contents/MacOS/balenaEtcher",
+      "protocol": "udp",
+      "remote-hosts": [
+        "data.balena-cloud.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "53",
+      "process": "/Applications/balenaEtcher.app/Contents/MacOS/balenaEtcher",
+      "protocol": "udp",
+      "remote-hosts": "pfsense-montreuil.local.lan"
+    },
+    {
+      "action": "ask",
+      "ports": "443",
+      "process": "/Applications/Bartender 5.app/Contents/MacOS/Bartender 5",
+      "protocol": "tcp",
+      "remote-hosts": "www.macbartender.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/BetterTouchTool.app/Contents/MacOS/BetterTouchTool",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "docs.bettertouchtool.net",
+        "folivora.ai",
+        "api.folivora.ai",
+        "community.folivora.ai",
+        "docs.folivora.ai",
+        "updates.folivora.ai",
+        "use.fontawesome.com",
+        "bttreleases.llo.ai",
+        "api.openai.com",
+        "troet.cafe",
+        "player.vimeo.com",
+        "f.vimeocdn.com",
+        "fresnel.vimeocdn.com",
+        "i.vimeocdn.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "80",
+      "process": "/Applications/BetterTouchTool.app/Contents/MacOS/BetterTouchTool",
+      "protocol": "tcp",
+      "remote-hosts": "docs.folivora.ai"
+    },
+    {
+      "action": "allow",
+      "ports": "80",
+      "process": "/Applications/BetterTouchTool.app/Contents/MacOS/BetterTouchTool",
+      "protocol": "udp",
+      "remote-hosts": "docs.folivora.ai"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/BetterTouchTool.app/Contents/MacOS/BetterTouchTool",
+      "protocol": "udp",
+      "remote-hosts": [
+        "use.fontawesome.com",
+        "api.openai.com"
+      ]
+    },
     {
       "action": "allow",
       "ports": "443",
