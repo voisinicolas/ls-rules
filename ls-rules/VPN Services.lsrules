@@ -4,6 +4,63 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "38224",
+      "process": "/Applications/Tor Browser.app/Contents/MacOS/Tor/PluggableTransports/lyrebird",
+      "protocol": "tcp",
+      "remote-addresses": "37.218.245.14"
+    },
+    {
+      "action": "allow",
+      "ports": "27015",
+      "process": "/Applications/Tor Browser.app/Contents/MacOS/Tor/PluggableTransports/lyrebird",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "45.145.95.6",
+        "193.11.166.194"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "80",
+      "process": "/Applications/Tor Browser.app/Contents/MacOS/Tor/PluggableTransports/lyrebird",
+      "protocol": "tcp",
+      "remote-addresses": "51.222.13.177"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Tor Browser.app/Contents/MacOS/Tor/PluggableTransports/lyrebird",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "85.31.186.26",
+        "85.31.186.98",
+        "192.95.36.142",
+        "209.148.46.65"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "27020",
+      "process": "/Applications/Tor Browser.app/Contents/MacOS/Tor/PluggableTransports/lyrebird",
+      "protocol": "tcp",
+      "remote-addresses": "193.11.166.194"
+    },
+    {
+      "action": "allow",
+      "ports": "27025",
+      "process": "/Applications/Tor Browser.app/Contents/MacOS/Tor/PluggableTransports/lyrebird",
+      "protocol": "tcp",
+      "remote-addresses": "193.11.166.194"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Tor Browser.app/Contents/MacOS/Tor/PluggableTransports/lyrebird",
+      "protocol": "tcp",
+      "remote-hosts": "foursquare.com"
+    },
+    {
+      "action": "allow",
       "direction": "incoming",
       "ports": "59319",
       "process": "/Library/SystemExtensions/ABF15EE1-F407-4ED8-8756-CB625A4AC803/ch.protonvpn.mac.WireGuard-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.WireGuard-Extension",
