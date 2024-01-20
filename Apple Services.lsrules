@@ -4,164 +4,206 @@
   "rules" : [
     {
       "action" : "allow",
+      "ports" : "10172",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "ports" : "14719",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "ports" : "20229",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "ports" : "38240",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "ports" : "41293",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "ports" : "51169",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "ports" : "58301",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "ports" : "59976",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "ports" : "62607",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "ports" : "1025",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "176.189.138.219"
+    },
+    {
+      "action" : "allow",
+      "ports" : "3480",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "17.*.*.*"
+    },
+    {
+      "action" : "allow",
+      "ports" : "3481",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "17.*.*.*"
+    },
+    {
+      "action" : "allow",
+      "ports" : "3482",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "17.*.*.*"
+    },
+    {
+      "action" : "allow",
+      "ports" : "3484",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "17.*.*.*"
+    },
+    {
+      "action" : "allow",
+      "ports" : "16384",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "17.*.*.*"
+    },
+    {
+      "action" : "allow",
+      "ports" : "16385",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "17.*.*.*"
+    },
+    {
+      "action" : "allow",
+      "ports" : "16386",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-addresses" : "17.*.*.*"
+    },
+    {
+      "action" : "allow",
+      "ports" : "4615",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-hosts" : "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action" : "allow",
+      "ports" : "21428",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-hosts" : "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action" : "allow",
+      "ports" : "45587",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-hosts" : "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action" : "allow",
+      "ports" : "45649",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-hosts" : "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53346",
+      "process" : "\/usr\/libexec\/avconferenced",
+      "protocol" : "udp",
+      "remote-hosts" : "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action" : "allow",
       "ports" : "443",
-      "process" : "\/usr\/libexec\/AssetCache\/AssetCache",
+      "process" : "\/System\/Library\/PrivateFrameworks\/WorkflowKit.framework\/XPCServices\/BackgroundShortcutRunner.xpc\/Contents\/MacOS\/BackgroundShortcutRunner",
       "protocol" : "tcp",
-      "remote-hosts" : "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com"
+      "remote-hosts" : "macscripter.net"
     },
     {
       "action" : "allow",
       "ports" : "443",
-      "process" : "\/usr\/libexec\/AssetCache\/AssetCache",
+      "process" : "\/System\/Library\/PrivateFrameworks\/WorkflowKit.framework\/XPCServices\/BackgroundShortcutRunner.xpc\/Contents\/MacOS\/BackgroundShortcutRunner",
       "protocol" : "tcp",
-      "remote-hosts" : "eu-irl-00003.s3.dualstack.eu-west-1.amazonaws.com"
+      "remote-hosts" : "www.pornhub.com"
     },
     {
       "action" : "allow",
-      "ports" : "443",
-      "process" : "\/usr\/libexec\/AssetCache\/AssetCache",
+      "ports" : "80",
+      "process" : "\/System\/Library\/PrivateFrameworks\/WorkflowKit.framework\/XPCServices\/BackgroundShortcutRunner.xpc\/Contents\/MacOS\/BackgroundShortcutRunner",
       "protocol" : "tcp",
-      "remote-hosts" : "gcs-eu-00002.content-storage-download.googleapis.com"
+      "remote-hosts" : "private.com"
     },
     {
       "action" : "allow",
       "ports" : "443",
-      "process" : "\/usr\/libexec\/AssetCache\/AssetCache",
+      "process" : "\/System\/Library\/PrivateFrameworks\/WorkflowKit.framework\/XPCServices\/BackgroundShortcutRunner.xpc\/Contents\/MacOS\/BackgroundShortcutRunner",
       "protocol" : "tcp",
-      "remote-hosts" : "gcs-eu-00002.content-storage-upload.googleapis.com"
+      "remote-hosts" : "private.com"
     },
     {
       "action" : "allow",
       "ports" : "443",
-      "process" : "\/usr\/libexec\/AssetCache\/AssetCache",
+      "process" : "\/System\/Library\/PrivateFrameworks\/WorkflowKit.framework\/XPCServices\/BackgroundShortcutRunner.xpc\/Contents\/MacOS\/BackgroundShortcutRunner",
       "protocol" : "tcp",
-      "remote-hosts" : "gcs-us-00002.content-storage-download.googleapis.com"
+      "remote-hosts" : "www.private.com"
     },
     {
       "action" : "allow",
       "ports" : "443",
-      "process" : "\/usr\/libexec\/AssetCache\/AssetCache",
-      "protocol" : "udp",
-      "remote-hosts" : "gcs-eu-00002.content-storage-download.googleapis.com"
-    },
-    {
-      "action" : "allow",
-      "ports" : "443",
-      "process" : "\/usr\/libexec\/AssetCache\/AssetCache",
-      "protocol" : "udp",
-      "remote-hosts" : "gcs-us-00002.content-storage-download.googleapis.com"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
-      "protocol" : "udp",
-      "remote-addresses" : "1.1.1.1"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
-      "protocol" : "udp",
-      "remote-addresses" : "100.100.100.100"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
-      "protocol" : "udp",
-      "remote-addresses" : "2a01:cb15:80a8:6c00:5239:2fff:fe22:b1d0"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
-      "protocol" : "udp",
-      "remote-addresses" : "100.100.100.100"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
-      "protocol" : "udp",
-      "remote-addresses" : "2a01:cb0c:f9:300:8efd:deff:fe9e:c030"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
-      "protocol" : "udp",
-      "remote-addresses" : "2a01:cb10:8e63:b400:c2d7:aaff:feb8:3541"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
-      "protocol" : "udp",
-      "remote-addresses" : "2a01:cb15:80a8:6c00:5239:2fff:fe22:b1d0"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
-      "protocol" : "udp",
-      "remote-addresses" : "2a01:cb15:820e:9500:5239:2fff:fe22:b1d0"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
-      "protocol" : "udp",
-      "remote-addresses" : "2a01:cb19:8b1d:ce00:7ab2:13ff:feb0:b264"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
-      "protocol" : "udp",
-      "remote-addresses" : "2a01:cb19:8b1d:cefb:f2ad:4eff:fe26:d77a"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
-      "protocol" : "udp",
-      "remote-hosts" : "pfsense-montreuil.local.lan"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
-      "protocol" : "udp",
-      "remote-hosts" : "one.one.one.one"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
-      "protocol" : "udp",
-      "remote-hosts" : "pfsense-montreuil.local.lan"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
-      "protocol" : "udp",
-      "remote-hosts" : "one.one.one.one"
-    },
-    {
-      "action" : "allow",
-      "ports" : "53",
-      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
-      "protocol" : "udp",
-      "remote-hosts" : "pfsense.nvz"
-    },
-    {
-      "action" : "allow",
-      "ports" : "443",
-      "process" : "\/System\/Volumes\/Preboot\/Cryptexes\/App\/usr\/libexec\/AuthenticationServicesAgent",
+      "process" : "\/System\/Library\/PrivateFrameworks\/WorkflowKit.framework\/XPCServices\/BackgroundShortcutRunner.xpc\/Contents\/MacOS\/BackgroundShortcutRunner",
       "protocol" : "tcp",
-      "remote-hosts" : "cable.auth.com"
+      "remote-hosts" : "www.simplebikestore.eu"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/WorkflowKit.framework\/XPCServices\/BackgroundShortcutRunner.xpc\/Contents\/MacOS\/BackgroundShortcutRunner",
+      "protocol" : "udp",
+      "remote-hosts" : "www.simplebikestore.eu"
     }
   ]
 }

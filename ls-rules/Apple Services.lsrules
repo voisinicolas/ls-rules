@@ -4,6 +4,187 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "10172",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "14719",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "20229",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "38240",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "41293",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "51169",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "58301",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "59976",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "62607",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "1025",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "176.189.138.219"
+    },
+    {
+      "action": "allow",
+      "ports": "3480",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "ports": "3481",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "ports": "3482",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "ports": "3484",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "ports": "16384",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "ports": "16385",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "ports": "16386",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "ports": "4615",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action": "allow",
+      "ports": "21428",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action": "allow",
+      "ports": "45587",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action": "allow",
+      "ports": "45649",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action": "allow",
+      "ports": "53346",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/BackgroundShortcutRunner.xpc/Contents/MacOS/BackgroundShortcutRunner",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "macscripter.net",
+        "www.pornhub.com",
+        "private.com",
+        "www.private.com",
+        "www.simplebikestore.eu"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "80",
+      "process": "/System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/BackgroundShortcutRunner.xpc/Contents/MacOS/BackgroundShortcutRunner",
+      "protocol": "tcp",
+      "remote-hosts": "private.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/BackgroundShortcutRunner.xpc/Contents/MacOS/BackgroundShortcutRunner",
+      "protocol": "udp",
+      "remote-hosts": "www.simplebikestore.eu"
+    },
+    {
+      "action": "allow",
       "ports": "443",
       "process": "/usr/libexec/AssetCache/AssetCache",
       "protocol": "tcp",
