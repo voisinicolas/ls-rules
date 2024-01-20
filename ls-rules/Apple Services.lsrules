@@ -5,6 +5,37 @@
     {
       "action": "allow",
       "ports": "443",
+      "process": "/System/Applications/Calendar.app/Contents/MacOS/Calendar",
+      "protocol": "tcp",
+      "remote-hosts": "api.weather.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/Versions/A/com.apple.Safari.SafeBrowsing.Service",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "safebrowsing.googleapis.com",
+        "token.safebrowsing.apple"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "80",
+      "process": "/System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/Versions/A/com.apple.Safari.SafeBrowsing.Service",
+      "protocol": "tcp",
+      "remote-hosts": "proxy.safebrowsing.apple"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/Versions/A/com.apple.Safari.SafeBrowsing.Service",
+      "protocol": "udp",
+      "remote-hosts": "safebrowsing.googleapis.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
       "process": "/System/Library/PrivateFrameworks/PassKitCore.framework/passd",
       "protocol": "tcp",
       "remote-hosts": "vntsnotificationservice.visa.com"

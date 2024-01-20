@@ -4,6 +4,13 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/PrivateFrameworks/PassKitCore.framework/passd",
+      "protocol": "tcp",
+      "remote-hosts": "vntsnotificationservice.visa.com"
+    },
+    {
+      "action": "allow",
       "ports": "62078",
       "process": "/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDeviceDiscoveryAgent",
       "protocol": "tcp",
