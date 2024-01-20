@@ -1,0 +1,167 @@
+{
+  "description" : "",
+  "name" : "Apple Services",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/AssetCache\/AssetCache",
+      "protocol" : "tcp",
+      "remote-hosts" : "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/AssetCache\/AssetCache",
+      "protocol" : "tcp",
+      "remote-hosts" : "eu-irl-00003.s3.dualstack.eu-west-1.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/AssetCache\/AssetCache",
+      "protocol" : "tcp",
+      "remote-hosts" : "gcs-eu-00002.content-storage-download.googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/AssetCache\/AssetCache",
+      "protocol" : "tcp",
+      "remote-hosts" : "gcs-eu-00002.content-storage-upload.googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/AssetCache\/AssetCache",
+      "protocol" : "tcp",
+      "remote-hosts" : "gcs-us-00002.content-storage-download.googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/AssetCache\/AssetCache",
+      "protocol" : "udp",
+      "remote-hosts" : "gcs-eu-00002.content-storage-download.googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/AssetCache\/AssetCache",
+      "protocol" : "udp",
+      "remote-hosts" : "gcs-us-00002.content-storage-download.googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "udp",
+      "remote-addresses" : "1.1.1.1"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "udp",
+      "remote-addresses" : "100.100.100.100"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "udp",
+      "remote-addresses" : "2a01:cb15:80a8:6c00:5239:2fff:fe22:b1d0"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "udp",
+      "remote-addresses" : "100.100.100.100"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "udp",
+      "remote-addresses" : "2a01:cb0c:f9:300:8efd:deff:fe9e:c030"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "udp",
+      "remote-addresses" : "2a01:cb10:8e63:b400:c2d7:aaff:feb8:3541"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "udp",
+      "remote-addresses" : "2a01:cb15:80a8:6c00:5239:2fff:fe22:b1d0"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "udp",
+      "remote-addresses" : "2a01:cb15:820e:9500:5239:2fff:fe22:b1d0"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "udp",
+      "remote-addresses" : "2a01:cb19:8b1d:ce00:7ab2:13ff:feb0:b264"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "udp",
+      "remote-addresses" : "2a01:cb19:8b1d:cefb:f2ad:4eff:fe26:d77a"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "udp",
+      "remote-hosts" : "pfsense-montreuil.local.lan"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "udp",
+      "remote-hosts" : "one.one.one.one"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "udp",
+      "remote-hosts" : "pfsense-montreuil.local.lan"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "udp",
+      "remote-hosts" : "one.one.one.one"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AssetCacheServices.framework\/Versions\/A\/XPCServices\/AssetCacheLocatorService.xpc\/Contents\/MacOS\/AssetCacheLocatorService",
+      "protocol" : "udp",
+      "remote-hosts" : "pfsense.nvz"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Volumes\/Preboot\/Cryptexes\/App\/usr\/libexec\/AuthenticationServicesAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "cable.auth.com"
+    }
+  ]
+}
