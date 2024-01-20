@@ -1,67 +1,39 @@
 {
-  "description": "",
+  "description": "NVZ Litte Snitch Rules file",
   "name": "Apple Services",
   "rules": [
     {
       "action": "deny",
       "direction": "incoming",
       "process": "/System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/gamed",
-      "remote": "any"
+      "remote": [
+        "any",
+        "any"
+      ]
     },
     {
       "action": "deny",
       "priority": "high",
       "process": "/System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/gamed",
-      "remote": "any"
+      "remote": [
+        "any",
+        "any"
+      ]
     },
     {
       "action": "allow",
       "ports": "443",
       "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
       "protocol": "tcp",
-      "remote-hosts": "1password.com"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
-      "protocol": "tcp",
-      "remote-hosts": "cdn.dnsimple.com"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
-      "protocol": "tcp",
-      "remote-hosts": "github.com"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
-      "protocol": "tcp",
-      "remote-hosts": "cloud.githubusercontent.com"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
-      "protocol": "tcp",
-      "remote-hosts": "user-images.githubusercontent.com"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
-      "protocol": "tcp",
-      "remote-hosts": "cdn.jsdelivr.net"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
-      "protocol": "tcp",
-      "remote-hosts": "img.shields.io"
+      "remote-hosts": [
+        "1password.com",
+        "cdn.dnsimple.com",
+        "github.com",
+        "cloud.githubusercontent.com",
+        "user-images.githubusercontent.com",
+        "cdn.jsdelivr.net",
+        "img.shields.io"
+      ]
     },
     {
       "action": "allow",
