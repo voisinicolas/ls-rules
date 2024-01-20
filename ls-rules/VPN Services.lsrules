@@ -1,7 +1,502 @@
 {
-  "description": "This ruleset is computed using the script from the input file 'VPN Services'.",
+  "description": "NVZ Litte Snitch Rules file",
   "name": "VPN Services",
   "rules": [
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "50510",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.77.117.149"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "56592",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:3344:1b40:31b2:ffa:78f2:4b82:2877"
+    },
+    {
+      "action": "allow",
+      "ports": "80",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "5.180.205.252",
+        "5.180.205.254",
+        "37.99.248.24",
+        "80.211.44.134",
+        "185.210.159.83"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "8082",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "tcp",
+      "remote-addresses": "109.73.80.190"
+    },
+    {
+      "action": "allow",
+      "ports": "8050",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "176.58.82.44",
+        "176.58.82.65",
+        "176.58.82.91",
+        "185.49.249.129"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "8686",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "tcp",
+      "remote-addresses": "185.44.215.252"
+    },
+    {
+      "action": "allow",
+      "ports": "3478",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": [
+        "18.156.18.135",
+        "18.156.18.137",
+        "18.156.18.138",
+        "18.156.18.150",
+        "18.156.18.155",
+        "18.156.18.159",
+        "18.195.48.228",
+        "18.195.48.233",
+        "18.195.48.235",
+        "18.195.48.247",
+        "52.215.127.131",
+        "52.215.127.178",
+        "52.215.127.179",
+        "52.215.127.180",
+        "52.215.127.181",
+        "52.215.127.185",
+        "52.215.127.246",
+        "52.215.127.247",
+        "52.215.127.252",
+        "52.215.127.253"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "27322",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "18.156.18.137"
+    },
+    {
+      "action": "allow",
+      "ports": "53363",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "18.156.18.139"
+    },
+    {
+      "action": "allow",
+      "ports": "44454",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "18.156.18.141"
+    },
+    {
+      "action": "allow",
+      "ports": "18938",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "18.156.18.142"
+    },
+    {
+      "action": "allow",
+      "ports": "21536",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "18.156.18.142"
+    },
+    {
+      "action": "allow",
+      "ports": "55563",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "18.156.18.142"
+    },
+    {
+      "action": "allow",
+      "ports": "22828",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "18.156.18.146"
+    },
+    {
+      "action": "allow",
+      "ports": "35463",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "18.156.18.146"
+    },
+    {
+      "action": "allow",
+      "ports": "39862",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "18.156.18.151"
+    },
+    {
+      "action": "allow",
+      "ports": "24340",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "18.156.18.152"
+    },
+    {
+      "action": "allow",
+      "ports": "32420",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "18.156.18.153"
+    },
+    {
+      "action": "allow",
+      "ports": "23226",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "18.156.18.156"
+    },
+    {
+      "action": "allow",
+      "ports": "26492",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "18.156.18.159"
+    },
+    {
+      "action": "allow",
+      "ports": "48553",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "18.195.48.228"
+    },
+    {
+      "action": "allow",
+      "ports": "35720",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.77.117.149"
+    },
+    {
+      "action": "allow",
+      "ports": "57378",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.77.117.149"
+    },
+    {
+      "action": "allow",
+      "ports": "58145",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.77.117.149"
+    },
+    {
+      "action": "allow",
+      "ports": "60600",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.77.117.149"
+    },
+    {
+      "action": "allow",
+      "ports": "37704",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.82.169.229"
+    },
+    {
+      "action": "allow",
+      "ports": "40390",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.82.169.229"
+    },
+    {
+      "action": "allow",
+      "ports": "42363",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.82.169.229"
+    },
+    {
+      "action": "allow",
+      "ports": "43274",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.82.169.229"
+    },
+    {
+      "action": "allow",
+      "ports": "43525",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.82.169.229"
+    },
+    {
+      "action": "allow",
+      "ports": "43611",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.82.169.229"
+    },
+    {
+      "action": "allow",
+      "ports": "49447",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.82.169.229"
+    },
+    {
+      "action": "allow",
+      "ports": "49505",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.82.169.229"
+    },
+    {
+      "action": "allow",
+      "ports": "51156",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.82.169.229"
+    },
+    {
+      "action": "allow",
+      "ports": "53653",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.82.169.229"
+    },
+    {
+      "action": "allow",
+      "ports": "55579",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.82.169.229"
+    },
+    {
+      "action": "allow",
+      "ports": "59648",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.82.169.229"
+    },
+    {
+      "action": "allow",
+      "ports": "60766",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "100.82.169.229"
+    },
+    {
+      "action": "allow",
+      "ports": "14503",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.166"
+    },
+    {
+      "action": "allow",
+      "ports": "19872",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.166"
+    },
+    {
+      "action": "allow",
+      "ports": "28069",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.166"
+    },
+    {
+      "action": "allow",
+      "ports": "18871",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.104.28"
+    },
+    {
+      "action": "allow",
+      "ports": "19371",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.104.28"
+    },
+    {
+      "action": "allow",
+      "ports": "22567",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.104.28"
+    },
+    {
+      "action": "allow",
+      "ports": "22895",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.104.28"
+    },
+    {
+      "action": "allow",
+      "ports": "25383",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.104.28"
+    },
+    {
+      "action": "allow",
+      "ports": "27346",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.104.28"
+    },
+    {
+      "action": "allow",
+      "ports": "28022",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.104.28"
+    },
+    {
+      "action": "allow",
+      "ports": "29405",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.104.28"
+    },
+    {
+      "action": "allow",
+      "ports": "31520",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.104.28"
+    },
+    {
+      "action": "allow",
+      "ports": "31898",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.104.28"
+    },
+    {
+      "action": "allow",
+      "ports": "32014",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.104.28"
+    },
+    {
+      "action": "allow",
+      "ports": "57190",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.104.28"
+    },
+    {
+      "action": "allow",
+      "ports": "43973",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "145.224.104.64"
+    },
+    {
+      "action": "allow",
+      "ports": "53914",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:3344:1b40:116:74ef:8bcc:8791:d15a"
+    },
+    {
+      "action": "allow",
+      "ports": "47496",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:3344:1b40:31b2:ffa:78f2:4b82:2877"
+    },
+    {
+      "action": "allow",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "icmp",
+      "remote-addresses": [
+        "5.180.205.252",
+        "5.180.205.254",
+        "5.180.211.133",
+        "37.99.248.24",
+        "51.77.116.25",
+        "80.211.44.134",
+        "85.208.145.137",
+        "109.73.80.190",
+        "157.245.40.111",
+        "162.19.135.14",
+        "163.172.44.142",
+        "176.58.82.44",
+        "176.58.82.65",
+        "176.58.82.91",
+        "185.44.215.252",
+        "185.49.249.129",
+        "185.82.8.1",
+        "185.164.180.178",
+        "185.210.159.83"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "client.amplifi.com",
+        "app-measurement.com",
+        "region1.app-measurement.com",
+        "firebase-settings.crashlytics.com",
+        "firebaseinstallations.googleapis.com",
+        "firebaselogging-pa.googleapis.com",
+        "firebaseremoteconfig.googleapis.com",
+        "www.ubnt.com",
+        "sp-dir.uwn.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "40647",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-hosts": "ec2-18-156-18-159.eu-central-1.compute.amazonaws.com"
+    },
+    {
+      "action": "allow",
+      "ports": "49032",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-hosts": "ec2-18-156-18-159.eu-central-1.compute.amazonaws.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "path.private/var/folders/*/AmpliFi Teleport",
+      "protocol": "udp",
+      "remote-hosts": [
+        "app-measurement.com",
+        "firebase-settings.crashlytics.com",
+        "firebaselogging-pa.googleapis.com",
+        "firebaseremoteconfig.googleapis.com"
+      ]
+    },
     {
       "action": "allow",
       "direction": "incoming",
