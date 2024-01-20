@@ -3,47 +3,25 @@
   "name": "NVZ Defaults Apps",
   "rules": [
     {
-      "action": "deny",
-      "ports": "443",
-      "process": "/Applications/balenaEtcher.app/Contents/MacOS/balenaEtcher",
-      "protocol": "tcp",
-      "remote-hosts": [
-        "www.facebook.com",
-        "o95242.ingest.sentry.io"
-      ]
-    },
-    {
       "action": "allow",
       "ports": "443",
-      "process": "/Applications/balenaEtcher.app/Contents/MacOS/balenaEtcher",
+      "process": "/Applications/1Password.app/Contents/MacOS/1Password",
       "protocol": "tcp",
       "remote-hosts": [
-        "api.balena-cloud.com",
-        "data.balena-cloud.com",
-        "balena.io",
-        "assets.balena.io",
-        "www.balena.io",
-        "connect.facebook.net",
-        "github.com",
-        "objects.githubusercontent.com",
-        "raw.githubusercontent.com",
-        "www.google.com",
-        "fonts.googleapis.com",
-        "fonts.gstatic.com",
-        "www.gstatic.com",
-        "cdn.statuspage.io",
-        "unpkg.com"
-      ]
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/Applications/balenaEtcher.app/Contents/MacOS/balenaEtcher",
-      "protocol": "udp",
-      "remote-hosts": [
-        "data.balena-cloud.com",
-        "fonts.googleapis.com",
-        "fonts.gstatic.com"
+        "app-updates.agilebits.com",
+        "a.1passwordusercontent.com",
+        "vip1.g5.cachefly.net",
+        "my.1password.com",
+        "f.1passwordusercontent.com",
+        "core-native-sentry.1passwordservices.com",
+        "cache.agilebits.com",
+        "c.1password.com",
+        "b5n.1password.com",
+        "api.pwnedpasswords.com",
+        "famille-voisin-test.1password.com",
+        "b5n.alb.1password.com",
+        "watchtower.1password.com",
+        "aws.cachefly.net"
       ]
     },
     {
@@ -54,6 +32,50 @@
       "remote-hosts": "pfsense-montreuil.local.lan"
     },
     {
+      "action": "deny",
+      "ports": "443",
+      "process": "/Applications/balenaEtcher.app/Contents/MacOS/balenaEtcher",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "o95242.ingest.sentry.io",
+        "www.facebook.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/balenaEtcher.app/Contents/MacOS/balenaEtcher",
+      "protocol": "udp",
+      "remote-hosts": [
+        "data.balena-cloud.com",
+        "fonts.gstatic.com",
+        "fonts.googleapis.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/balenaEtcher.app/Contents/MacOS/balenaEtcher",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "connect.facebook.net",
+        "cdn.statuspage.io",
+        "objects.githubusercontent.com",
+        "assets.balena.io",
+        "raw.githubusercontent.com",
+        "www.gstatic.com",
+        "data.balena-cloud.com",
+        "balena.io",
+        "unpkg.com",
+        "fonts.googleapis.com",
+        "api.balena-cloud.com",
+        "www.balena.io",
+        "fonts.gstatic.com",
+        "github.com",
+        "www.google.com"
+      ]
+    },
+    {
       "action": "ask",
       "ports": "443",
       "process": "/Applications/Bartender 5.app/Contents/MacOS/Bartender 5",
@@ -62,71 +84,49 @@
     },
     {
       "action": "allow",
+      "ports": "80",
+      "process": "/Applications/BetterTouchTool.app/Contents/MacOS/BetterTouchTool",
+      "protocol": "tcp",
+      "remote-hosts": "docs.folivora.ai"
+    },
+    {
+      "action": "allow",
+      "ports": "80",
+      "process": "/Applications/BetterTouchTool.app/Contents/MacOS/BetterTouchTool",
+      "protocol": "udp",
+      "remote-hosts": "docs.folivora.ai"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/BetterTouchTool.app/Contents/MacOS/BetterTouchTool",
+      "protocol": "udp",
+      "remote-hosts": [
+        "api.openai.com",
+        "use.fontawesome.com"
+      ]
+    },
+    {
+      "action": "allow",
       "ports": "443",
       "process": "/Applications/BetterTouchTool.app/Contents/MacOS/BetterTouchTool",
       "protocol": "tcp",
       "remote-hosts": [
+        "updates.folivora.ai",
+        "community.folivora.ai",
+        "api.openai.com",
+        "bttreleases.llo.ai",
+        "fresnel.vimeocdn.com",
+        "f.vimeocdn.com",
+        "troet.cafe",
+        "use.fontawesome.com",
+        "docs.folivora.ai",
+        "player.vimeo.com",
+        "api.folivora.ai",
         "docs.bettertouchtool.net",
         "folivora.ai",
-        "api.folivora.ai",
-        "community.folivora.ai",
-        "docs.folivora.ai",
-        "updates.folivora.ai",
-        "use.fontawesome.com",
-        "bttreleases.llo.ai",
-        "api.openai.com",
-        "troet.cafe",
-        "player.vimeo.com",
-        "f.vimeocdn.com",
-        "fresnel.vimeocdn.com",
         "i.vimeocdn.com"
       ]
-    },
-    {
-      "action": "allow",
-      "ports": "80",
-      "process": "/Applications/BetterTouchTool.app/Contents/MacOS/BetterTouchTool",
-      "protocol": "tcp",
-      "remote-hosts": "docs.folivora.ai"
-    },
-    {
-      "action": "allow",
-      "ports": "80",
-      "process": "/Applications/BetterTouchTool.app/Contents/MacOS/BetterTouchTool",
-      "protocol": "udp",
-      "remote-hosts": "docs.folivora.ai"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/Applications/BetterTouchTool.app/Contents/MacOS/BetterTouchTool",
-      "protocol": "udp",
-      "remote-hosts": [
-        "use.fontawesome.com",
-        "api.openai.com"
-      ]
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/Applications/1Password.app/Contents/MacOS/1Password",
-      "protocol": "tcp",
-      "remote-hosts": [
-        "b5n.alb.1password.com",
-        "b5n.1password.com",
-        "c.1password.com",
-        "famille-voisin-test.1password.com",
-        "my.1password.com",
-        "watchtower.1password.com",
-        "core-native-sentry.1passwordservices.com",
-        "a.1passwordusercontent.com",
-        "f.1passwordusercontent.com",
-        "app-updates.agilebits.com",
-        "cache.agilebits.com",
-        "aws.cachefly.net",
-        "vip1.g5.cachefly.net",
-        "api.pwnedpasswords.com"
-      ]
-    },
+    }
   ]
 }
