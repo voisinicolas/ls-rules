@@ -1,0 +1,372 @@
+{
+  "description" : "",
+  "name" : "VPN Services",
+  "rules" : [
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "ports" : "41641",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "ports" : "41641",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "176.58.93.248"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "1.0.0.1"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "1.0.0.1"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "1.1.1.1"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "1.1.1.1"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "3.69.76.60"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "3.73.239.57"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "3.74.105.242"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "3.78.132.46"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "3.124.108.117"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "3.125.149.81"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "3.125.194.96"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "18.159.140.118"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "18.194.180.142"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "18.197.213.150"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "35.156.244.91"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "43.245.48.50"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "45.159.97.61"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "52.28.255.255"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "176.58.93.147"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "194.242.2.2"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "2606:4700:4700::1001"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "2606:4700:4700::1111"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-addresses" : "2a00:dd80:3e::c19"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "1.0.0.1"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "1.1.1.1"
+    },
+    {
+      "action" : "allow",
+      "ports" : "33530",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "37.171.114.110"
+    },
+    {
+      "action" : "allow",
+      "ports" : "10497",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "62.23.193.234"
+    },
+    {
+      "action" : "allow",
+      "ports" : "11823",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "62.23.193.234"
+    },
+    {
+      "action" : "allow",
+      "ports" : "14594",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "62.23.193.234"
+    },
+    {
+      "action" : "allow",
+      "ports" : "16903",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "62.23.193.234"
+    },
+    {
+      "action" : "allow",
+      "ports" : "21341",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "62.23.193.234"
+    },
+    {
+      "action" : "allow",
+      "ports" : "39443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "62.23.193.234"
+    },
+    {
+      "action" : "allow",
+      "ports" : "43122",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "62.23.193.234"
+    },
+    {
+      "action" : "allow",
+      "ports" : "32784",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "ports" : "32785",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "ports" : "33364",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "ports" : "35496",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "ports" : "38260",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "ports" : "42339",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "78.201.98.108"
+    },
+    {
+      "action" : "allow",
+      "ports" : "7563",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "154.14.90.134"
+    },
+    {
+      "action" : "allow",
+      "ports" : "41641",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "154.14.90.134"
+    },
+    {
+      "action" : "allow",
+      "ports" : "3478",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "185.40.234.113"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "194.242.2.2"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "2606:4700:4700::1001"
+    },
+    {
+      "action" : "allow",
+      "ports" : "53",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "2606:4700:4700::1111"
+    },
+    {
+      "action" : "allow",
+      "ports" : "3478",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "udp",
+      "remote-addresses" : "2a00:dd80:20::8f"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-hosts" : "controlplane.tailscale.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-hosts" : "controlplane.tailscale.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-hosts" : "derp18c.tailscale.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Tailscale.app\/Contents\/PlugIns\/IPNExtension.appex\/Contents\/MacOS\/IPNExtension",
+      "protocol" : "tcp",
+      "remote-hosts" : "derp8f.tailscale.com"
+    }
+  ]
+}
