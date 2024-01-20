@@ -2,3 +2,4 @@
 *.sh
 *.py
 .DS_Store
+archive/
