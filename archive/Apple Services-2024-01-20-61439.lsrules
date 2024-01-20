@@ -1,0 +1,972 @@
+{
+  "description" : "",
+  "name" : "Apple Services",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "587",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-addresses" : "17.42.251.41"
+    },
+    {
+      "action" : "allow",
+      "ports" : "587",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-addresses" : "17.57.155.28"
+    },
+    {
+      "action" : "allow",
+      "ports" : "587",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-addresses" : "17.57.156.26"
+    },
+    {
+      "action" : "allow",
+      "ports" : "143",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-addresses" : "72.51.60.135"
+    },
+    {
+      "action" : "allow",
+      "ports" : "587",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-addresses" : "72.51.60.135"
+    },
+    {
+      "action" : "allow",
+      "ports" : "587",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-addresses" : "2a00:1450:400c:c00::6d"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "i10.cmail19.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "i.countdownmail.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "media.ecoflow.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "ijp5vpp2.emltrk.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "143",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "imap.free.fr"
+    },
+    {
+      "action" : "allow",
+      "ports" : "585",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "imap.free.fr"
+    },
+    {
+      "action" : "allow",
+      "ports" : "993",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "imap.free.fr"
+    },
+    {
+      "action" : "allow",
+      "ports" : "25",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "smtp.free.fr"
+    },
+    {
+      "action" : "allow",
+      "ports" : "465",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "smtp.free.fr"
+    },
+    {
+      "action" : "allow",
+      "ports" : "587",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "smtp.free.fr"
+    },
+    {
+      "action" : "allow",
+      "ports" : "143",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "imap.gmail.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "585",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "imap.gmail.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "993",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "imap.gmail.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "25",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "smtp.gmail.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "465",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "smtp.gmail.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "587",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "smtp.gmail.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "143",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "imap.hushmail.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "585",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "imap.hushmail.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "993",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "imap.hushmail.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "587",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "smtp.hushmail.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "tychomusic.us1.list-manage.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "mcusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "143",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "p37-imap.mail.me.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "585",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "p37-imap.mail.me.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "993",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "p37-imap.mail.me.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "25",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "p37-smtp.mail.me.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "465",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "p37-smtp.mail.me.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "587",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "p37-smtp.mail.me.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "go.pardot.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "storage.pardot.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "newsletter.philharmoniedeparis.fr"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "assets.plex.tv"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "links.plex.tv"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "sp.plex.tv"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "cdn.shopify.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "email.velib-metropole.fr"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "tcp",
+      "remote-hosts" : "link.wasteheadquarters.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "www.afcinema.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "ae01.alicdn.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "img.alicdn.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "m.aliexpress.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "www.amazon.fr"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "marketing-image-production.s3.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "production-kiliba-assets.s3.eu-central-1.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "s3-eu-west-1.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "s3.eu-west-1.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "stripe-images.s3.us-west-1.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "appboy-images.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "assets.arri.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "events.arri.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "news.arri.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "cdn.blablacar.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "braze-images.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "charliehebdo.fr"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "futur.charliehebdo.fr"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "www.chronopost.fr"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "d15k2d11r6t6rl.cloudfront.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "d375w6nzl58bw0.cloudfront.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "d3k81ch9hvuctc.cloudfront.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "d3uhproeag4glo.cloudfront.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "db4cfay5jt5m3.cloudfront.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "dv4bo3sb7o6ly.cloudfront.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "ablink.news.criterion.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "go.cs.inc"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "assets.ctfassets.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "www.dhl.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "vmc.digicert.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "pomfort.dmanalytics1.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "cfl.dropboxstatic.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "media.ecoflow.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "ijp5vpp2.emltrk.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "bimi.entrust.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "static.fnac-static.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "fr.r.emails.fnac.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "fonts.googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "fonts.gstatic.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "eventtracking.hubapi.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "hs-5267366.f.hubspotemail.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "cdsmr04.na1.hubspotlinks.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "img-cache.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "cs-inc.img-us10.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "dice-media.imgix.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "i.imgur.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "impression.link"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "prod.cdn.api.kiliba.eu"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "static-forms.klaviyo.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "trk.klclick2.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "link.kraken.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "www.levinyleclub.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "life.us4.list-manage.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "photocinerent.us13.list-manage.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "sonnettech.us2.list-manage.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "theshiftproject.us2.list-manage.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "cdn-images.mailchimp.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "img.mailinblue.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "www.mailjet.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "mandrillapp.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "email.mg.masterworks.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "images-service.ms.masterworks.io"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "mcusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "m.media-amazon.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "s1ssu.mjt.lu"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "api.newsletter2go.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "go.pardot.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "go.pardot.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "storage.pardot.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "storage.pardot.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "avisageng-colis-webexternal.pickup-services.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "tracking.network1.pickup.fr"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "assets.plex.tv"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "images.plex.tv"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "links.plex.tv"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "sp.plex.tv"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "transcoder.plex.tv"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "newsletter.pomfort.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "proton.me"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "u9013379.ct.sendgrid.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "3wpse.img.a.d.sendibm1.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "3wpse.r.a.d.sendibm1.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "cdn.shopify.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "rs.sigurros.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "post.spmailtechnolo.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "images-eu.ssl-images-amazon.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "go.teradek.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "url6263.info.thetrainline.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "static.trainlinecontent.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "amplify.valimail.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "marketing.velib-metropole.fr"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "zaphod.vvhp.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "link.wasteheadquarters.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "link.wasteheadquarters.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "protocol" : "udp",
+      "remote-hosts" : "avnprod.blob.core.windows.net"
+    }
+  ]
+}
