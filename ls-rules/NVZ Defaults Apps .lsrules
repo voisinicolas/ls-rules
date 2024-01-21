@@ -1,0 +1,72 @@
+{
+  "description": "NVZ Litte Snitch Rules file",
+  "name": "NVZ Defaults Apps ",
+  "rules": [
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "s3.amazonaws.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "www.noodlesoft.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "22",
+      "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
+      "protocol": "tcp",
+      "remote-hosts": "github.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/AdGuard for Safari.app/Contents/MacOS/AdGuard for Safari",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "filters.adtidy.org",
+        "1278313086.rsc.cdn77.org",
+        "chrome.cloudflare-dns.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/AdGuard for Safari.app/Contents/MacOS/AdGuard for Safari",
+      "protocol": "udp",
+      "remote-hosts": "chrome.cloudflare-dns.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Apparency.app/Contents/MacOS/Apparency",
+      "protocol": "tcp",
+      "remote-hosts": "www.mothersruin.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Library/Application Support/Objective Development/Little Snitch/Components/at.obdev.littlesnitch.daemon.bundle/Contents/XPCServices/at.obdev.littlesnitch.urldownloader.xpc/Contents/MacOS/at.obdev.littlesnitch.urldownloader",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "raw.githubusercontent.com",
+        "pgl.yoyo.org"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/ScanSnap Online Update.localized/AutoOnlineUpdater.app/Contents/MacOS/AutoOnlineUpdater",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "www.pfu.fujitsu.com",
+        "image.pfu.jp",
+        "origin.pfultd.com",
+        "www.pfu.ricoh.com"
+      ]
+    }
+  ]
+}
