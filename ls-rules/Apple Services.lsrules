@@ -5,6 +5,25 @@
     {
       "action": "allow",
       "direction": "incoming",
+      "process": "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
+      "protocol": "udp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "process": "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
+      "protocol": "tcp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "process": "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
+      "protocol": "udp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
       "ports": "54000-65000",
       "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "protocol": "udp",
