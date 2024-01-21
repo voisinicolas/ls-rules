@@ -4,6 +4,139 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "54000-65000",
+      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "protocol": "udp",
+      "remote-hosts": [
+        "1d826b8a-9945-4944-8926-6626724f9454.local",
+        "30b00651-25dd-4fd6-b88a-3d786b0e9ee9.local",
+        "4aab0b33-ec74-4ce1-9788-fcdc6a90a7ae.local",
+        "5516dd4e-ed90-407f-93e6-247b7fb38ecf.local",
+        "b9727a80-0848-4c27-aa25-6b6b7136f3be.local",
+        "c19b91ab-aeb4-4f51-a3d7-ae5456252882.local",
+        "cf3406c1-f8f3-448a-9d9f-e8633228d34b.local",
+        "d4115410-d317-4c96-acee-905f0d4e6ec9.local",
+        "da91f53a-4e01-4834-92ee-c234a955466d.local",
+        "e31e7a90-f6ad-4e73-87a4-c1d53b50eb31.local",
+        "e4c87781-640a-4f12-aab8-2d94882d72e0.local",
+        "ef951099-4426-4d67-b44e-373d14cc1c24.local",
+        "f98575d0-f7f5-481d-b05a-60aa43bafe4e.local"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com",
+        "gcs-eu-00002.content-storage-download.googleapis.com",
+        "gcs-eu-00002.content-storage-upload.googleapis.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd",
+      "protocol": "udp",
+      "remote-hosts": "gcs-eu-00002.content-storage-upload.googleapis.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod",
+      "protocol": "tcp",
+      "remote-hosts": "cdn.apple-mapkit.com"
+    },
+    {
+      "action": "allow",
+      "ports": "993",
+      "process": "/System/Library/PrivateFrameworks/MailService.framework/Versions/A/XPCServices/com.apple.MailServiceAgent.xpc/Contents/MacOS/com.apple.MailServiceAgent",
+      "protocol": "tcp",
+      "remote-hosts": "p37-imap.mail.me.com"
+    },
+    {
+      "action": "allow",
+      "ports": "587",
+      "process": "/System/Library/PrivateFrameworks/MailService.framework/Versions/A/XPCServices/com.apple.MailServiceAgent.xpc/Contents/MacOS/com.apple.MailServiceAgent",
+      "protocol": "tcp",
+      "remote-hosts": "p37-smtp.mail.me.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/Frameworks/PassKit.framework/PlugIns/com.apple.PassKit.PaymentAuthorizationUIExtension.appex/Contents/MacOS/com.apple.PassKit.PaymentAuthorizationUIExtension",
+      "protocol": "tcp",
+      "remote-hosts": "www.sncf-connect.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "assets.dyapps.io",
+        "ajax.googleapis.com",
+        "fonts.googleapis.com",
+        "www.googletagmanager.com",
+        "fonts.gstatic.com",
+        "www.kiyoh.com",
+        "www.powr.io",
+        "private.com",
+        "www.private.com",
+        "www.simplebikestore.eu",
+        "pcom.st-content.com",
+        "embed.tawk.to",
+        "vsb45.tawk.to",
+        "cdn.webshopapp.com",
+        "static.webshopapp.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "80",
+      "process": "/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking",
+      "protocol": "tcp",
+      "remote-hosts": "private.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking",
+      "protocol": "udp",
+      "remote-hosts": [
+        "ajax.googleapis.com",
+        "fonts.googleapis.com",
+        "www.simplebikestore.eu",
+        "embed.tawk.to",
+        "cdn.webshopapp.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Volumes/Preboot/Cryptexes/OS/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "ajax.googleapis.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "builder-templates.superwall.com",
+        "templates.superwall.com",
+        "cdn.superwall.me",
+        "static.superwallassets.com",
+        "unpkg.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Volumes/Preboot/Cryptexes/OS/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking",
+      "protocol": "udp",
+      "remote-hosts": "fonts.googleapis.com"
+    },
+    {
+      "action": "allow",
       "direction": "incoming",
       "process": "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
       "protocol": "udp",
