@@ -1,7 +1,14 @@
 {
-  "description": "This ruleset is computed using the script from the input file 'Adobe Services'.",
+  "description": "NVZ Litte Snitch Rules file",
   "name": "Adobe Services",
   "rules": [
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Library/Application Support/Adobe/Adobe Desktop Common/RemoteComponents/UPI/customhook/UPICustomHook",
+      "protocol": "tcp",
+      "remote-hosts": "cc-api-data.adobe.io"
+    },
     {
       "action": "deny",
       "process": "/Applications/Adobe After Effects 2020/Adobe After Effects 2020.app/Contents/MacOS/After Effects",
