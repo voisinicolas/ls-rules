@@ -3,6 +3,20 @@
   "name": "Adobe Services",
   "rules": [
     {
+      "action": "deny",
+      "ports": "443",
+      "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/LogTransport2.app/Contents/MacOS/LogTransport2",
+      "protocol": "tcp",
+      "remote-hosts": "hbrcv.adobe.com"
+    },
+    {
+      "action": "deny",
+      "ports": "443",
+      "process": "/Applications/Adobe Photoshop 2024/Adobe Photoshop 2024.app/Contents/MacOS/LogTransport2.app/Contents/MacOS/LogTransport2",
+      "protocol": "tcp",
+      "remote-hosts": "hbrcv.adobe.com"
+    },
+    {
       "action": "allow",
       "ports": "443",
       "process": "/Library/Application Support/Adobe/Adobe Desktop Common/RemoteComponents/UPI/customhook/UPICustomHook",
