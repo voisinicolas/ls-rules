@@ -3,6 +3,56 @@
   "name": "Apple Services",
   "rules": [
     {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "52185",
+      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "protocol": "udp",
+      "remote-addresses": [
+        "2002:4ec9:626c:0:5122:27bb:c100:ab63",
+        "2002:4ec9:626c:0:6895:fbff:e3f6:d4a8"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "53219",
+      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "protocol": "udp",
+      "remote-addresses": "2002:4ec9:626c:0:94cc:19e7:fa66:a77c"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "55658",
+      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "protocol": "udp",
+      "remote-addresses": "2002:4ec9:626c:0:e52e:221:bfec:e648"
+    },
+    {
+      "action": "allow",
+      "ports": "54854",
+      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "protocol": "udp",
+      "remote-hosts": [
+        "12c37d09-7982-4a67-a43f-03d19fd915fd.local",
+        "133776fe-44c9-431a-9a2b-a928b2124590.local",
+        "2560bbd1-4136-48e1-9f92-e12083232ce4.local",
+        "54f0d498-f901-4929-8d51-60cc1e552ad7.local",
+        "8f167779-c988-4e94-b955-a1ac1c0be43d.local",
+        "a8d6ea85-f040-4d81-9e0d-f748c5cb2c22.local",
+        "d8ce3d74-468c-4c79-bc89-f55475f00f07.local",
+        "fa0f0894-127e-482a-a9e5-d83e5f156e82.local"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "60080",
+      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "protocol": "udp",
+      "remote-hosts": "b07259a8-a676-4c7d-8111-4c55e34fd81d.local"
+    },
+    {
       "action": "deny",
       "direction": "incoming",
       "process": "/System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/gamed",
