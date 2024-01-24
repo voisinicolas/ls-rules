@@ -5,6 +5,17 @@
     {
       "action": "allow",
       "ports": "443",
+      "process": "/Applications/Plex Media Server.app/Contents/MacOS/Plex Media Server",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "assets.plex.tv",
+        "metadata-static.plex.tv",
+        "artworks.thetvdb.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
       "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
       "protocol": "tcp",
       "remote-hosts": [
