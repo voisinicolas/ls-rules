@@ -4,6 +4,35 @@
   "rules": [
     {
       "action": "allow",
+      "direction": "incoming",
+      "ports": "41641",
+      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "176.58.90.104",
+        "176.58.90.147",
+        "176.58.90.207",
+        "185.40.234.113",
+        "185.40.234.219",
+        "209.177.145.120",
+        "78.201.98.108",
+        "176.58.93.248"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "80",
+      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "derp14c.tailscale.com",
+        "derp6.tailscale.com",
+        "derp8f.tailscale.com",
+        "controlplane.tailscale.com"
+      ]
+    },
+    {
+      "action": "allow",
       "ports": "38224",
       "process": "/Applications/Tor Browser.app/Contents/MacOS/Tor/PluggableTransports/lyrebird",
       "protocol": "tcp",
@@ -75,17 +104,6 @@
       "remote-addresses": [
         "146.70.194.50",
         "146.70.120.210"
-      ]
-    },
-    {
-      "action": "allow",
-      "direction": "incoming",
-      "ports": "41641",
-      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
-      "protocol": "udp",
-      "remote-addresses": [
-        "78.201.98.108",
-        "176.58.93.248"
       ]
     },
     {
@@ -416,13 +434,6 @@
         "2c0f:edb0:2000:1::2c7",
         "2c0f:edb0:2000:1::2e9"
       ]
-    },
-    {
-      "action": "allow",
-      "ports": "80",
-      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
-      "protocol": "tcp",
-      "remote-hosts": "controlplane.tailscale.com"
     },
     {
       "action": "allow",
