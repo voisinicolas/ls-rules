@@ -4,6 +4,52 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "15493",
+      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
+      "protocol": "udp",
+      "remote-addresses": "86.250.155.68"
+    },
+    {
+      "action": "allow",
+      "ports": "29054",
+      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
+      "protocol": "udp",
+      "remote-addresses": "86.250.155.68"
+    },
+    {
+      "action": "allow",
+      "ports": "52012",
+      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
+      "protocol": "udp",
+      "remote-addresses": "86.250.155.68"
+    },
+    {
+      "action": "allow",
+      "ports": "62526",
+      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.166"
+    },
+    {
+      "action": "allow",
+      "ports": "41641",
+      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "2a01:cb19:8b1d:ce00:a18d:ba65:a2e1:10f",
+        "2a0d:e487:132f:f3b4:4c47:d490:28cc:7d26",
+        "154.14.90.134"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "1027",
+      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:3344:1700:37f2:a6f0:f05c:5556:b68d"
+    },
+    {
+      "action": "allow",
       "direction": "incoming",
       "ports": "41641",
       "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
@@ -270,13 +316,6 @@
     {
       "action": "allow",
       "ports": "7563",
-      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
-      "protocol": "udp",
-      "remote-addresses": "154.14.90.134"
-    },
-    {
-      "action": "allow",
-      "ports": "41641",
       "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
       "protocol": "udp",
       "remote-addresses": "154.14.90.134"
