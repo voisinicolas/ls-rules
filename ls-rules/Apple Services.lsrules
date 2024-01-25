@@ -4,6 +4,13 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/PrivateFrameworks/IMTransferServices.framework/IMTransferAgent.app/Contents/MacOS/IMTransferAgent",
+      "protocol": "tcp",
+      "remote-hosts": "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com"
+    },
+    {
+      "action": "allow",
       "direction": "incoming",
       "ports": "52185",
       "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
