@@ -4,6 +4,14 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "tcp",
+      "remote-hosts": "pypi.org",
+      "via": "/opt/homebrew/Cellar/python@3.12/3.12.1_1/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python"
+    },
+    {
+      "action": "allow",
       "ports": "5201",
       "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
       "protocol": "tcp",
