@@ -4,6 +4,13 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "22",
+      "process": "/Applications/Tor Browser.app/Contents/MacOS/Tor/PluggableTransports/lyrebird",
+      "protocol": "tcp",
+      "remote-addresses": "146.57.248.225"
+    },
+    {
+      "action": "allow",
       "ports": "15493",
       "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
       "protocol": "udp",
