@@ -4,6 +4,91 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "5201",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "tcp",
+      "remote-addresses": "10.0.1.20",
+      "via": "/opt/homebrew/Cellar/iperf3/3.16/bin/iperf3"
+    },
+    {
+      "action": "allow",
+      "ports": "22022",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "tcp",
+      "remote-addresses": "100.89.104.38"
+    },
+    {
+      "action": "allow",
+      "ports": "22",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "tcp",
+      "remote-addresses": "100.119.144.50"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "icmp",
+      "remote-addresses": [
+        "142.250.201.174",
+        "100.119.144.50"
+      ],
+      "via": "/opt/homebrew/Cellar/trippy/0.9.0/bin/trip"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "remote-addresses": "10.0.1.*",
+      "via": "/opt/homebrew/Cellar/nmap/7.94_1/bin/nmap"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "itunes.apple.com",
+        "dualstack.python.map.fastly.net",
+        "dualstack.python.map.fastly.net",
+        "pypi.org",
+        "pypi.org",
+        "www.titanium-software.fr.cdn.cloudflare.net",
+        "ghcr.io",
+        "tip.files.ghostty.dev",
+        "github.com",
+        "api.github.com",
+        "codeload.github.com",
+        "homebrew.github.io",
+        "gist.githubusercontent.com",
+        "objects.githubusercontent.com",
+        "pkg-containers.githubusercontent.com",
+        "raw.githubusercontent.com",
+        "iterm2.com",
+        "cname.vercel-dns.com"
+      ],
+      "via": "/opt/homebrew/Cellar/mas/1.8.6/bin/mas"
+    },
+    {
+      "action": "allow",
+      "ports": "22",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "tcp",
+      "remote-hosts": "github.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "udp",
+      "remote-hosts": "tip.files.ghostty.dev"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "icmp",
+      "remote-hosts": "one.one.one.one"
+    },
+    {
+      "action": "allow",
       "ports": "443",
       "process": "/Applications/Plex Media Server.app/Contents/MacOS/Plex Media Server",
       "protocol": "tcp",
