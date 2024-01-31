@@ -7,6 +7,49 @@
       "ports": "443",
       "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
       "protocol": "tcp",
+      "remote-hosts": "waws-prod-mwh-083-46eb.westus2.cloudapp.azure.com",
+      "via": "/opt/homebrew/Cellar/node/21.6.1/bin/node"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "d16zogpfyuwazr.cloudfront.net",
+        "crates.io",
+        "dualstack.k.sni.global.fastly.net"
+      ],
+      "via": "/Users/nvz/.rustup/toolchains/stable-aarch64-apple-darwin/bin/cargo"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "d3ah34wvbudrdd.cloudfront.net",
+        "dualstack.k.sni.global.fastly.net"
+      ],
+      "via": "path.private/var/folders/*/rustup-init"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "app-updates.agilebits.com",
+        "aws.cachefly.net",
+        "dks7yomi95k2d.cloudfront.net",
+        "dualstack.k.sni.global.fastly.net"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "tcp",
       "remote-hosts": "pypi.org",
       "via": "/opt/homebrew/Cellar/python@3.12/3.12.1_1/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python"
     },
