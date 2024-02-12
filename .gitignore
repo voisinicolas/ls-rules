@@ -1,7 +1,0 @@
-*.json
-*.sh
-*.py
-*.csv
-.DS_Store
-archive/
-.*
