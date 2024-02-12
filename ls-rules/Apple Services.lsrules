@@ -818,33 +818,6 @@
     {
       "action": "allow",
       "ports": "443",
-      "process": "/System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/BackgroundShortcutRunner.xpc/Contents/MacOS/BackgroundShortcutRunner",
-      "protocol": "tcp",
-      "remote-hosts": [
-        "macscripter.net",
-        "www.pornhub.com",
-        "private.com",
-        "www.private.com",
-        "www.simplebikestore.eu"
-      ]
-    },
-    {
-      "action": "allow",
-      "ports": "80",
-      "process": "/System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/BackgroundShortcutRunner.xpc/Contents/MacOS/BackgroundShortcutRunner",
-      "protocol": "tcp",
-      "remote-hosts": "private.com"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/BackgroundShortcutRunner.xpc/Contents/MacOS/BackgroundShortcutRunner",
-      "protocol": "udp",
-      "remote-hosts": "www.simplebikestore.eu"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
       "process": "/usr/libexec/AssetCache/AssetCache",
       "protocol": "tcp",
       "remote-hosts": [
