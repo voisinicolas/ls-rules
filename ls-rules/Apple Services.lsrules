@@ -431,32 +431,11 @@
     },
     {
       "action": "allow",
-      "ports": "587",
-      "process": "/System/Applications/Mail.app/Contents/MacOS/Mail",
-      "protocol": "tcp",
-      "remote-addresses": [
-        "17.42.251.41",
-        "17.57.155.28",
-        "17.57.156.26",
-        "72.51.60.135",
-        "2a00:1450:400c:c00::6d"
-      ]
-    },
-    {
-      "action": "allow",
-      "ports": "143",
-      "process": "/System/Applications/Mail.app/Contents/MacOS/Mail",
-      "protocol": "tcp",
-      "remote-addresses": "72.51.60.135"
-    },
-    {
-      "action": "allow",
       "ports": "80",
       "process": "/System/Applications/Mail.app/Contents/MacOS/Mail",
       "protocol": "tcp",
       "remote-hosts": [
         "i10.cmail19.com",
-        "i.countdownmail.com",
         "go.pardot.com",
         "storage.pardot.com",
         "newsletter.philharmoniedeparis.fr",
@@ -584,7 +563,6 @@
         "assets.ctfassets.net",
         "www.dhl.com",
         "vmc.digicert.com",
-        "pomfort.dmanalytics1.com",
         "cfl.dropboxstatic.com",
         "media.ecoflow.com",
         "ijp5vpp2.emltrk.com",
@@ -611,8 +589,6 @@
         "sonnettech.us2.list-manage.com",
         "theshiftproject.us2.list-manage.com",
         "cdn-images.mailchimp.com",
-        "img.mailinblue.com",
-        "www.mailjet.com",
         "mandrillapp.com",
         "images-service.ms.masterworks.io",
         "mcusercontent.com",
@@ -630,9 +606,6 @@
         "transcoder.plex.tv",
         "newsletter.pomfort.com",
         "proton.me",
-        "u9013379.ct.sendgrid.net",
-        "3wpse.img.a.d.sendibm1.com",
-        "3wpse.r.a.d.sendibm1.com",
         "cdn.shopify.com",
         "rs.sigurros.com",
         "images-eu.ssl-images-amazon.com",
@@ -641,7 +614,6 @@
         "amplify.valimail.com",
         "zaphod.vvhp.net",
         "link.wasteheadquarters.com",
-        "avnprod.blob.core.windows.net"
       ]
     },
     {
@@ -655,9 +627,7 @@
         "email.mg.masterworks.com",
         "go.pardot.com",
         "storage.pardot.com",
-        "post.spmailtechnolo.com",
         "url6263.info.thetrainline.com",
-        "marketing.velib-metropole.fr",
         "link.wasteheadquarters.com"
       ]
     },
