@@ -5,7 +5,7 @@
     {
       "action": "allow",
       "ports": "51820",
-      "process": "/Library/SystemExtensions/57DD3706-23F6-44A6-BA2D-6E050155E2DF/ch.protonvpn.mac.OpenVPN-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.OpenVPN-Extension",
+      "process": "/Library/SystemExtensions/C184D990-11BB-4C3E-B9AF-754726CE1067/ch.protonvpn.mac.WireGuard-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.WireGuard-Extension",
       "protocol": "udp",
       "remote-addresses": [
         "185.246.211.72",
@@ -157,14 +157,14 @@
       "action": "allow",
       "direction": "incoming",
       "ports": "59319",
-      "process": "/Library/SystemExtensions/57DD3706-23F6-44A6-BA2D-6E050155E2DF/ch.protonvpn.mac.OpenVPN-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.OpenVPN-Extension",
+      "process": "/Library/SystemExtensions/C184D990-11BB-4C3E-B9AF-754726CE1067/ch.protonvpn.mac.WireGuard-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.WireGuard-Extension",
       "protocol": "udp",
       "remote-addresses": "146.70.194.50"
     },
     {
       "action": "allow",
       "ports": "4500",
-      "process": "/Library/SystemExtensions/57DD3706-23F6-44A6-BA2D-6E050155E2DF/ch.protonvpn.mac.OpenVPN-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.OpenVPN-Extension",
+      "process": "/Library/SystemExtensions/C184D990-11BB-4C3E-B9AF-754726CE1067/ch.protonvpn.mac.WireGuard-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.WireGuard-Extension",
       "protocol": "udp",
       "remote-addresses": [
         "146.70.194.50",
