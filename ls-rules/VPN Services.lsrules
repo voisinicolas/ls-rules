@@ -5,7 +5,7 @@
     {
       "action": "allow",
       "ports": "51820",
-      "process": "/Library/SystemExtensions/*/ch.protonvpn.mac.WireGuard-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.WireGuard-Extension",
+      "process": "/Library/SystemExtensions/57DD3706-23F6-44A6-BA2D-6E050155E2DF/ch.protonvpn.mac.WireGuard-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.WireGuard-Extension",
       "protocol": "udp",
       "remote-addresses": [
         "185.246.211.72",
