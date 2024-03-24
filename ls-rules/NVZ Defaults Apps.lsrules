@@ -4,6 +4,30 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "443",
+      "process": "/Applications/1Password.app/Contents/MacOS/1Password",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "b5n.prd.us.1infra.net",
+        "b5n.edge.1password.com",
+        "app-updates.agilebits.com",
+        "a.1passwordusercontent.com",
+        "vip1.g5.cachefly.net",
+        "my.1password.com",
+        "f.1passwordusercontent.com",
+        "core-native-sentry.1passwordservices.com",
+        "cache.agilebits.com",
+        "c.1password.com",
+        "b5n.1password.com",
+        "api.pwnedpasswords.com",
+        "famille-voisin-test.1password.com",
+        "b5n.alb.1password.com",
+        "watchtower.1password.com",
+        "aws.cachefly.net"
+      ]
+    },
+    {
+      "action": "allow",
       "direction": "incoming",
       "ports": "32400",
       "process": "/Applications/Plex Media Server.app/Contents/MacOS/Plex Media Server",
@@ -890,28 +914,6 @@
       "process": "/Applications/WhatsApp.app/Contents/MacOS/WhatsApp",
       "protocol": "udp",
       "remote-hosts": "fr-cet.exp.fastly-masque.net"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/Applications/1Password.app/Contents/MacOS/1Password",
-      "protocol": "tcp",
-      "remote-hosts": [
-        "app-updates.agilebits.com",
-        "a.1passwordusercontent.com",
-        "vip1.g5.cachefly.net",
-        "my.1password.com",
-        "f.1passwordusercontent.com",
-        "core-native-sentry.1passwordservices.com",
-        "cache.agilebits.com",
-        "c.1password.com",
-        "b5n.1password.com",
-        "api.pwnedpasswords.com",
-        "famille-voisin-test.1password.com",
-        "b5n.alb.1password.com",
-        "watchtower.1password.com",
-        "aws.cachefly.net"
-      ]
     },
     {
       "action": "allow",
