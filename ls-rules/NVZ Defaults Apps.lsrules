@@ -9,6 +9,7 @@
       "protocol": "tcp",
       "remote-hosts": [
         "github.com",
+        "github.com",
         "s3.amazonaws.com",
         "fonts.googleapis.com",
         "fonts.gstatic.com",
