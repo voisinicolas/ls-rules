@@ -89,7 +89,10 @@
       "ports": "52185",
       "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "protocol": "udp",
-      "remote-addresses": "2002:4ec9:626c:0:*:*:*:*"
+      "remote-addresses": [
+        "2002:4ec9:626c:0:5122:27bb:c100:ab63",
+        "2002:4ec9:626c:0:6895:fbff:e3f6:d4a8"
+      ]
     },
     {
       "action": "allow",
@@ -108,6 +111,29 @@
       "remote-addresses": "2002:4ec9:626c:0:e52e:221:bfec:e648"
     },
     {
+      "action": "allow",
+      "ports": "54854",
+      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "protocol": "udp",
+      "remote-hosts": [
+        "12c37d09-7982-4a67-a43f-03d19fd915fd.local",
+        "133776fe-44c9-431a-9a2b-a928b2124590.local",
+        "2560bbd1-4136-48e1-9f92-e12083232ce4.local",
+        "54f0d498-f901-4929-8d51-60cc1e552ad7.local",
+        "8f167779-c988-4e94-b955-a1ac1c0be43d.local",
+        "a8d6ea85-f040-4d81-9e0d-f748c5cb2c22.local",
+        "d8ce3d74-468c-4c79-bc89-f55475f00f07.local",
+        "fa0f0894-127e-482a-a9e5-d83e5f156e82.local"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "60080",
+      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "protocol": "udp",
+      "remote-hosts": "b07259a8-a676-4c7d-8111-4c55e34fd81d.local"
+    },
+    {
       "action": "deny",
       "direction": "incoming",
       "process": "/System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/gamed",
@@ -121,10 +147,24 @@
     },
     {
       "action": "allow",
-      "ports": "50000-65000",
+      "ports": "54000-65000",
       "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "protocol": "udp",
-      "remote-addresses": "any"
+      "remote-hosts": [
+        "1d826b8a-9945-4944-8926-6626724f9454.local",
+        "30b00651-25dd-4fd6-b88a-3d786b0e9ee9.local",
+        "4aab0b33-ec74-4ce1-9788-fcdc6a90a7ae.local",
+        "5516dd4e-ed90-407f-93e6-247b7fb38ecf.local",
+        "b9727a80-0848-4c27-aa25-6b6b7136f3be.local",
+        "c19b91ab-aeb4-4f51-a3d7-ae5456252882.local",
+        "cf3406c1-f8f3-448a-9d9f-e8633228d34b.local",
+        "d4115410-d317-4c96-acee-905f0d4e6ec9.local",
+        "da91f53a-4e01-4834-92ee-c234a955466d.local",
+        "e31e7a90-f6ad-4e73-87a4-c1d53b50eb31.local",
+        "e4c87781-640a-4f12-aab8-2d94882d72e0.local",
+        "ef951099-4426-4d67-b44e-373d14cc1c24.local",
+        "f98575d0-f7f5-481d-b05a-60aa43bafe4e.local"
+      ]
     },
     {
       "action": "allow",
@@ -260,12 +300,38 @@
     {
       "action": "allow",
       "direction": "incoming",
-      "ports": "50000-65000",
+      "ports": "54000-65000",
       "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "protocol": "udp",
       "remote-addresses": [
-        "2002:4ec9:626c:0:*:*:*:*",
-        "2a01:cb19:8b1d:ce00:*:*:*:*"
+        "2002:4ec9:626c:0:16c:a2b6:da76:df2c",
+        "2002:4ec9:626c:0:54b:e8db:16b5:99d8",
+        "2002:4ec9:626c:0:56a:a88f:e424:7d15",
+        "2002:4ec9:626c:0:21e9:b2ac:c086:352d",
+        "2002:4ec9:626c:0:3814:a9b3:306b:bd8b",
+        "2002:4ec9:626c:0:4400:2750:a8c:94e7",
+        "2002:4ec9:626c:0:598b:f70f:d704:f59",
+        "2002:4ec9:626c:0:5c5e:cad7:1e99:8dce",
+        "2002:4ec9:626c:0:5c97:ca3f:e561:9215",
+        "2002:4ec9:626c:0:6d53:e3d:d00:1301",
+        "2002:4ec9:626c:0:70f1:a5f8:55aa:4ce0",
+        "2002:4ec9:626c:0:780b:46ee:c997:3c7e",
+        "2002:4ec9:626c:0:8d9e:bc68:b10b:27a0",
+        "2002:4ec9:626c:0:9d72:33e9:179f:6b89",
+        "2002:4ec9:626c:0:a833:b4be:4d01:5c59",
+        "2002:4ec9:626c:0:ac65:e710:25c6:21cb",
+        "2002:4ec9:626c:0:bc21:3265:3ede:6596",
+        "2002:4ec9:626c:0:c0a6:9cc4:2df9:e573",
+        "2002:4ec9:626c:0:c407:9c4e:e693:8171",
+        "2002:4ec9:626c:0:d51c:97b4:57d2:4443",
+        "2002:4ec9:626c:0:d8ac:5b8:3c33:d60d",
+        "2002:4ec9:626c:0:d966:8d36:a3cc:286",
+        "2002:4ec9:626c:0:d988:717a:c711:72cc",
+        "2a01:cb19:8b1d:ce00:3dd1:672:3546:3002",
+        "2a01:cb19:8b1d:ce00:75a9:72b5:8e08:8f3b",
+        "2a01:cb19:8b1d:ce00:9169:c73a:372b:ce69",
+        "2a01:cb19:8b1d:ce00:b521:b796:6050:822f",
+        "2a01:cb19:8b1d:ce00:f4e0:f069:f82b:d52e"
       ]
     },
     {
@@ -547,7 +613,7 @@
         "static.trainlinecontent.com",
         "amplify.valimail.com",
         "zaphod.vvhp.net",
-        "link.wasteheadquarters.com"
+        "link.wasteheadquarters.com",
       ]
     },
     {
@@ -567,7 +633,63 @@
     },
     {
       "action": "allow",
-      "ports": "any",
+      "ports": "10172",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "14719",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "20229",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "38240",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "41293",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "51169",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "58301",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "59976",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "62607",
       "process": "/usr/libexec/avconferenced",
       "protocol": "udp",
       "remote-addresses": "78.201.98.108"
@@ -581,7 +703,49 @@
     },
     {
       "action": "allow",
-      "ports": "any",
+      "ports": "3480",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "ports": "3481",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "ports": "3482",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "ports": "3484",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "ports": "16384",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "ports": "16385",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "udp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "ports": "16386",
       "process": "/usr/libexec/avconferenced",
       "protocol": "udp",
       "remote-addresses": "17.*.*.*"
@@ -821,6 +985,11 @@
       "ports": "5353",
       "process": "/usr/sbin/mDNSResponder",
       "protocol": "udp",
+      "remote": "any"
+    },
+    {
+      "action": "allow",
+      "process": "/usr/sbin/mDNSResponder",
       "remote": "any"
     },
     {
