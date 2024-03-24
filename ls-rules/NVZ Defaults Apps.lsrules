@@ -1016,6 +1016,195 @@
         "folivora.ai",
         "i.vimeocdn.com"
       ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "23.32.45.180",
+        "23.32.45.191",
+        "23.63.174.174",
+        "23.72.250.48",
+        "23.72.250.59",
+        "34.120.195.249",
+        "34.149.154.214",
+        "35.186.224.18",
+        "69.173.144.140",
+        "69.173.144.152",
+        "69.173.144.153",
+        "69.173.144.154",
+        "69.173.151.100",
+        "96.17.207.156",
+        "130.211.44.5",
+        "142.250.74.225",
+        "142.250.75.225",
+        "142.250.178.129",
+        "142.250.178.130",
+        "142.250.179.65",
+        "142.250.179.68",
+        "142.250.179.97",
+        "142.250.201.162",
+        "142.250.201.163",
+        "142.251.220.130",
+        "142.251.220.193",
+        "142.251.220.194",
+        "146.75.74.248",
+        "146.75.118.248",
+        "151.101.134.248",
+        "151.101.134.250",
+        "172.217.18.195",
+        "172.217.20.161",
+        "172.217.20.195",
+        "199.232.82.248",
+        "199.232.150.248",
+        "213.19.162.80",
+        "216.58.214.65",
+        "216.58.214.162",
+        "216.58.215.33",
+        "2404:6800:4017:802::2001",
+        "2404:6800:4017:804::2002",
+        "2600:1901:1:5ca::",
+        "2600:1901:1:a98::",
+        "2a00:1450:4007:808::2002",
+        "2a00:1450:4007:80c::2003",
+        "2a00:1450:4007:80d::2004",
+        "2a00:1450:4007:813::2003",
+        "2a00:1450:4007:819::2002",
+        "2a00:1450:4007:819::2004",
+        "2a00:1450:4007:81a::2001",
+        "2a04:4e42:1f::760",
+        "2a04:4e42:54::760",
+        "2a04:4e42:8d::760",
+        "2a04:4e42:8d::762"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "80",
+      "process": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "34.104.35.123",
+        "142.250.201.163"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "protocol": "udp",
+      "remote-addresses": [
+        "35.186.224.18",
+        "35.186.224.25",
+        "142.250.74.225",
+        "142.250.178.132",
+        "142.250.179.68",
+        "142.250.201.162",
+        "142.251.220.130",
+        "142.251.220.194",
+        "142.251.221.33",
+        "172.217.18.195",
+        "172.217.20.162",
+        "172.217.20.164",
+        "172.217.20.194",
+        "216.58.214.161",
+        "216.58.214.162",
+        "2404:6800:4017:802::2001",
+        "2404:6800:4017:804::2002",
+        "2600:1901:1:5ca::",
+        "2600:1901:1:c36::",
+        "2a00:1450:4007:808::2002",
+        "2a00:1450:4007:80d::2004",
+        "2a00:1450:4007:819::2002",
+        "2a00:1450:4007:819::2004",
+        "2a00:1450:4007:81a::2001"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "1900",
+      "process": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "protocol": "udp",
+      "remote-addresses": "239.255.255.250"
+    },
+    {
+      "action": "allow",
+      "ports": "53",
+      "process": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "protocol": "udp",
+      "remote-addresses": "2a01:e34:ec96:26c1::2"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "a1520.dscc.akamai.net",
+        "audio-ak-spotify-com.akamaized.net",
+        "chrome.cloudflare-dns.com",
+        "tls13.spotifycdn.map.fastly.net",
+        "www.google.com",
+        "update.googleapis.com",
+        "dailymix-images.scdn.co",
+        "heads-fa.scdn.co",
+        "i.scdn.co",
+        "seeded-session-images.scdn.co",
+        "api-partner.spotify.com",
+        "apresolve.spotify.com",
+        "clienttoken.spotify.com",
+        "edge-web-gew1.dual-gslb.spotify.com",
+        "edge-web.dual-gslb.spotify.com",
+        "gew1-dealer-ssl.spotify.com",
+        "login5.spotify.com",
+        "spclient.wg.spotify.com",
+        "seed-mix-image.spotifycdn.com",
+        "thisis-images.spotifycdn.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "4070",
+      "process": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "ap-gae2.spotify.com",
+        "ap-gew1.spotify.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "80",
+      "process": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "protocol": "tcp",
+      "remote-hosts": "ap-gew4.spotify.com"
+    },
+    {
+      "action": "deny",
+      "ports": "443",
+      "process": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "protocol": "udp",
+      "remote-hosts": "o22381.ingest.sentry.io"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "protocol": "udp",
+      "remote-hosts": [
+        "chrome.cloudflare-dns.com",
+        "www.google.com",
+        "apresolve.spotify.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "53",
+      "process": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "protocol": "udp",
+      "remote-hosts": "one.one.one.one"
     }
   ]
 }
