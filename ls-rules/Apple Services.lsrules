@@ -634,7 +634,6 @@
     {
       "action": "allow",
       "process": "/usr/libexec/avconferenced",
-      "protocol": "any",
       "remote-addresses": "78.201.98.108"
     },
     {
