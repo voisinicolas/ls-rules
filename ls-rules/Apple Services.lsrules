@@ -4,6 +4,20 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "80",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "tcp",
+      "remote-hosts": "staticess.g.aaplimg.com"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/usr/libexec/avconferenced",
+      "protocol": "tcp",
+      "remote-hosts": "invitation.ess-apple.com.akadns.net"
+    },
+    {
+      "action": "allow",
       "ports": "443",
       "process": "/usr/libexec/nsurlsessiond",
       "protocol": "tcp",
@@ -678,7 +692,11 @@
       "direction": "incoming",
       "process": "/usr/sbin/mDNSResponder",
       "protocol": "udp",
-      "remote-addresses": "17.*.*.*"
+      "remote-addresses": [
+        "17.*.*.*",
+        "2a01:cb19:8b1d:cefb:f2ad:4eff:fe26:d77a",
+        "1.1.1.1"
+      ]
     },
     {
       "action": "allow",
@@ -719,20 +737,6 @@
       "process": "/usr/sbin/mDNSResponder",
       "protocol": "udp",
       "remote-addresses": "2a01:cb15:80a8:6c00:5239:2fff:fe22:b1d0"
-    },
-    {
-      "action": "allow",
-      "direction": "incoming",
-      "process": "/usr/sbin/mDNSResponder",
-      "protocol": "udp",
-      "remote-addresses": "2a01:cb19:8b1d:cefb:f2ad:4eff:fe26:d77a"
-    },
-    {
-      "action": "allow",
-      "direction": "incoming",
-      "process": "/usr/sbin/mDNSResponder",
-      "protocol": "udp",
-      "remote-addresses": "1.1.1.1"
     },
     {
       "action": "allow",
