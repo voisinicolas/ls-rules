@@ -5,6 +5,19 @@
     {
       "action": "allow",
       "ports": "443",
+      "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "github.com",
+        "s3.amazonaws.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "www.noodlesoft.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
       "process": "/Applications/1Password.app/Contents/MacOS/1Password",
       "protocol": "tcp",
       "remote-hosts": [
@@ -491,18 +504,6 @@
       "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
       "protocol": "icmp",
       "remote-hosts": "one.one.one.one"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
-      "protocol": "tcp",
-      "remote-hosts": [
-        "s3.amazonaws.com",
-        "fonts.googleapis.com",
-        "fonts.gstatic.com",
-        "www.noodlesoft.com"
-      ]
     },
     {
       "action": "allow",
