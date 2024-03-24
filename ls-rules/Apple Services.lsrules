@@ -89,9 +89,7 @@
       "ports": "52185",
       "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "protocol": "udp",
-      "remote-addresses": [
-        "2002:4ec9:626c:0:*:*:*:*"
-      ]
+      "remote-addresses": "2002:4ec9:626c:0:*:*:*:*"
     },
     {
       "action": "allow",
@@ -126,7 +124,7 @@
       "ports": "50000-65000",
       "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "protocol": "udp",
-      "remote-addresses": "any"
+      "remote": "any"
     },
     {
       "action": "allow",
