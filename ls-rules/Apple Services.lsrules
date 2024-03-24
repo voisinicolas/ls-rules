@@ -645,84 +645,12 @@
     },
     {
       "action": "allow",
-      "ports": "3480",
       "process": "/usr/libexec/avconferenced",
       "protocol": "udp",
       "remote-addresses": "17.*.*.*"
     },
     {
       "action": "allow",
-      "ports": "3481",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "17.*.*.*"
-    },
-    {
-      "action": "allow",
-      "ports": "3482",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "17.*.*.*"
-    },
-    {
-      "action": "allow",
-      "ports": "3484",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "17.*.*.*"
-    },
-    {
-      "action": "allow",
-      "ports": "16384",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "17.*.*.*"
-    },
-    {
-      "action": "allow",
-      "ports": "16385",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "17.*.*.*"
-    },
-    {
-      "action": "allow",
-      "ports": "16386",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "17.*.*.*"
-    },
-    {
-      "action": "allow",
-      "ports": "4615",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
-    },
-    {
-      "action": "allow",
-      "ports": "21428",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
-    },
-    {
-      "action": "allow",
-      "ports": "45587",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
-    },
-    {
-      "action": "allow",
-      "ports": "45649",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
-    },
-    {
-      "action": "allow",
-      "ports": "53346",
       "process": "/usr/libexec/avconferenced",
       "protocol": "udp",
       "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
@@ -774,11 +702,7 @@
       "process": "/System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService",
       "protocol": "udp",
       "remote-hosts": [
-        "pfsense-montreuil.local.lan",
-        "one.one.one.one",
-        "pfsense-montreuil.local.lan",
-        "one.one.one.one",
-        "pfsense.nvz"
+        "one.one.one.one"
       ]
     },
     {
@@ -791,50 +715,9 @@
     {
       "action": "allow",
       "direction": "incoming",
-      "ports": "49904",
       "process": "/usr/sbin/mDNSResponder",
       "protocol": "udp",
-      "remote-addresses": "17.248.248.100"
-    },
-    {
-      "action": "allow",
-      "direction": "incoming",
-      "ports": "62399",
-      "process": "/usr/sbin/mDNSResponder",
-      "protocol": "udp",
-      "remote-addresses": "17.248.248.100"
-    },
-    {
-      "action": "allow",
-      "direction": "incoming",
-      "ports": "52466",
-      "process": "/usr/sbin/mDNSResponder",
-      "protocol": "udp",
-      "remote-addresses": "17.248.248.104"
-    },
-    {
-      "action": "allow",
-      "direction": "incoming",
-      "ports": "56926",
-      "process": "/usr/sbin/mDNSResponder",
-      "protocol": "udp",
-      "remote-addresses": "17.248.250.7"
-    },
-    {
-      "action": "allow",
-      "direction": "incoming",
-      "ports": "55719",
-      "process": "/usr/sbin/mDNSResponder",
-      "protocol": "udp",
-      "remote-addresses": "17.248.250.8"
-    },
-    {
-      "action": "allow",
-      "direction": "incoming",
-      "ports": "49979",
-      "process": "/usr/sbin/mDNSResponder",
-      "protocol": "udp",
-      "remote-addresses": "17.250.80.227"
+      "remote-addresses": "17.*.*.*"
     },
     {
       "action": "allow",
@@ -879,31 +762,6 @@
     {
       "action": "allow",
       "direction": "incoming",
-      "ports": "51609",
-      "process": "/usr/sbin/mDNSResponder",
-      "protocol": "udp",
-      "remote-addresses": "2a01:cb19:8b1d:cefb:f2ad:4eff:fe26:d77a"
-    },
-    {
-      "action": "allow",
-      "direction": "incoming",
-      "ports": "57108",
-      "process": "/usr/sbin/mDNSResponder",
-      "protocol": "udp",
-      "remote-addresses": "2a01:cb19:8b1d:cefb:f2ad:4eff:fe26:d77a"
-    },
-    {
-      "action": "allow",
-      "direction": "incoming",
-      "ports": "61447",
-      "process": "/usr/sbin/mDNSResponder",
-      "protocol": "udp",
-      "remote-addresses": "2a01:cb19:8b1d:cefb:f2ad:4eff:fe26:d77a"
-    },
-    {
-      "action": "allow",
-      "direction": "incoming",
-      "ports": "65500",
       "process": "/usr/sbin/mDNSResponder",
       "protocol": "udp",
       "remote-addresses": "2a01:cb19:8b1d:cefb:f2ad:4eff:fe26:d77a"
@@ -927,11 +785,6 @@
       "ports": "5353",
       "process": "/usr/sbin/mDNSResponder",
       "protocol": "udp",
-      "remote": "any"
-    },
-    {
-      "action": "allow",
-      "process": "/usr/sbin/mDNSResponder",
       "remote": "any"
     },
     {
