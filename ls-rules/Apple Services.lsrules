@@ -4,6 +4,28 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "gcs-us-00002.content-storage-download.googleapis.com",
+        "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com",
+        "gcs-eu-00002.content-storage-download.googleapis.com",
+        "gcs-eu-00002.content-storage-upload.googleapis.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd",
+      "protocol": "udp",
+      "remote-hosts": [
+        "gcs-eu-00002.content-storage-download.googleapis.com",
+        "gcs-eu-00002.content-storage-upload.googleapis.com"
+      ]
+    },
+    {
+      "action": "allow",
       "ports": "80",
       "process": "/usr/libexec/avconferenced",
       "protocol": "tcp",
@@ -137,24 +159,6 @@
       "priority": "high",
       "process": "/System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/gamed",
       "remote": "any"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd",
-      "protocol": "tcp",
-      "remote-hosts": [
-        "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com",
-        "gcs-eu-00002.content-storage-download.googleapis.com",
-        "gcs-eu-00002.content-storage-upload.googleapis.com"
-      ]
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd",
-      "protocol": "udp",
-      "remote-hosts": "gcs-eu-00002.content-storage-upload.googleapis.com"
     },
     {
       "action": "allow",
