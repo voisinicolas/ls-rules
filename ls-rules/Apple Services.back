@@ -97,6 +97,13 @@
     },
     {
       "action": "allow",
+      "ports": "50000-65000",
+      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "protocol": "udp",
+      "remote": "any"
+    },
+    {
+      "action": "allow",
       "ports": "443",
       "process": "/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd",
       "protocol": "tcp",
@@ -225,6 +232,20 @@
       "process": "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
       "protocol": "udp",
       "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "50000-65000",
+      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "protocol": "udp",
+      "remote-addresses": [
+        "2002:4ec9:626c:0:*:*:*:*",
+        "2a01:e34:ec96:26c1:*:*:*:*",
+        "2a02:8428:a9db:9601:*:*:*:*",
+        "2a01:cb19:8b1d:ce00:*:*:*:*",
+        "2a01:cb04:4b2:7400:*:*:*:*"
+      ]
     },
     {
       "action": "allow",
