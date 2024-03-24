@@ -86,52 +86,43 @@
     {
       "action": "allow",
       "direction": "incoming",
-      "ports": "52185",
       "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "protocol": "udp",
       "remote-addresses": [
         "2002:4ec9:626c:0:5122:27bb:c100:ab63",
-        "2002:4ec9:626c:0:6895:fbff:e3f6:d4a8"
+        "2002:4ec9:626c:0:6895:fbff:e3f6:d4a8",
+        "2002:4ec9:626c:0:94cc:19e7:fa66:a77c",
+        "2002:4ec9:626c:0:e52e:221:bfec:e648"
       ]
     },
     {
       "action": "allow",
-      "direction": "incoming",
-      "ports": "53219",
-      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "protocol": "udp",
-      "remote-addresses": "2002:4ec9:626c:0:94cc:19e7:fa66:a77c"
-    },
-    {
-      "action": "allow",
-      "direction": "incoming",
-      "ports": "55658",
-      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "protocol": "udp",
-      "remote-addresses": "2002:4ec9:626c:0:e52e:221:bfec:e648"
-    },
-    {
-      "action": "allow",
-      "ports": "54854",
       "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "protocol": "udp",
       "remote-hosts": [
         "12c37d09-7982-4a67-a43f-03d19fd915fd.local",
         "133776fe-44c9-431a-9a2b-a928b2124590.local",
+        "1d826b8a-9945-4944-8926-6626724f9454.local",
         "2560bbd1-4136-48e1-9f92-e12083232ce4.local",
+        "30b00651-25dd-4fd6-b88a-3d786b0e9ee9.local",
+        "4aab0b33-ec74-4ce1-9788-fcdc6a90a7ae.local",
         "54f0d498-f901-4929-8d51-60cc1e552ad7.local",
+        "5516dd4e-ed90-407f-93e6-247b7fb38ecf.local",
         "8f167779-c988-4e94-b955-a1ac1c0be43d.local",
         "a8d6ea85-f040-4d81-9e0d-f748c5cb2c22.local",
+        "b07259a8-a676-4c7d-8111-4c55e34fd81d.local",
+        "b9727a80-0848-4c27-aa25-6b6b7136f3be.local",
+        "c19b91ab-aeb4-4f51-a3d7-ae5456252882.local",
+        "cf3406c1-f8f3-448a-9d9f-e8633228d34b.local",
+        "d4115410-d317-4c96-acee-905f0d4e6ec9.local",
         "d8ce3d74-468c-4c79-bc89-f55475f00f07.local",
+        "da91f53a-4e01-4834-92ee-c234a955466d.local",
+        "e31e7a90-f6ad-4e73-87a4-c1d53b50eb31.local",
+        "e4c87781-640a-4f12-aab8-2d94882d72e0.local",
+        "ef951099-4426-4d67-b44e-373d14cc1c24.local",
+        "f98575d0-f7f5-481d-b05a-60aa43bafe4e.local",
         "fa0f0894-127e-482a-a9e5-d83e5f156e82.local"
       ]
-    },
-    {
-      "action": "allow",
-      "ports": "60080",
-      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "protocol": "udp",
-      "remote-hosts": "b07259a8-a676-4c7d-8111-4c55e34fd81d.local"
     },
     {
       "action": "deny",
@@ -144,27 +135,6 @@
       "priority": "high",
       "process": "/System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/gamed",
       "remote": "any"
-    },
-    {
-      "action": "allow",
-      "ports": "54000-65000",
-      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "protocol": "udp",
-      "remote-hosts": [
-        "1d826b8a-9945-4944-8926-6626724f9454.local",
-        "30b00651-25dd-4fd6-b88a-3d786b0e9ee9.local",
-        "4aab0b33-ec74-4ce1-9788-fcdc6a90a7ae.local",
-        "5516dd4e-ed90-407f-93e6-247b7fb38ecf.local",
-        "b9727a80-0848-4c27-aa25-6b6b7136f3be.local",
-        "c19b91ab-aeb4-4f51-a3d7-ae5456252882.local",
-        "cf3406c1-f8f3-448a-9d9f-e8633228d34b.local",
-        "d4115410-d317-4c96-acee-905f0d4e6ec9.local",
-        "da91f53a-4e01-4834-92ee-c234a955466d.local",
-        "e31e7a90-f6ad-4e73-87a4-c1d53b50eb31.local",
-        "e4c87781-640a-4f12-aab8-2d94882d72e0.local",
-        "ef951099-4426-4d67-b44e-373d14cc1c24.local",
-        "f98575d0-f7f5-481d-b05a-60aa43bafe4e.local"
-      ]
     },
     {
       "action": "allow",
