@@ -84,6 +84,32 @@
       "remote-hosts": "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com"
     },
     {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "52185",
+      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "protocol": "udp",
+      "remote-addresses": [
+        "2002:4ec9:626c:0:*:*:*:*"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "53219",
+      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "protocol": "udp",
+      "remote-addresses": "2002:4ec9:626c:0:94cc:19e7:fa66:a77c"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "55658",
+      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "protocol": "udp",
+      "remote-addresses": "2002:4ec9:626c:0:e52e:221:bfec:e648"
+    },
+    {
       "action": "deny",
       "direction": "incoming",
       "process": "/System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/gamed",
@@ -94,6 +120,13 @@
       "priority": "high",
       "process": "/System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/gamed",
       "remote": "any"
+    },
+    {
+      "action": "allow",
+      "ports": "50000-65000",
+      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "protocol": "udp",
+      "remote-addresses": "any"
     },
     {
       "action": "allow",
@@ -225,6 +258,17 @@
       "process": "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
       "protocol": "udp",
       "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "50000-65000",
+      "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "protocol": "udp",
+      "remote-addresses": [
+        "2002:4ec9:626c:0:*:*:*:*",
+        "2a01:cb19:8b1d:ce00:*:*:*:*"
+      ]
     },
     {
       "action": "allow",
