@@ -596,63 +596,7 @@
     },
     {
       "action": "allow",
-      "ports": "10172",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "78.201.98.108"
-    },
-    {
-      "action": "allow",
-      "ports": "14719",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "78.201.98.108"
-    },
-    {
-      "action": "allow",
-      "ports": "20229",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "78.201.98.108"
-    },
-    {
-      "action": "allow",
-      "ports": "38240",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "78.201.98.108"
-    },
-    {
-      "action": "allow",
-      "ports": "41293",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "78.201.98.108"
-    },
-    {
-      "action": "allow",
-      "ports": "51169",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "78.201.98.108"
-    },
-    {
-      "action": "allow",
-      "ports": "58301",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "78.201.98.108"
-    },
-    {
-      "action": "allow",
-      "ports": "59976",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "78.201.98.108"
-    },
-    {
-      "action": "allow",
-      "ports": "62607",
+      "ports": "any",
       "process": "/usr/libexec/avconferenced",
       "protocol": "udp",
       "remote-addresses": "78.201.98.108"
@@ -666,49 +610,7 @@
     },
     {
       "action": "allow",
-      "ports": "3480",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "17.*.*.*"
-    },
-    {
-      "action": "allow",
-      "ports": "3481",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "17.*.*.*"
-    },
-    {
-      "action": "allow",
-      "ports": "3482",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "17.*.*.*"
-    },
-    {
-      "action": "allow",
-      "ports": "3484",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "17.*.*.*"
-    },
-    {
-      "action": "allow",
-      "ports": "16384",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "17.*.*.*"
-    },
-    {
-      "action": "allow",
-      "ports": "16385",
-      "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
-      "remote-addresses": "17.*.*.*"
-    },
-    {
-      "action": "allow",
-      "ports": "16386",
+      "ports": "any",
       "process": "/usr/libexec/avconferenced",
       "protocol": "udp",
       "remote-addresses": "17.*.*.*"
