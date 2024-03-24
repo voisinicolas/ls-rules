@@ -127,7 +127,7 @@
       "ports": "50000-65000",
       "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "protocol": "udp",
-      "remote-hosts": "any"
+      "remote-addresses": "any"
     },
     {
       "action": "allow",
