@@ -613,7 +613,7 @@
         "static.trainlinecontent.com",
         "amplify.valimail.com",
         "zaphod.vvhp.net",
-        "link.wasteheadquarters.com",
+        "link.wasteheadquarters.com"
       ]
     },
     {
@@ -633,9 +633,8 @@
     },
     {
       "action": "allow",
-      "ports": "any",
       "process": "/usr/libexec/avconferenced",
-      "protocol": "udp",
+      "protocol": "any",
       "remote-addresses": "78.201.98.108"
     },
     {
