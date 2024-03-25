@@ -4,6 +4,30 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "53",
+      "process": "/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/MacOS/Creative Cloud Content Manager.node",
+      "protocol": "udp",
+      "remote-addresses": "100.100.100.100"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/MacOS/Creative Cloud Content Manager.node",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "crs.cr.adobe.com",
+        "cc-api-data.adobe.io",
+        "lcs-cops.adobe.io",
+        "p13n.adobe.io",
+        "ims-prod06.adobelogin.com",
+        "a1838.dscd.akamai.net",
+        "e4578.dscd.akamaiedge.net",
+        "e4578.dsct.akamaiedge.net",
+        "adobe-aem.map.fastly.net"
+      ]
+    },
+    {
+      "action": "allow",
       "ports": "443",
       "process": "/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/libs/Creative Cloud Content Manager.node",
       "protocol": "tcp",
