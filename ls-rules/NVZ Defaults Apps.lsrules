@@ -5,6 +5,72 @@
     {
       "action": "allow",
       "ports": "5222",
+      "process": "/Applications/WhatsApp.app/Contents/PlugIns/ServiceExtension.appex/Contents/MacOS/ServiceExtension",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "3.33.252.61",
+        "15.197.210.208",
+        "157.240.0.61",
+        "157.240.195.54",
+        "157.240.201.61",
+        "157.240.202.61",
+        "157.240.221.61",
+        "157.240.247.61",
+        "157.240.251.61",
+        "157.240.252.61",
+        "163.70.128.61",
+        "185.60.219.61",
+        "2a03:2880:f27b:2cb:face:b00c:0:7260"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/WhatsApp.app/Contents/PlugIns/ServiceExtension.appex/Contents/MacOS/ServiceExtension",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "157.240.18.53",
+        "157.240.195.54",
+        "2a03:2880:f276:1c9:face:b00c:0:7260",
+        "2a03:2880:f277:c6:face:b00c:0:7260",
+        "2a03:2880:f27b:cd:face:b00c:0:7260",
+        "2a03:2880:f27b:1d0:face:b00c:0:7260",
+        "3.33.221.48",
+        "3.33.252.61",
+        "15.197.210.208",
+        "31.13.66.51",
+        "31.13.71.50",
+        "157.240.0.61",
+        "157.240.3.55",
+        "157.240.21.53",
+        "157.240.196.61",
+        "157.240.202.61",
+        "157.240.221.61",
+        "157.240.241.61",
+        "157.240.247.61",
+        "157.240.251.61",
+        "157.240.252.61",
+        "157.240.253.61",
+        "163.70.128.61",
+        "185.60.219.61",
+        "2a03:2880:f258:1c6:face:b00c:0:7260",
+        "2a03:2880:f26d:c9:face:b00c:0:7260",
+        "2a03:2880:f27b:2cb:face:b00c:0:7260"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "5222",
+      "process": "/Applications/WhatsApp.app/Contents/PlugIns/ServiceExtension.appex/Contents/MacOS/ServiceExtension",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "chat.cdn.whatsapp.net",
+        "g.whatsapp.net"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "5222",
       "process": "/Applications/WhatsApp.app/Contents/MacOS/WhatsApp",
       "protocol": "tcp",
       "remote-addresses": [
@@ -730,35 +796,6 @@
         "image.pfu.jp",
         "origin.pfultd.com",
         "www.pfu.ricoh.com"
-      ]
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "/Applications/WhatsApp.app/Contents/PlugIns/ServiceExtension.appex/Contents/MacOS/ServiceExtension",
-      "protocol": "tcp",
-      "remote-addresses": [
-        "3.33.221.48",
-        "3.33.252.61",
-        "15.197.210.208",
-        "31.13.66.51",
-        "31.13.71.50",
-        "157.240.0.61",
-        "157.240.3.55",
-        "157.240.21.53",
-        "157.240.196.61",
-        "157.240.202.61",
-        "157.240.221.61",
-        "157.240.241.61",
-        "157.240.247.61",
-        "157.240.251.61",
-        "157.240.252.61",
-        "157.240.253.61",
-        "163.70.128.61",
-        "185.60.219.61",
-        "2a03:2880:f258:1c6:face:b00c:0:7260",
-        "2a03:2880:f26d:c9:face:b00c:0:7260",
-        "2a03:2880:f27b:2cb:face:b00c:0:7260"
       ]
     },
     {
