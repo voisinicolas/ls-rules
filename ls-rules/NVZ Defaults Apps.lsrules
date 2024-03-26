@@ -714,7 +714,6 @@
     {
       "action": "allow",
       "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
-      "remote-addresses": "10.0.1.*",
       "via": "/opt/homebrew/Cellar/nmap/7.94_1/bin/nmap"
     },
     {
