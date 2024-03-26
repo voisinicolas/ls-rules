@@ -4,6 +4,53 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "139",
+      "process": "/System/Library/CoreServices/NetAuthAgent.app/Contents/MacOS/NetAuthSysAgent",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "100.89.104.38",
+        "100.91.104.67"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "445",
+      "process": "/System/Library/CoreServices/NetAuthAgent.app/Contents/MacOS/NetAuthSysAgent",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "100.89.104.38",
+        "100.91.104.67",
+        "2002:4ec9:626c:0:9209:d0ff:fe33:4905",
+        "2a01:e0a:1f4:1261::2b83",
+        "2a01:e0a:1f4:1261:2bf5:e223:6fd6:67b8",
+        "2a01:e0a:1f4:1261:6ddd:93f4:f6b2:2bff",
+        "2a01:cb19:8b1d:ce00:9209:d0ff:fe33:4905",
+        "2a01:e34:ec96:26c1:*:*:*:*"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "445",
+      "process": "/System/Library/CoreServices/NetAuthAgent.app/Contents/MacOS/NetAuthSysAgent",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "livebox.home",
+        "debian-server.taila8315.ts.net",
+        "dewey.taila8315.ts.net"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "139",
+      "process": "/System/Library/CoreServices/NetAuthAgent.app/Contents/MacOS/NetAuthSysAgent",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "debian-server.taila8315.ts.net",
+        "dewey.taila8315.ts.net"
+      ]
+    },
+    {
+      "action": "allow",
       "ports": "443",
       "process": "/opt/homebrew/Cellar/mas/1.8.6/bin/mas",
       "protocol": "tcp",
