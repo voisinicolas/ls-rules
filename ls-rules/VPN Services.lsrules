@@ -400,18 +400,6 @@
     },
     {
       "action": "allow",
-      "ports": "51820",
-      "process": "/Library/SystemExtensions/C184D990-11BB-4C3E-B9AF-754726CE1067/ch.protonvpn.mac.WireGuard-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.WireGuard-Extension",
-      "protocol": "udp",
-      "remote-addresses": [
-        "185.246.211.72",
-        "146.70.120.210",
-        "146.70.182.34",
-        "146.70.194.50"
-      ]
-    },
-    {
-      "action": "allow",
       "ports": "22",
       "process": "/Applications/Tor Browser.app/Contents/MacOS/Tor/PluggableTransports/lyrebird",
       "protocol": "tcp",
