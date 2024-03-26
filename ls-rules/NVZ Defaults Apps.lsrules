@@ -1059,7 +1059,7 @@
       ]
     },
     {
-      "action": "ask",
+      "action": "allow",
       "ports": "443",
       "process": "/Applications/Bartender 5.app/Contents/MacOS/Bartender 5",
       "protocol": "tcp",
