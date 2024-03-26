@@ -942,119 +942,102 @@
     },
     {
       "action": "allow",
-      "ports": "55563",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "18.156.18.142"
     },
     {
       "action": "allow",
-      "ports": "58145",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "100.77.117.149"
     },
     {
       "action": "allow",
-      "ports": "14503",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "145.224.103.166"
     },
     {
       "action": "allow",
-      "ports": "28069",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "145.224.103.166"
     },
     {
       "action": "allow",
-      "ports": "18871",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "145.224.104.28"
     },
     {
       "action": "allow",
-      "ports": "19371",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "145.224.104.28"
     },
     {
       "action": "allow",
-      "ports": "22567",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "145.224.104.28"
     },
     {
       "action": "allow",
-      "ports": "22895",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "145.224.104.28"
     },
     {
       "action": "allow",
-      "ports": "25383",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "145.224.104.28"
     },
     {
       "action": "allow",
-      "ports": "27346",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "145.224.104.28"
     },
     {
       "action": "allow",
-      "ports": "28022",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "145.224.104.28"
     },
     {
       "action": "allow",
-      "ports": "29405",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "145.224.104.28"
     },
     {
       "action": "allow",
-      "ports": "31520",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "145.224.104.28"
     },
     {
       "action": "allow",
-      "ports": "31898",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "145.224.104.28"
     },
     {
       "action": "allow",
-      "ports": "32014",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "145.224.104.28"
     },
     {
       "action": "allow",
-      "ports": "57190",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "145.224.104.28"
     },
     {
       "action": "allow",
-      "ports": "56950",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": "2a0d:3344:1700:2b5:524d:a1a3:d9bd:4b9f"
