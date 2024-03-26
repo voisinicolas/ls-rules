@@ -7,6 +7,7 @@
       "process": "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
       "protocol": "udp",
       "remote-addresses": [
+        "100.64.0.0-100.127.255.255",
         "100.*.*.*",
         "17.*.*.*"
       ]
