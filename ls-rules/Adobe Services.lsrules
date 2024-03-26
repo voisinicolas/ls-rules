@@ -27,32 +27,6 @@
       ]
     },
     {
-      "action": "allow",
-      "ports": "443",
-      "process": "/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/libs/Creative Cloud Content Manager.node",
-      "protocol": "tcp",
-      "remote-hosts": [
-        "ethos503-prod-va6-k8s-p2-0-ce09078037a86341.elb.us-east-1.amazonaws.com",
-        "cc-cdn.adobe.com",
-        "helpx.adobe.com",
-        "odin.adobe.com",
-        "utut-service.adobe.com",
-        "cc-api-behance.adobe.io",
-        "cc-api-data.adobe.io",
-        "lcs-cops.adobe.io",
-        "loki.cloud.adobe.io",
-        "p13n.adobe.io",
-        "stock.adobe.io",
-        "ims-prod06.adobelogin.com",
-        "a1838.dscd.akamai.net",
-        "e4578.dscd.akamaiedge.net",
-        "e4578.dsct.akamaiedge.net",
-        "adobe-aem.map.fastly.net",
-        "as1.ftcdn.net",
-        "as2.ftcdn.net"
-      ]
-    },
-    {
       "action": "deny",
       "ports": "443",
       "process": "/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app/Contents/MacOS/LogTransport2.app/Contents/MacOS/LogTransport2",
@@ -588,13 +562,6 @@
         "pfsense-montreuil.local.lan",
         "one.one.one.one"
       ]
-    },
-    {
-      "action": "allow",
-      "ports": "53",
-      "process": "/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/libs/Creative Cloud Content Manager.node",
-      "protocol": "udp",
-      "remote-addresses": "100.100.100.100"
     },
     {
       "action": "allow",
