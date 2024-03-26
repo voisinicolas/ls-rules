@@ -4,6 +4,16 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "443",
+      "process": "/opt/homebrew/Cellar/mas/1.8.6/bin/mas",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "apps.apple.com",
+        "itunes.apple.com"
+      ]
+    },
+    {
+      "action": "allow",
       "direction": "incoming",
       "ports": "60001",
       "process": "/System/Library/Kernels/kernel",
