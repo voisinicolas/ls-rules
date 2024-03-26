@@ -4,6 +4,37 @@
   "rules": [
     {
       "action": "allow",
+      "direction": "incoming",
+      "ports": "60001",
+      "process": "/System/Library/Kernels/kernel",
+      "protocol": "udp",
+      "remote-addresses": "100.120.190.9"
+    },
+    {
+      "action": "allow",
+      "ports": "445",
+      "process": "/System/Library/Kernels/kernel",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "100.89.104.38",
+        "100.91.104.67",
+        "2002:4ec9:626c:0:9209:d0ff:fe33:4905",
+        "2a01:e0a:1f4:1261::2b83",
+        "2a01:cb19:8b1d:ce00:9209:d0ff:fe33:4905"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "445",
+      "process": "/System/Library/Kernels/kernel",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "debian-server.taila8315.ts.net",
+        "dewey.taila8315.ts.net"
+      ]
+    },
+    {
+      "action": "allow",
       "ports": "443",
       "process": "/System/Library/CoreServices/destinationd",
       "protocol": "tcp",
