@@ -493,24 +493,6 @@
     },
     {
       "action": "allow",
-      "direction": "incoming",
-      "ports": "59319",
-      "process": "/Library/SystemExtensions/C184D990-11BB-4C3E-B9AF-754726CE1067/ch.protonvpn.mac.WireGuard-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.WireGuard-Extension",
-      "protocol": "udp",
-      "remote-addresses": "146.70.194.50"
-    },
-    {
-      "action": "allow",
-      "ports": "4500",
-      "process": "/Library/SystemExtensions/C184D990-11BB-4C3E-B9AF-754726CE1067/ch.protonvpn.mac.WireGuard-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.WireGuard-Extension",
-      "protocol": "udp",
-      "remote-addresses": [
-        "146.70.194.50",
-        "146.70.120.210"
-      ]
-    },
-    {
-      "action": "allow",
       "ports": "443",
       "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
       "protocol": "tcp",
