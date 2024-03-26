@@ -4,6 +4,26 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "443",
+      "process": "/Applications/GPG Keychain.app/Contents/MacOS/GPG Keychain",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "keys.openpgp.org",
+        "keyserver.ubuntu.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Library/Application Support/GPGTools/GPGSuite_Updater.app/Contents/MacOS/GPGSuite_Updater",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "gpgtools.com",
+        "releases.gpgtools.org"
+      ]
+    },
+    {
+      "action": "allow",
       "ports": "5222",
       "process": "/Applications/WhatsApp.app/Contents/PlugIns/ServiceExtension.appex/Contents/MacOS/ServiceExtension",
       "protocol": "tcp",
