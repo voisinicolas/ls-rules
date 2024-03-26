@@ -4,6 +4,15 @@
   "rules": [
     {
       "action": "allow",
+      "process": "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
+      "protocol": "udp",
+      "remote-addresses": [
+        "100.*.*.*",
+        "17.*.*.*"
+      ]
+    },
+    {
+      "action": "allow",
       "direction": "incoming",
       "ports": "137",
       "process": "/usr/sbin/netbiosd",
@@ -422,12 +431,6 @@
       "action": "allow",
       "process": "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
       "protocol": "tcp",
-      "remote-addresses": "17.*.*.*"
-    },
-    {
-      "action": "allow",
-      "process": "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
-      "protocol": "udp",
       "remote-addresses": "17.*.*.*"
     },
     {
