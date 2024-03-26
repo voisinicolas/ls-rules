@@ -4,6 +4,13 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/CoreServices/destinationd",
+      "protocol": "tcp",
+      "remote-hosts": "c.apple.news"
+    },
+    {
+      "action": "allow",
       "direction": "incoming",
       "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "protocol": "udp",
