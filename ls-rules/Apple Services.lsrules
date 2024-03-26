@@ -4,6 +4,49 @@
   "rules": [
     {
       "action": "allow",
+      "direction": "incoming",
+      "ports": "137",
+      "process": "/usr/sbin/netbiosd",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "ports": "137",
+      "process": "/usr/sbin/netbiosd",
+      "protocol": "udp",
+      "remote-addresses": [
+        "78.201.99.255",
+        "100.95.123.18"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "138",
+      "process": "/usr/sbin/netbiosd",
+      "protocol": "udp",
+      "remote-addresses": "100.95.123.18"
+    },
+    {
+      "action": "allow",
+      "ports": "445",
+      "process": "/usr/sbin/netbiosd",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "livebox",
+        "livebox.home",
+        "debian-server.taila8315.ts.net"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "139",
+      "process": "/usr/sbin/netbiosd",
+      "protocol": "tcp",
+      "remote-hosts": "debian-server.taila8315.ts.net"
+    },
+    {
+      "action": "allow",
       "ports": "139",
       "process": "/System/Library/CoreServices/NetAuthAgent.app/Contents/MacOS/NetAuthSysAgent",
       "protocol": "tcp",
