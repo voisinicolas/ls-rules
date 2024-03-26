@@ -4,6 +4,53 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "53",
+      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "100.116.10.22",
+        "2600:3c07::f03c:94ff:fe8e:f306",
+        "2a01:cb04:4b2:7400:7a81:2ff:fed9:2638",
+        "2a01:cb19:8b1d:ce00:7ab2:13ff:feb0:b264",
+        "2a02:8428:a9db:9601:1e57:3eff:fe6c:f1ff",
+        "1.0.0.1",
+        "1.1.1.1",
+        "2606:4700:4700::1001",
+        "2606:4700:4700::1111",
+        "194.242.2.2",
+        "212.27.40.240",
+        "212.27.40.241",
+        "2001:861:8c85:1b50:3293:bcff:fee9:c93c",
+        "2002:4ec9:626c:0:de9b:9cff:feee:eba1",
+        "2620:111:8007::53",
+        "2a07:e340::2"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "53",
+      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "dns.google",
+        "one.one.one.one"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "53",
+      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
+      "protocol": "udp",
+      "remote-hosts": [
+        "dns.google",
+        "livebox",
+        "livebox.home",
+        "dns.mullvad.net",
+        "one.one.one.one"
+      ]
+    },
+    {
+      "action": "allow",
       "direction": "incoming",
       "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
       "protocol": "udp",
@@ -422,25 +469,6 @@
       "remote-addresses": [
         "146.70.194.50",
         "146.70.120.210"
-      ]
-    },
-    {
-      "action": "allow",
-      "ports": "53",
-      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
-      "protocol": "tcp",
-      "remote-addresses": [
-        "1.0.0.1",
-        "1.1.1.1",
-        "2606:4700:4700::1001",
-        "2606:4700:4700::1111",
-        "194.242.2.2",
-        "212.27.40.240",
-        "212.27.40.241",
-        "2001:861:8c85:1b50:3293:bcff:fee9:c93c",
-        "2002:4ec9:626c:0:de9b:9cff:feee:eba1",
-        "2620:111:8007::53",
-        "2a07:e340::2"
       ]
     },
     {
@@ -1208,23 +1236,6 @@
       "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
       "protocol": "udp",
       "remote-addresses": "239.255.255.250"
-    },
-    {
-      "action": "allow",
-      "ports": "53",
-      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
-      "protocol": "tcp",
-      "remote-hosts": "one.one.one.one"
-    },
-    {
-      "action": "allow",
-      "ports": "53",
-      "process": "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
-      "protocol": "udp",
-      "remote-hosts": [
-        "dns.mullvad.net",
-        "one.one.one.one"
-      ]
     },
     {
       "action": "allow",
