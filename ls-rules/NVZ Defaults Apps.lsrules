@@ -5,6 +5,30 @@
     {
       "action": "allow",
       "direction": "incoming",
+      "process": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "protocol": "udp",
+      "remote-addresses": [
+        "172.224.*.*",
+        "17.*.*.*"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "protocol": "tcp",
+      "remote": "any"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Safari.app/Contents/MacOS/Safari",
+      "protocol": "udp",
+      "remote": "any"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
       "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
       "protocol": "icmp",
       "remote": "any",
