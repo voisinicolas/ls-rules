@@ -5,6 +5,20 @@
     {
       "action": "allow",
       "ports": "443",
+      "process": "/Applications/Arc.app/Contents/MacOS/Arc",
+      "protocol": "tcp",
+      "remote-hosts": "m.stripe.com"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "255",
+      "remote-addresses": "10.0.1.1",
+      "via": "/opt/homebrew/Cellar/trippy/0.9.0/bin/trip"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
       "process": "/Applications/GPG Keychain.app/Contents/MacOS/GPG Keychain",
       "protocol": "tcp",
       "remote-hosts": [
@@ -705,16 +719,8 @@
       "action": "allow",
       "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
       "protocol": "icmp",
-      "remote-addresses": [
-        "142.250.201.174",
-        "100.119.144.50"
-      ],
+      "remote": "any",
       "via": "/opt/homebrew/Cellar/trippy/0.9.0/bin/trip"
-    },
-    {
-      "action": "allow",
-      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
-      "via": "/opt/homebrew/Cellar/nmap/7.94_1/bin/nmap"
     },
     {
       "action": "allow",
