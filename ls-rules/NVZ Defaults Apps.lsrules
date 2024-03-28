@@ -634,7 +634,7 @@
       "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
       "protocol": "tcp",
       "remote-hosts": "waws-prod-mwh-083-46eb.westus2.cloudapp.azure.com",
-      "via": "/opt/homebrew/Cellar/node/21.6.2/bin/node"
+      "via": "/opt/homebrew/Cellar/node/21.7.1/bin/node"
     },
     {
       "action": "allow",
@@ -646,7 +646,7 @@
         "crates.io",
         "dualstack.k.sni.global.fastly.net"
       ],
-      "via": "/Users/nvz/.rustup/toolchains/stable-aarch64-apple-darwin/bin/cargo"
+      "via": "/Users/nvz/.local/share/rustup/toolchains/stable-aarch64-apple-darwin/bin/cargo"
     },
     {
       "action": "allow",
@@ -677,7 +677,7 @@
       "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
       "protocol": "tcp",
       "remote-hosts": "pypi.org",
-      "via": "/opt/homebrew/Cellar/python@3.12/3.12.2/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python"
+      "via": "/opt/homebrew/Cellar/python@3.12/3.12.2_1/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python"
     },
     {
       "action": "allow",
