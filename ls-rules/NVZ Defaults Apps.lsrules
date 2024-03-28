@@ -4,6 +4,29 @@
   "rules": [
     {
       "action": "allow",
+      "direction": "incoming",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "icmp",
+      "remote": "any",
+      "via": "/opt/homebrew/Cellar/trippy/0.9.0/bin/trip"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "58",
+      "remote": "any",
+      "via": "/opt/homebrew/Cellar/trippy/0.9.0/bin/trip"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "protocol": "58",
+      "remote": "any",
+      "via": "/opt/homebrew/Cellar/trippy/0.9.0/bin/trip"
+    },
+    {
+      "action": "allow",
       "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
       "protocol": "icmp",
       "remote-addresses": [
