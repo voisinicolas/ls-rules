@@ -771,6 +771,11 @@
     },
     {
       "action": "allow",
+      "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
+      "via": "/opt/homebrew/Cellar/nmap/7.94_1/bin/nmap"
+    },
+    {
+      "action": "allow",
       "ports": "22",
       "process": "/Applications/Hazel.app/Contents/Library/LoginItems/86Z3GCJ4MF.com.noodlesoft.HazelHelper.app/Contents/MacOS/86Z3GCJ4MF.com.noodlesoft.HazelHelper",
       "protocol": "tcp",
