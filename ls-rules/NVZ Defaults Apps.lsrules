@@ -13,7 +13,7 @@
       "action": "allow",
       "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
       "protocol": "255",
-      "remote-addresses": "10.0.1.1",
+      "remote": "any",
       "via": "/opt/homebrew/Cellar/trippy/0.9.0/bin/trip"
     },
     {
