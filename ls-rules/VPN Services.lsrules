@@ -4,6 +4,50 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Proton Mail Bridge.app/Contents/MacOS/bridge",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "ec2-18-153-11-194.eu-central-1.compute.amazonaws.com",
+        "ec2-18-153-80-71.eu-central-1.compute.amazonaws.com",
+        "ec2-18-153-92-34.eu-central-1.compute.amazonaws.com",
+        "ec2-3-123-25-166.eu-central-1.compute.amazonaws.com",
+        "ec2-3-124-195-7.eu-central-1.compute.amazonaws.com",
+        "ec2-3-126-118-225.eu-central-1.compute.amazonaws.com",
+        "ec2-3-126-120-235.eu-central-1.compute.amazonaws.com",
+        "ec2-3-64-211-29.eu-central-1.compute.amazonaws.com",
+        "ec2-3-67-10-30.eu-central-1.compute.amazonaws.com",
+        "ec2-3-70-111-78.eu-central-1.compute.amazonaws.com",
+        "ec2-3-76-106-157.eu-central-1.compute.amazonaws.com",
+        "ec2-3-77-57-240.eu-central-1.compute.amazonaws.com",
+        "ec2-3-79-185-42.eu-central-1.compute.amazonaws.com",
+        "dns.google",
+        "proton.me",
+        "mail-api.proton.me",
+        "api.protonmail.ch",
+        "protonmail.com",
+        "dns11.quad9.net"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "5053",
+      "process": "/Applications/Proton Mail Bridge.app/Contents/MacOS/bridge",
+      "protocol": "tcp",
+      "remote-hosts": "dns11.quad9.net"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Proton Mail Bridge.app/Contents/MacOS/bridge-gui",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "mail-api.proton.me",
+        "api.protonmail.ch"
+      ]
+    },
+    {
+      "action": "allow",
       "process": "path.private/var/folders/*/PacketTunnel",
       "protocol": "udp",
       "remote-addresses": [
