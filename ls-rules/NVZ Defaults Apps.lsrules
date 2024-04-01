@@ -4,6 +4,13 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Bartender 5.app/Contents/MacOS/Bartender 5",
+      "protocol": "udp",
+      "remote-hosts": "www.macbartender.com"
+    },
+    {
+      "action": "allow",
       "direction": "incoming",
       "process": "/Applications/Safari.app/Contents/MacOS/Safari",
       "protocol": "udp",
