@@ -488,19 +488,11 @@
     {
       "action": "allow",
       "ports": "443",
-      "process": "/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDevicesAgent",
-      "protocol": "tcp",
-      "remote-hosts": "itunes.com"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
       "process": "/System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPLibraryAgent",
       "protocol": "tcp",
-      "remote-hosts": [
-        "store-033-lb.blobstore-apple.com.akadns.net",
-        "store-035-lb.blobstore-apple.com.akadns.net",
-        "store-037-lb.blobstore-apple.com.akadns.net"
+      "remote-domains": [
+        "itunes.com",
+        "blobstore-apple.com.akadns.net"
       ]
     },
     {
