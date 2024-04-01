@@ -8,7 +8,7 @@
       "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "protocol": "udp",
       "remote-addresses": [
-        "2002:*:*:*:*:*:*:*",
+        "2002:4ec9:626c:0:*:*:*:*",
         "2a01:c000::-2a01:dfff:ffff:ffff:ffff:ffff:ffff:ffff",
         "2a01:e34:ec96:26c1:*:*:*:*"
       ]
@@ -446,8 +446,7 @@
       "process": "/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDeviceDiscoveryAgent",
       "protocol": "tcp",
       "remote-addresses": [
-        "2002:4ec9:626c:0:41e:a4bd:a22:6a5e",
-        "2002:4ec9:626c:0:1c19:adef:18ab:eac",
+        "2002:4ec9:626c:0:*:*:*:*",
         "2a01:e34:ec96:26c0:4b1:ca39:5ccc:259b",
         "2a01:e34:ec96:26c1:c97:6c0c:e164:ef64",
         "2a01:cb08:94c:b200:1489:5842:a5fd:b071",
