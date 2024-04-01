@@ -19,7 +19,6 @@
       "protocol": "udp",
       "remote-addresses": [
         "100.64.0.0-100.127.255.255",
-        "100.*.*.*",
         "17.*.*.*"
       ]
     },
@@ -46,7 +45,7 @@
       "ports": "138",
       "process": "/usr/sbin/netbiosd",
       "protocol": "udp",
-      "remote-addresses": "100.95.123.18"
+      "remote-addresses": "100.64.0.0-100.127.255.255"
     },
     {
       "action": "allow",
