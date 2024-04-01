@@ -4,6 +4,13 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/CoreServices/Captive Network Assistant.app/Contents/MacOS/Captive Network Assistant",
+      "protocol": "tcp",
+      "remote-domains": "accor.com"
+    },
+    {
+      "action": "allow",
       "direction": "incoming",
       "process": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "protocol": "udp",
