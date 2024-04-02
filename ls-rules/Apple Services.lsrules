@@ -5,6 +5,40 @@
     {
       "action": "allow",
       "ports": "443",
+      "process": "/usr/bin/curl",
+      "protocol": "tcp",
+      "remote-hosts": "captive.g.aaplimg.com"
+    },
+    {
+      "action": "allow",
+      "ports": "53",
+      "process": "/usr/bin/dig",
+      "protocol": "udp",
+      "remote-addresses": "100.100.100.100"
+    },
+    {
+      "action": "allow",
+      "process": "/sbin/ping",
+      "protocol": "icmp",
+      "remote-addresses": [
+        "17.254.0.22",
+        "17.254.0.23"
+      ]
+    },
+    {
+      "action": "allow",
+      "process": "/usr/sbin/tcpdump",
+      "remote": "bpf"
+    },
+    {
+      "action": "allow",
+      "process": "/usr/sbin/traceroute",
+      "protocol": "255",
+      "remote-addresses": "17.253.15.199"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
       "process": "/System/Library/CoreServices/Captive Network Assistant.app/Contents/MacOS/Captive Network Assistant",
       "protocol": "tcp",
       "remote-domains": "accor.com"
