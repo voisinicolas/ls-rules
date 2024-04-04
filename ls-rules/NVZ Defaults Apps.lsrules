@@ -94,13 +94,6 @@
     },
     {
       "action": "allow",
-      "ports": "443",
-      "process": "/Applications/Arc.app/Contents/MacOS/Arc",
-      "protocol": "tcp",
-      "remote-hosts": "m.stripe.com"
-    },
-    {
-      "action": "allow",
       "process": "/Applications/Ghostty.app/Contents/MacOS/ghostty",
       "protocol": "255",
       "remote": "any",
