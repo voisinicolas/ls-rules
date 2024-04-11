@@ -4,6 +4,12 @@
   "rules": [
     {
       "action": "allow",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "169.155.232.5"
+    },
+    {
+      "action": "allow",
       "ports": "443",
       "process": "/Applications/Proton Mail Bridge.app/Contents/MacOS/bridge",
       "protocol": "tcp",
