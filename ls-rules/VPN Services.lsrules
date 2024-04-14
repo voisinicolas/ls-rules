@@ -6,7 +6,11 @@
       "action": "allow",
       "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "protocol": "udp",
-      "remote-addresses": "169.155.232.5"
+      "remote-addresses": [
+        "209.198.137.253",
+        "169.155.232.174",
+        "169.155.232.5"
+      ]
     },
     {
       "action": "allow",
