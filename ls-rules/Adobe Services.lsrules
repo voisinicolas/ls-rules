@@ -5,6 +5,42 @@
     {
       "action": "allow",
       "ports": "443",
+      "process": "identifier.JQ525L2MZD/com.adobe.acc.AdobeCreativeCloud",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "accounts.adobe.com",
+        "a1962.dscg.akamai.net",
+        "s-part-0014.t-0009.fb-t-msedge.net",
+        "s-part-0014.t-0009.t-msedge.net"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "80",
+      "process": "identifier.JQ525L2MZD/com.adobe.acc.AdobeCreativeCloud",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "cacerts.digicert.com",
+        "fp2e7a.wpc.phicdn.net"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "53",
+      "process": "identifier.JQ525L2MZD/com.adobe.acc.AdobeCreativeCloud",
+      "protocol": "udp",
+      "remote-hosts": "pfsense-paul-bert.lanvz"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "identifier.JQ525L2MZD/com.adobe.acc.HEXHelper",
+      "protocol": "tcp",
+      "remote-hosts": "s-part-0039.t-0009.t-msedge.net"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
       "process": "/Applications/Adobe Photoshop 2024/Adobe Photoshop 2024.app/Contents/MacOS/Adobe Photoshop 2024",
       "protocol": "tcp",
       "remote-hosts": [
