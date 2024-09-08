@@ -4,6 +4,32 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "53",
+      "process": "identifier.JQ525L2MZD/com.adobe.LightroomClassicCC7",
+      "protocol": "udp",
+      "remote-addresses": "8.8.4.4"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "identifier.JQ525L2MZD/com.adobe.LightroomClassicCC7",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "lightroom.adobe.com",
+        "fire-fly.adobe.io",
+        "hbc.adobe.io",
+        "vajcbj9qgq.adobe.io"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "53",
+      "process": "identifier.JQ525L2MZD/com.adobe.LightroomClassicCC7",
+      "protocol": "udp",
+      "remote-hosts": "pfsense-paul-bert.lanvz"
+    },
+    {
+      "action": "allow",
       "ports": "443",
       "process": "identifier.JQ525L2MZD/com.adobe.acc.AdobeDesktopService",
       "protocol": "tcp",
