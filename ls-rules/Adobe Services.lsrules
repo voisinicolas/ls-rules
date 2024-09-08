@@ -5,6 +5,22 @@
     {
       "action": "allow",
       "ports": "443",
+      "process": "identifier.JQ525L2MZD/com.adobe.acc.AdobeDesktopService",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "cdn-ffc.oobesaas.adobe.com",
+        "crs.cr.adobe.com",
+        "ffc-static-cdn.oobesaas.adobe.com",
+        "na1e-acc.services.adobe.com",
+        "cc-api-data.adobe.io",
+        "lcs-cops.adobe.io",
+        "ims-prod06.adobelogin.com",
+        "e7808.dscg.akamaiedge.net"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
       "process": "identifier.JQ525L2MZD/com.adobe.acc.AdobeCreativeCloud",
       "protocol": "tcp",
       "remote-hosts": [
