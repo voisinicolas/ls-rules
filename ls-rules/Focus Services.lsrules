@@ -1,0 +1,13 @@
+{
+  "description": "NVZ Litte Snitch Rules file",
+  "name": "Focus Services",
+  "rules": [
+    {
+      "action": "allow",
+      "ports": "80",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "tcp",
+      "remote": "any"
+    }
+  ]
+}
