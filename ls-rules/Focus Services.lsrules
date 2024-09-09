@@ -4,6 +4,13 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "32400",
+      "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
+      "protocol": "tcp",
+      "remote": "any"
+    },
+    {
+      "action": "allow",
       "direction": "incoming",
       "ports": "63289",
       "process": "identifier.5DPYRBHEAR/org.m0k.transmission",
