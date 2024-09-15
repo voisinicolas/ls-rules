@@ -4,10 +4,23 @@
   "rules": [
     {
       "action": "allow",
+      "ports": "443",
+      "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
+      "protocol": "tcp",
+      "remote": [
+        "any",
+        "any"
+      ]
+    },
+    {
+      "action": "allow",
       "ports": "32400",
       "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
       "protocol": "tcp",
-      "remote": "any"
+      "remote": [
+        "any",
+        "any"
+      ]
     },
     {
       "action": "allow",
@@ -21,13 +34,6 @@
       "action": "allow",
       "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "protocol": "udp",
-      "remote": "any"
-    },
-    {
-      "action": "allow",
-      "ports": "443",
-      "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
-      "protocol": "tcp",
       "remote": "any"
     },
     {
