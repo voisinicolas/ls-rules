@@ -4,6 +4,12 @@
   "rules": [
     {
       "action": "allow",
+      "process": "identifier.APPLE/com.apple.wifivelocityd",
+      "protocol": "icmp",
+      "remote-addresses": "17.*.*.*"
+    },
+    {
+      "action": "allow",
       "ports": "443",
       "process": "/usr/bin/curl",
       "protocol": "tcp",
