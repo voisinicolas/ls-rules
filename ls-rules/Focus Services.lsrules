@@ -4,6 +4,12 @@
   "rules": [
     {
       "action": "allow",
+      "direction": "both",
+      "process": "identifier.U68MSDN6DR/org.whispersystems.signal-desktop",
+      "remote": "any"
+    },
+    {
+      "action": "allow",
       "ports": "443",
       "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
       "protocol": "tcp",
