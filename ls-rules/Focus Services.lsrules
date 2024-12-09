@@ -5,6 +5,12 @@
     {
       "action": "allow",
       "direction": "both",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "remote": "any"
+    },
+    {
+      "action": "allow",
+      "direction": "both",
       "process": "identifier.U68MSDN6DR/org.whispersystems.signal-desktop",
       "remote": "any"
     },
