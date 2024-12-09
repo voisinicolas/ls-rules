@@ -19,20 +19,14 @@
       "ports": "443",
       "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
       "protocol": "tcp",
-      "remote": [
-        "any",
-        "any"
-      ]
+      "remote": "any"
     },
     {
       "action": "allow",
       "ports": "32400",
       "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
       "protocol": "tcp",
-      "remote": [
-        "any",
-        "any"
-      ]
+      "remote": "any"
     },
     {
       "action": "allow",
