@@ -4,6 +4,217 @@
   "rules": [
     {
       "action": "allow",
+      "direction": "incoming",
+      "ports": "32400",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "2a01:e34:ec96:26c1:57d:50e1:93b7:ab0d",
+        "2a01:e34:ec96:26c1:888:a6b:81b7:415",
+        "2a01:e34:ec96:26c1:105a:2979:2e91:61e",
+        "2a01:e34:ec96:26c1:1837:9bda:cfb0:3448",
+        "2a01:e34:ec96:26c1:4572:e058:362d:df1e",
+        "2a01:e34:ec96:26c1:6035:3ca5:38ff:2e81",
+        "2a01:e34:ec96:26c1:8079:3211:55d4:5a7d",
+        "2a01:e34:ec96:26c1:f17c:7700:7996:e4aa",
+        "2a01:e34:ec96:26c1:f8e7:3ec1:cc75:5fa7",
+        "2a01:cb04:7c7:ae00:1018:c6cd:6172:1142",
+        "2a0d:3344:173c:1600:102a:7cb1:51cd:52de",
+        "2a0d:e487:38f:e904:490:4f9f:3cda:5740",
+        "2a0d:e487:3af:e8d8:80e:d949:7643:ed2",
+        "2a0d:e487:3af:e92b:ca2:25c0:d188:50a9",
+        "2a0d:e487:44f:e319:1c0d:dc45:af52:5aeb",
+        "2a0d:e487:118f:ee1f:800:a0c2:3794:4cd",
+        "2a0d:e487:118f:ee1f:189e:6572:7be3:c1bd",
+        "2a0d:e487:122f:e366:14b7:7e08:8343:825d",
+        "2a0d:e487:126f:e697:4d9:817e:1a2c:8db3",
+        "2a0d:e487:134f:e3ef:480:44ea:304:168f",
+        "2a0d:e487:135f:e81f:4f1:5580:e4e9:9bf4",
+        "2a0d:e487:212f:fc4b:a6:34e4:d13:bb76",
+        "2a0d:e487:223f:e9b5:106b:8639:10ff:bdf0",
+        "2a0d:e487:31cf:fc53:c32:f98e:ded3:60e"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "32400",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "146.70.182.6",
+        "146.70.182.10"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "32480",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "146.70.182.10",
+        "146.70.194.71"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "49297",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "protocol": "udp",
+      "remote-addresses": "78.201.98.108"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "remote-addresses": "2a01:e34:ec96:26c1:48b:731f:ef23:1ca8"
+    },
+    {
+      "action": "deny",
+      "ports": "32400",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "protocol": "tcp",
+      "remote-hosts": "analytics.plex.tv"
+    },
+    {
+      "action": "deny",
+      "ports": "443",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "protocol": "tcp",
+      "remote-hosts": "secure.gravatar.com"
+    },
+    {
+      "action": "allow",
+      "ports": "5000",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "protocol": "tcp",
+      "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action": "allow",
+      "ports": "15424",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct",
+        "dewey.taila8315.ts.net"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "20626",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "protocol": "tcp",
+      "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action": "allow",
+      "ports": "21047",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "protocol": "tcp",
+      "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action": "allow",
+      "ports": "80",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "a1887.dscq.akamai.net.0.1.cn.akamaitech.net",
+        "e5.o.lencr.org"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "adb10bc8a64ed4c6387832bf64b05780-9402806.eu-west-1.elb.amazonaws.com",
+        "blockpage.nextdns.io",
+        "downloads.plex.tv",
+        "i0.wp.com",
+        "i1.wp.com",
+        "image.tmdb.org",
+        "media.amazon.map.fastly.net",
+        "provider-static.plex.tv",
+        "tvthemes.plexapp.com.cdn.cloudflare.net",
+        "v4.plex.tv"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "32400",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "protocol": "tcp",
+      "remote-hosts": "dewey.taila8315.ts.net"
+    },
+    {
+      "action": "deny",
+      "ports": "443",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "protocol": "tcp",
+      "remote-domains": "sentry.io"
+    },
+    {
+      "action": "allow",
+      "ports": "32400, 32444, 32480",
+      "process": "identifier.K4QJ56KR4A/com.plexapp.plexmediaserver",
+      "protocol": "tcp",
+      "remote-domains": "plex.direct"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "identifier.K4QJ56KR4A/Plex Relay",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "88.80.186.253",
+        "139.162.141.10",
+        "139.162.194.175",
+        "139.162.207.143",
+        "139.162.242.214",
+        "143.42.97.107",
+        "172.104.235.55",
+        "172.104.245.120",
+        "176.58.109.167",
+        "178.79.141.27",
+        "178.79.149.70"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "identifier.K4QJ56KR4A/Plex Relay",
+      "protocol": "tcp",
+      "remote-domains": "plex.direct"
+    },
+    {
+      "action": "allow",
+      "ports": "80",
+      "process": "identifier.K4QJ56KR4A/Plex Script Host",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "resources-cdn.plexapp.com",
+        "resources-cdn.plexapp.com.cdn.cloudflare.net"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "1900",
+      "process": "identifier.K4QJ56KR4A/Plex Tuner Service",
+      "protocol": "udp",
+      "remote-addresses": "239.255.255.250"
+    },
+    {
+      "action": "allow",
+      "ports": "65001",
+      "process": "identifier.K4QJ56KR4A/Plex Tuner Service",
+      "protocol": "udp",
+      "remote-addresses": "255.255.255.255"
+    },
+    {
+      "action": "allow",
       "ports": "443",
       "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
       "protocol": "tcp",
