@@ -5,6 +5,185 @@
     {
       "action": "allow",
       "ports": "443",
+      "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "23.239.17.115",
+        "45.33.73.250",
+        "45.33.103.230",
+        "45.33.119.35",
+        "45.33.125.156",
+        "45.56.82.212",
+        "45.56.91.121",
+        "45.56.91.127",
+        "45.56.116.228",
+        "45.79.23.169",
+        "45.79.128.184",
+        "45.79.197.109",
+        "45.79.211.188",
+        "45.118.132.58",
+        "50.116.51.249",
+        "66.175.222.206",
+        "72.14.179.64",
+        "109.237.24.233",
+        "139.162.40.38",
+        "139.162.54.192",
+        "139.162.57.189",
+        "139.162.75.196",
+        "139.162.120.52",
+        "139.162.170.32",
+        "139.162.215.242",
+        "139.162.219.82",
+        "151.236.217.85",
+        "172.104.24.90",
+        "172.104.44.222",
+        "172.104.133.220",
+        "172.104.145.70",
+        "172.104.152.89",
+        "172.104.173.210",
+        "172.104.213.223",
+        "172.104.213.234",
+        "172.104.217.190",
+        "172.104.218.101",
+        "172.105.13.59",
+        "172.105.19.43",
+        "172.105.29.107",
+        "172.105.96.32",
+        "172.105.97.53",
+        "172.105.99.32",
+        "172.105.203.197",
+        "173.230.131.250",
+        "176.58.107.84",
+        "178.79.145.139",
+        "178.79.165.194",
+        "178.79.177.129",
+        "178.79.179.11",
+        "178.79.180.168",
+        "192.46.236.7",
+        "192.81.131.80"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "32400",
+      "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
+      "protocol": "tcp",
+      "remote-addresses": [
+        "2a01:e34:ec96:26c1:1453:acf7:1b33:5ba5",
+        "2a0d:3344:173c:1600:102a:7cb1:51cd:52de",
+        "2a0d:e487:118f:ee1f:800:a0c2:3794:4cd",
+        "2a0d:e487:118f:ee1f:189e:6572:7be3:c1bd",
+        "2a0d:e487:135f:e81f:4f1:5580:e4e9:9bf4"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "32412",
+      "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
+      "protocol": "udp",
+      "remote-addresses": "78.201.99.255"
+    },
+    {
+      "action": "allow",
+      "ports": "32414",
+      "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
+      "protocol": "udp",
+      "remote-addresses": "78.201.99.255"
+    },
+    {
+      "action": "deny",
+      "ports": "443",
+      "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "analytics.plex.tv",
+        "sentry.io"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "32400",
+      "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "2a01-0e34-ec96-26c1-9209-d0ff-fe25-ad3a.1f4a2f7757214c5cbd7a8d40eb50035c.plex.direct",
+        "2a01-0e34-ec96-26c1-9209-d0ff-fe33-4906.1f4a2f7757214c5cbd7a8d40eb50035c.plex.direct",
+        "2a0d-3344-173c-1600-020c-29ff-fe3c-0a04.193a36bbe1684965837a700106b916b3.plex.direct",
+        "2a0d-3344-173c-1600-102a-7cb1-51cd-52de.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct",
+        "37-170-176-198.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct",
+        "dewey.taila8315.ts.net"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "10868",
+      "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
+      "protocol": "tcp",
+      "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action": "allow",
+      "ports": "20626",
+      "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
+      "protocol": "tcp",
+      "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action": "allow",
+      "ports": "21047",
+      "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
+      "protocol": "tcp",
+      "remote-hosts": "78-201-98-108.6b1107132e0d4b9b9e532ef1e5d77504.plex.direct"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "a167564b8c74c4e04a88f486af86558c-1585907376.us-east-1.elb.amazonaws.com",
+        "a8064043ce323404585112ebf508e998-297616628.us-east-1.elb.amazonaws.com",
+        "clients.plex.tv",
+        "community.plex.tv",
+        "discover.provider.plex.tv",
+        "dl.google.com",
+        "downloads.plex.tv",
+        "epg.provider.plex.tv",
+        "features.plex.tv",
+        "global-inbound-location.plex.bz",
+        "images.plex.tv",
+        "ingress-geo.plex.bz",
+        "meta.plex.tv",
+        "metadata.provider.plex.tv",
+        "music.provider.plex.tv",
+        "plex.tv",
+        "pubsub.plex.bz",
+        "pubsub.plex.tv",
+        "r2.sn-25ge7nzk.gvt1.com",
+        "r3.sn-25ge7nzr.gvt1.com",
+        "r5.sn-25glenlr.gvt1.com",
+        "redirector.gvt1.com",
+        "statsigapi.net",
+        "vod.provider.plex.tv"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "28647",
+      "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
+      "protocol": "tcp",
+      "remote-hosts": "dewey.taila8315.ts.net"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "identifier.K4QJ56KR4A/tv.plex.desktop",
+      "protocol": "tcp",
+      "remote": "any"
+    },
+    {
+      "action": "allow",
+      "ports": "443",
       "process": "/Applications/Bartender 5.app/Contents/MacOS/Bartender 5",
       "protocol": "udp",
       "remote-hosts": "www.macbartender.com"
