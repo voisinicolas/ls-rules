@@ -4,6 +4,754 @@
   "rules": [
     {
       "action": "allow",
+      "direction": "incoming",
+      "ports": "5252",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "tcp",
+      "remote-addresses": "100.95.123.18"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "55277",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "17.248.250.5"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "53333",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "17.248.250.10"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "51427",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "45.159.98.145",
+        "102.67.165.185",
+        "192.73.242.28",
+        "192.73.243.229",
+        "199.38.181.104",
+        "208.111.40.12",
+        "209.177.145.120"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "52921",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "45.159.98.145",
+        "102.67.165.185",
+        "199.38.181.104"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "53383",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "45.159.98.145",
+        "192.73.242.28",
+        "199.38.181.104"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "53910",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "45.159.98.145",
+        "199.38.181.104"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "54107",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "45.159.98.145",
+        "102.67.165.185",
+        "192.73.243.229",
+        "199.38.181.104",
+        "208.111.40.12",
+        "209.177.145.120"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "56180",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "45.159.98.145",
+        "102.67.165.185",
+        "192.73.242.28",
+        "199.38.181.104",
+        "208.111.40.12"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "59997",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "45.159.98.145"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "64803",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "45.159.98.145",
+        "102.67.165.185",
+        "192.73.242.28",
+        "192.73.243.229",
+        "199.38.181.104",
+        "208.111.40.12",
+        "209.177.145.120"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "65145",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "45.159.98.145",
+        "199.38.181.104",
+        "208.111.40.12"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "49390",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "86.247.56.189",
+        "102.67.165.185"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "63343",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "86.250.155.68"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "58354",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "88.138.233.70"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "58053",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "102.67.165.185",
+        "192.73.242.28",
+        "208.111.40.12",
+        "209.177.145.120"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "58963",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "102.67.165.185"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "59175",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "102.67.165.185",
+        "192.73.242.28",
+        "192.73.243.229",
+        "208.111.40.12",
+        "209.177.145.120"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "55092",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "104.18.39.85"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "59757",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.81.218"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "57419",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.178"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "53110",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.201"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "51188",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.214"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "53169",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.214"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "55929",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.214"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "58008",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.214"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "58412",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.214"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "58509",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.214"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "59451",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.214"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "61346",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "145.224.103.214",
+        "145.224.103.229"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "49965",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.229"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "57012",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.229"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "59719",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.229"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "60376",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.229"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "60636",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.103.229"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "51640",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "145.224.104.119"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "54727",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "169.155.232.5"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "65498",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "169.155.232.5"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "60438",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "172.224.58.9"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "53594",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "172.224.142.10"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "54850",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "199.38.181.103"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "52367",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "199.38.181.104"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "55138",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "199.38.181.104"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "55885",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "199.38.181.104"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "58576",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "208.111.40.12"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "61447",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "208.111.40.12"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "61126",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "209.177.145.120"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "63928",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "209.177.145.120"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "62106",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "209.198.137.157"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "65282",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "209.198.137.157"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "53841",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "209.198.137.216"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "54142",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "209.198.137.216"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "61601",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "209.198.137.253"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "51331",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2606:4700:10::6816:40a3"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "62794",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a00:1450:4007:818::2001"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "65397",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a01:b740:1360:1::f"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "58529",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a01:b740:1360:1::11"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "53095",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a01:cb19:8b1d:ce00:1c2a:9c4a:bcd6:9f5d"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "61831",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a01:cb19:8b1d:ce00:e005:e3b0:2c61:1bb9"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "56820",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a02:26f7:a4:0:ace0:6105::"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "61219",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a02:26f7:a4:0:ace0:6105::"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "62458",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a02:8428:a9db:9601:f1a2:8593:e68d:8bc3"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "54046",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:3344:1700:393a:f2ad:4eff:fe29:6bcc"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "57374",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:3344:1700:393a:f2ad:4eff:fe29:6bcc"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "54312",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "2a0d:3344:173c:1600:20c:29ff:fe3c:a04",
+        "2a0d:3344:173c:1600:f2ad:4eff:fe29:6bcc"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "64552",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "2a0d:3344:173c:1600:20c:29ff:fe3c:a04",
+        "2a0d:3344:173c:1600:f2ad:4eff:fe29:6bcc"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "56705",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:3344:173c:1600:f2ad:4eff:fe29:6bcc"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "52099",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:3344:1b40:229d:f2ad:4eff:fe29:6bcc"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "57525",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:3344:1b40:229d:f2ad:4eff:fe29:6bcc"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "62163",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:3344:1b40:229d:f2ad:4eff:fe29:6bcc"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "64977",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:3344:1b40:229d:f2ad:4eff:fe29:6bcc"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "63716",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:3344:1b40:2bdd:f2ad:4eff:fe29:6bcc"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "63624",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:3344:1b50:7500:6040:7504:f45e:111e"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "49985",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:e487:34f:e4a2:f5c5:1132:500a:2160"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "59377",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:e487:34f:e4a2:f5c5:1132:500a:2160"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "ports": "55883",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": "2a0d:e487:66f:f671:54e8:8690:7440:882a"
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "udp",
+      "remote-addresses": [
+        "2a0d:3344:1b40:2b37:f2ad:4eff:fe29:6bcc",
+        "2a0d:3344:1b50:7500:20c:29ff:fe3c:a04",
+        "2a01:e34:ec96:26c1:*:*:*:*"
+      ]
+    },
+    {
+      "action": "allow",
+      "direction": "incoming",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "remote-addresses": [
+        "100.100.100.100",
+        "2a00:dd80:3c::b09",
+        "2a00:dd80:3e::c19",
+        "2a02:8428:a9db:9601:d44:6954:a27d:908b"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "443",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "ca80a1adb12a4fbdac5ffcbc944e9a61.pacloudflare.com",
+        "controlplane.tailscale.com",
+        "derp13c.tailscale.com",
+        "derp15c.tailscale.com",
+        "derp17c.tailscale.com",
+        "derp20c.tailscale.com",
+        "derp25c.tailscale.com",
+        "derp3c.tailscale.com",
+        "derp7c.tailscale.com",
+        "dns.google",
+        "log.tailscale.io",
+        "login.tailscale.com"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "53",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "tcp",
+      "remote-hosts": [
+        "linode-debian.taila8315.ts.net",
+        "livebox.home"
+      ]
+    },
+    {
+      "action": "allow",
+      "ports": "60541",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "tcp",
+      "remote-hosts": "linode-debian.taila8315.ts.net"
+    },
+    {
+      "action": "allow",
+      "ports": "46210",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "tcp",
+      "remote-hosts": "pfsense-la-thuile.taila8315.ts.net"
+    },
+    {
+      "action": "allow",
+      "ports": "50245",
+      "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
+      "protocol": "tcp",
+      "remote-hosts": "pfsense-paul-bert.taila8315.ts.net"
+    },
+    {
+      "action": "allow",
       "ports": "80",
       "process": "identifier.W5364U7YZB/io.tailscale.ipn.macos.network-extension",
       "protocol": "tcp",
