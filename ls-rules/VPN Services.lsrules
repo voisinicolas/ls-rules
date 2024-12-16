@@ -1568,14 +1568,6 @@
     },
     {
       "action": "allow",
-      "direction": "incoming",
-      "ports": "57192",
-      "process": "path.private/var/folders/*/PacketTunnel",
-      "protocol": "udp",
-      "remote-addresses": "145.224.103.166"
-    },
-    {
-      "action": "allow",
       "ports": "443",
       "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
       "protocol": "tcp",
